@@ -1,0 +1,200 @@
+[
+  {
+    "action": "attack",
+    "jev_model": "jev-1.13.0",
+    "jev_confidence": 1,
+    "confidence_kind": "jev_reported",
+    "probabilities": {
+      "heal": 0,
+      "collect": 0,
+      "resupply": 0,
+      "attack": 1,
+      "extract": 0
+    },
+    "jev_ms": 239.39580004662275,
+    "elapsed_ms": 239.44190004840493,
+    "client_ms": 254.5,
+    "time": 0,
+    "state": "Health: 83/100 (healthy). Ammunition: 9 rounds (sufficient). Hostiles remaining: 6; visible: 2. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+  },
+  {
+    "action": "attack",
+    "jev_model": "jev-1.13.0",
+    "jev_confidence": 1,
+    "confidence_kind": "jev_reported",
+    "probabilities": {
+      "attack": 1,
+      "resupply": 0,
+      "collect": 0,
+      "extract": 0,
+      "heal": 0
+    },
+    "jev_ms": 149.85180005896837,
+    "elapsed_ms": 149.90180009044707,
+    "client_ms": 165.39999997615814,
+    "time": 2,
+    "state": "Health: 83/100 (healthy). Ammunition: 3 rounds (sufficient). Hostiles remaining: 4; visible: 2. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+  },
+  {
+    "action": "resupply",
+    "jev_model": "jev-1.13.0",
+    "jev_confidence": 1,
+    "confidence_kind": "jev_reported",
+    "probabilities": {
+      "resupply": 1,
+      "extract": 0,
+      "attack": 0,
+      "heal": 0,
+      "collect": 0
+    },
+    "jev_ms": 150.00159991905093,
+    "elapsed_ms": 150.03639995120466,
+    "client_ms": 165.09999990463257,
+    "time": 4,
+    "state": "Health: 83/100 (healthy). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 3; visible: 1. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+  },
+  {
+    "action": "attack",
+    "jev_model": "jev-1.13.0",
+    "jev_confidence": 1,
+    "confidence_kind": "jev_reported",
+    "probabilities": {
+      "collect": 0,
+      "extract": 0,
+      "heal": 0,
+      "attack": 1,
+      "resupply": 0
+    },
+    "jev_ms": 166.1517999600619,
+    "elapsed_ms": 166.18840000592172,
+    "client_ms": 195.29999995231628,
+    "time": 6,
+    "state": "Health: 74/100 (healthy). Ammunition: 15 rounds (sufficient). Hostiles remaining: 3; visible: 1. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+  },
+  {
+    "action": "attack",
+    "jev_model": "jev-1.13.0",
+    "jev_confidence": 0.95,
+    "confidence_kind": "jev_reported",
+    "probabilities": {
+      "attack": 0.97,
+      "extract": 0,
+      "resupply": 0.03,
+      "heal": 0,
+      "collect": 0
+    },
+    "jev_ms": 172.25039994809777,
+    "elapsed_ms": 172.2813000669703,
+    "client_ms": 186.5,
+    "time": 8,
+    "state": "Health: 74/100 (healthy). Ammunition: 12 rounds (sufficient). Hostiles remaining: 2; visible: 0. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+  },
+  {
+    "action": "attack",
+    "jev_model": "jev-1.13.0",
+    "jev_confidence": 1,
+    "confidence_kind": "jev_reported",
+    "probabilities": {
+      "resupply": 0,
+      "heal": 0,
+      "extract": 0,
+      "attack": 1,
+      "collect": 0
+    },
+    "jev_ms": 130.26820006780326,
+    "elapsed_ms": 130.3085999097675,
+    "client_ms": 144.60000002384186,
+    "time": 10,
+    "state": "Health: 74/100 (healthy). Ammunition: 12 rounds (sufficient). Hostiles remaining: 2; visible: 1. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+  },
+  {
+    "action": "collect",
+    "jev_model": "jev-1.13.0",
+    "jev_confidence": 0.99,
+    "confidence_kind": "jev_reported",
+    "probabilities": {
+      "collect": 1,
+      "extract": 0,
+      "heal": 0,
+      "attack": 0,
+      "resupply": 0
+    },
+    "jev_ms": 150.69400006905198,
+    "elapsed_ms": 150.72589996270835,
+    "client_ms": 163.70000004768372,
+    "time": 12,
+    "state": "Health: 74/100 (healthy). Ammunition: 6 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+  },
+  {
+    "action": "extract",
+    "jev_model": "jev-1.13.0",
+    "jev_confidence": 0.99,
+    "confidence_kind": "jev_reported",
+    "probabilities": {
+      "resupply": 0,
+      "attack": 0,
+      "extract": 1,
+      "heal": 0,
+      "collect": 0
+    },
+    "jev_ms": 117.67509998753667,
+    "elapsed_ms": 117.70880001131445,
+    "client_ms": 129.60000002384186,
+    "time": 14,
+    "state": "Health: 74/100 (healthy). Ammunition: 6 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open."
+  },
+  {
+    "action": "extract",
+    "jev_model": "jev-1.13.0",
+    "jev_confidence": 0.99,
+    "confidence_kind": "jev_reported",
+    "probabilities": {
+      "attack": 0,
+      "heal": 0,
+      "extract": 1,
+      "collect": 0,
+      "resupply": 0
+    },
+    "jev_ms": 116.12060002516955,
+    "elapsed_ms": 116.15339992567897,
+    "client_ms": 130.39999997615814,
+    "time": 16,
+    "state": "Health: 74/100 (healthy). Ammunition: 6 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open."
+  },
+  {
+    "action": "extract",
+    "jev_model": "jev-1.13.0",
+    "jev_confidence": 0.99,
+    "confidence_kind": "jev_reported",
+    "probabilities": {
+      "collect": 0,
+      "resupply": 0,
+      "extract": 1,
+      "heal": 0,
+      "attack": 0
+    },
+    "jev_ms": 254.73499996587634,
+    "elapsed_ms": 254.76829998660833,
+    "client_ms": 265.7999999523163,
+    "time": 18,
+    "state": "Health: 74/100 (healthy). Ammunition: 6 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open."
+  },
+  {
+    "action": "extract",
+    "jev_model": "jev-1.13.0",
+    "jev_confidence": 0.99,
+    "confidence_kind": "jev_reported",
+    "probabilities": {
+      "collect": 0,
+      "resupply": 0,
+      "extract": 1,
+      "heal": 0,
+      "attack": 0
+    },
+    "jev_ms": 158.06509996764362,
+    "elapsed_ms": 158.0981999868527,
+    "client_ms": 168.70000004768372,
+    "time": 20,
+    "state": "Health: 74/100 (healthy). Ammunition: 6 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open."
+  }
+]

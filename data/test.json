@@ -1,0 +1,3402 @@
+[
+  {
+    "id": "test-0187",
+    "expected": "extract",
+    "observation": {
+      "health": 35,
+      "ammo": 20,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 1,
+      "ammoCrates": 0,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 20 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 1. Ammo crates remaining: 0. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0042",
+    "expected": "heal",
+    "observation": {
+      "health": 33,
+      "ammo": 4,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 2,
+      "ammoCrates": 3,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 33/100 (critically low). Ammunition: 4 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 3. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0171",
+    "expected": "extract",
+    "observation": {
+      "health": 36,
+      "ammo": 1,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 2,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 36/100 (wounded). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0005",
+    "expected": "attack",
+    "observation": {
+      "health": 36,
+      "ammo": 3,
+      "enemies": 5,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 36/100 (wounded). Ammunition: 3 rounds (sufficient). Hostiles remaining: 5; visible: 0. Medkits remaining: 0. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0138",
+    "expected": "collect",
+    "observation": {
+      "health": 88,
+      "ammo": 0,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 88/100 (healthy). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 3. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0001",
+    "expected": "attack",
+    "observation": {
+      "health": 65,
+      "ammo": 3,
+      "enemies": 5,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 65/100 (healthy). Ammunition: 3 rounds (sufficient). Hostiles remaining: 5; visible: 0. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0037",
+    "expected": "attack",
+    "observation": {
+      "health": 85,
+      "ammo": 29,
+      "enemies": 3,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 85/100 (healthy). Ammunition: 29 rounds (sufficient). Hostiles remaining: 3; visible: 2. Medkits remaining: 2. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0134",
+    "expected": "collect",
+    "observation": {
+      "health": 35,
+      "ammo": 14,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 14 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0032",
+    "expected": "attack",
+    "observation": {
+      "health": 64,
+      "ammo": 35,
+      "enemies": 2,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 35 rounds (sufficient). Hostiles remaining: 2; visible: 2. Medkits remaining: 1. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0019",
+    "expected": "attack",
+    "observation": {
+      "health": 65,
+      "ammo": 0,
+      "enemies": 3,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 65/100 (healthy). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 3; visible: 0. Medkits remaining: 2. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0034",
+    "expected": "attack",
+    "observation": {
+      "health": 65,
+      "ammo": 3,
+      "enemies": 1,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 65/100 (healthy). Ammunition: 3 rounds (sufficient). Hostiles remaining: 1; visible: 1. Medkits remaining: 0. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0197",
+    "expected": "extract",
+    "observation": {
+      "health": 35,
+      "ammo": 3,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 1,
+      "ammoCrates": 3,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 3 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 1. Ammo crates remaining: 3. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0052",
+    "expected": "heal",
+    "observation": {
+      "health": 1,
+      "ammo": 4,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 3,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 1/100 (critically low). Ammunition: 4 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0086",
+    "expected": "resupply",
+    "observation": {
+      "health": 35,
+      "ammo": 0,
+      "enemies": 2,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 2; visible: 2. Medkits remaining: 0. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0063",
+    "expected": "heal",
+    "observation": {
+      "health": 23,
+      "ammo": 4,
+      "enemies": 5,
+      "visibleEnemies": 4,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 23/100 (critically low). Ammunition: 4 rounds (sufficient). Hostiles remaining: 5; visible: 4. Medkits remaining: 3. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0194",
+    "expected": "extract",
+    "observation": {
+      "health": 65,
+      "ammo": 1,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 0,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 65/100 (healthy). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 0. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0156",
+    "expected": "collect",
+    "observation": {
+      "health": 64,
+      "ammo": 4,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 2,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 4 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 1. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0054",
+    "expected": "heal",
+    "observation": {
+      "health": 34,
+      "ammo": 4,
+      "enemies": 5,
+      "visibleEnemies": 4,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 34/100 (critically low). Ammunition: 4 rounds (sufficient). Hostiles remaining: 5; visible: 4. Medkits remaining: 2. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0198",
+    "expected": "extract",
+    "observation": {
+      "health": 83,
+      "ammo": 5,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 1,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 83/100 (healthy). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 1. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0058",
+    "expected": "heal",
+    "observation": {
+      "health": 34,
+      "ammo": 0,
+      "enemies": 5,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 34/100 (critically low). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 5; visible: 0. Medkits remaining: 1. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0079",
+    "expected": "heal",
+    "observation": {
+      "health": 33,
+      "ammo": 4,
+      "enemies": 1,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 33/100 (critically low). Ammunition: 4 rounds (sufficient). Hostiles remaining: 1; visible: 1. Medkits remaining: 1. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0177",
+    "expected": "extract",
+    "observation": {
+      "health": 100,
+      "ammo": 4,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 3,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 100/100 (healthy). Ammunition: 4 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 3. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0067",
+    "expected": "heal",
+    "observation": {
+      "health": 1,
+      "ammo": 1,
+      "enemies": 4,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 1/100 (critically low). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 4; visible: 1. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0033",
+    "expected": "attack",
+    "observation": {
+      "health": 33,
+      "ammo": 0,
+      "enemies": 4,
+      "visibleEnemies": 3,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 33/100 (critically low). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 4; visible: 3. Medkits remaining: 0. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0165",
+    "expected": "extract",
+    "observation": {
+      "health": 64,
+      "ammo": 0,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 1,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 1. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0089",
+    "expected": "resupply",
+    "observation": {
+      "health": 100,
+      "ammo": 1,
+      "enemies": 4,
+      "visibleEnemies": 4,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 100/100 (healthy). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 4; visible: 4. Medkits remaining: 0. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0131",
+    "expected": "collect",
+    "observation": {
+      "health": 24,
+      "ammo": 0,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 24/100 (critically low). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 3. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0120",
+    "expected": "collect",
+    "observation": {
+      "health": 88,
+      "ammo": 1,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 88/100 (healthy). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0117",
+    "expected": "resupply",
+    "observation": {
+      "health": 65,
+      "ammo": 2,
+      "enemies": 5,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 65/100 (healthy). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 5; visible: 1. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0070",
+    "expected": "heal",
+    "observation": {
+      "health": 1,
+      "ammo": 6,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 1,
+      "ammoCrates": 3,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 1/100 (critically low). Ammunition: 6 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 1. Ammo crates remaining: 3. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0126",
+    "expected": "collect",
+    "observation": {
+      "health": 33,
+      "ammo": 3,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 33/100 (critically low). Ammunition: 3 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0090",
+    "expected": "resupply",
+    "observation": {
+      "health": 65,
+      "ammo": 0,
+      "enemies": 5,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 65/100 (healthy). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 5; visible: 1. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0162",
+    "expected": "extract",
+    "observation": {
+      "health": 35,
+      "ammo": 0,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 2,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0087",
+    "expected": "resupply",
+    "observation": {
+      "health": 81,
+      "ammo": 2,
+      "enemies": 3,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 81/100 (healthy). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 3; visible: 1. Medkits remaining: 1. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0186",
+    "expected": "extract",
+    "observation": {
+      "health": 64,
+      "ammo": 1,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 1,
+      "ammoCrates": 1,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 1. Ammo crates remaining: 1. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0073",
+    "expected": "heal",
+    "observation": {
+      "health": 34,
+      "ammo": 0,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 1,
+      "ammoCrates": 1,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 34/100 (critically low). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 1. Ammo crates remaining: 1. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0183",
+    "expected": "extract",
+    "observation": {
+      "health": 35,
+      "ammo": 2,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 3,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 3. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0097",
+    "expected": "resupply",
+    "observation": {
+      "health": 35,
+      "ammo": 0,
+      "enemies": 4,
+      "visibleEnemies": 4,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 4; visible: 4. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0133",
+    "expected": "collect",
+    "observation": {
+      "health": 13,
+      "ammo": 0,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 13/100 (critically low). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 1. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0110",
+    "expected": "resupply",
+    "observation": {
+      "health": 64,
+      "ammo": 2,
+      "enemies": 4,
+      "visibleEnemies": 4,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 4; visible: 4. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0012",
+    "expected": "attack",
+    "observation": {
+      "health": 35,
+      "ammo": 4,
+      "enemies": 6,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 4 rounds (sufficient). Hostiles remaining: 6; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0114",
+    "expected": "resupply",
+    "observation": {
+      "health": 35,
+      "ammo": 2,
+      "enemies": 5,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 5; visible: 1. Medkits remaining: 3. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0173",
+    "expected": "extract",
+    "observation": {
+      "health": 64,
+      "ammo": 4,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 2,
+      "ammoCrates": 2,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 4 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0102",
+    "expected": "resupply",
+    "observation": {
+      "health": 100,
+      "ammo": 0,
+      "enemies": 4,
+      "visibleEnemies": 4,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 100/100 (healthy). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 4; visible: 4. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0043",
+    "expected": "heal",
+    "observation": {
+      "health": 1,
+      "ammo": 2,
+      "enemies": 2,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 1/100 (critically low). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 2; visible: 1. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0157",
+    "expected": "collect",
+    "observation": {
+      "health": 64,
+      "ammo": 24,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 24 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0125",
+    "expected": "collect",
+    "observation": {
+      "health": 73,
+      "ammo": 11,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 73/100 (healthy). Ammunition: 11 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 1. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0101",
+    "expected": "resupply",
+    "observation": {
+      "health": 65,
+      "ammo": 1,
+      "enemies": 5,
+      "visibleEnemies": 4,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 65/100 (healthy). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 5; visible: 4. Medkits remaining: 1. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0151",
+    "expected": "collect",
+    "observation": {
+      "health": 1,
+      "ammo": 10,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 1/100 (critically low). Ammunition: 10 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 0. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0123",
+    "expected": "collect",
+    "observation": {
+      "health": 35,
+      "ammo": 16,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 1,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 16 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 1. Ammo crates remaining: 1. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0006",
+    "expected": "attack",
+    "observation": {
+      "health": 64,
+      "ammo": 19,
+      "enemies": 1,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 19 rounds (sufficient). Hostiles remaining: 1; visible: 1. Medkits remaining: 0. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0163",
+    "expected": "extract",
+    "observation": {
+      "health": 62,
+      "ammo": 17,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 0,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 62/100 (wounded). Ammunition: 17 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 0. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0094",
+    "expected": "resupply",
+    "observation": {
+      "health": 65,
+      "ammo": 0,
+      "enemies": 5,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 65/100 (healthy). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 5; visible: 2. Medkits remaining: 1. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0159",
+    "expected": "collect",
+    "observation": {
+      "health": 34,
+      "ammo": 0,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 34/100 (critically low). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0008",
+    "expected": "attack",
+    "observation": {
+      "health": 100,
+      "ammo": 4,
+      "enemies": 6,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 100/100 (healthy). Ammunition: 4 rounds (sufficient). Hostiles remaining: 6; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0118",
+    "expected": "resupply",
+    "observation": {
+      "health": 64,
+      "ammo": 1,
+      "enemies": 6,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 6; visible: 1. Medkits remaining: 2. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0059",
+    "expected": "heal",
+    "observation": {
+      "health": 34,
+      "ammo": 4,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 0,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 34/100 (critically low). Ammunition: 4 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 0. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0191",
+    "expected": "extract",
+    "observation": {
+      "health": 35,
+      "ammo": 16,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 1,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 16 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 1. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0122",
+    "expected": "collect",
+    "observation": {
+      "health": 100,
+      "ammo": 0,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 1,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 100/100 (healthy). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 1. Ammo crates remaining: 3. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0075",
+    "expected": "heal",
+    "observation": {
+      "health": 1,
+      "ammo": 4,
+      "enemies": 1,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 1/100 (critically low). Ammunition: 4 rounds (sufficient). Hostiles remaining: 1; visible: 0. Medkits remaining: 1. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0041",
+    "expected": "heal",
+    "observation": {
+      "health": 1,
+      "ammo": 26,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 1/100 (critically low). Ammunition: 26 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 1. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0040",
+    "expected": "heal",
+    "observation": {
+      "health": 1,
+      "ammo": 1,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 2,
+      "ammoCrates": 3,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 1/100 (critically low). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 3. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0092",
+    "expected": "resupply",
+    "observation": {
+      "health": 64,
+      "ammo": 0,
+      "enemies": 2,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 2; visible: 2. Medkits remaining: 2. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0053",
+    "expected": "heal",
+    "observation": {
+      "health": 16,
+      "ammo": 2,
+      "enemies": 5,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 16/100 (critically low). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 5; visible: 1. Medkits remaining: 3. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0014",
+    "expected": "attack",
+    "observation": {
+      "health": 93,
+      "ammo": 4,
+      "enemies": 1,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 93/100 (healthy). Ammunition: 4 rounds (sufficient). Hostiles remaining: 1; visible: 1. Medkits remaining: 2. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0028",
+    "expected": "attack",
+    "observation": {
+      "health": 36,
+      "ammo": 4,
+      "enemies": 1,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 36/100 (wounded). Ammunition: 4 rounds (sufficient). Hostiles remaining: 1; visible: 0. Medkits remaining: 1. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0127",
+    "expected": "collect",
+    "observation": {
+      "health": 64,
+      "ammo": 2,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 0. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0128",
+    "expected": "collect",
+    "observation": {
+      "health": 64,
+      "ammo": 0,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 0. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0196",
+    "expected": "extract",
+    "observation": {
+      "health": 1,
+      "ammo": 2,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 1,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 1/100 (critically low). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 1. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0069",
+    "expected": "heal",
+    "observation": {
+      "health": 34,
+      "ammo": 2,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 2,
+      "ammoCrates": 0,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 34/100 (critically low). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 0. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0143",
+    "expected": "collect",
+    "observation": {
+      "health": 36,
+      "ammo": 2,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 2,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 36/100 (wounded). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 0. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0027",
+    "expected": "attack",
+    "observation": {
+      "health": 35,
+      "ammo": 0,
+      "enemies": 1,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 1; visible: 1. Medkits remaining: 2. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0182",
+    "expected": "extract",
+    "observation": {
+      "health": 64,
+      "ammo": 2,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 1,
+      "ammoCrates": 0,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 1. Ammo crates remaining: 0. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0080",
+    "expected": "resupply",
+    "observation": {
+      "health": 100,
+      "ammo": 2,
+      "enemies": 4,
+      "visibleEnemies": 3,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 100/100 (healthy). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 4; visible: 3. Medkits remaining: 1. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0158",
+    "expected": "collect",
+    "observation": {
+      "health": 35,
+      "ammo": 4,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 2,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 4 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 0. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0180",
+    "expected": "extract",
+    "observation": {
+      "health": 34,
+      "ammo": 19,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 1,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 34/100 (critically low). Ammunition: 19 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 1. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0108",
+    "expected": "resupply",
+    "observation": {
+      "health": 36,
+      "ammo": 2,
+      "enemies": 2,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 36/100 (wounded). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 2; visible: 1. Medkits remaining: 0. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0082",
+    "expected": "resupply",
+    "observation": {
+      "health": 36,
+      "ammo": 1,
+      "enemies": 3,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 36/100 (wounded). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 3; visible: 2. Medkits remaining: 1. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0083",
+    "expected": "resupply",
+    "observation": {
+      "health": 65,
+      "ammo": 2,
+      "enemies": 2,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 65/100 (healthy). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 2; visible: 2. Medkits remaining: 2. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0105",
+    "expected": "resupply",
+    "observation": {
+      "health": 99,
+      "ammo": 1,
+      "enemies": 4,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 99/100 (healthy). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 4; visible: 0. Medkits remaining: 1. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0160",
+    "expected": "extract",
+    "observation": {
+      "health": 64,
+      "ammo": 4,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 2,
+      "ammoCrates": 3,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 4 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 3. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0088",
+    "expected": "resupply",
+    "observation": {
+      "health": 35,
+      "ammo": 0,
+      "enemies": 1,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 1; visible: 1. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0166",
+    "expected": "extract",
+    "observation": {
+      "health": 54,
+      "ammo": 13,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 1,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 54/100 (wounded). Ammunition: 13 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 1. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0007",
+    "expected": "attack",
+    "observation": {
+      "health": 64,
+      "ammo": 4,
+      "enemies": 5,
+      "visibleEnemies": 5,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 4 rounds (sufficient). Hostiles remaining: 5; visible: 5. Medkits remaining: 2. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0047",
+    "expected": "heal",
+    "observation": {
+      "health": 24,
+      "ammo": 1,
+      "enemies": 2,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 24/100 (critically low). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 2; visible: 0. Medkits remaining: 3. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0036",
+    "expected": "attack",
+    "observation": {
+      "health": 64,
+      "ammo": 33,
+      "enemies": 6,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 33 rounds (sufficient). Hostiles remaining: 6; visible: 0. Medkits remaining: 1. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0091",
+    "expected": "resupply",
+    "observation": {
+      "health": 35,
+      "ammo": 2,
+      "enemies": 3,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 3; visible: 2. Medkits remaining: 2. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0061",
+    "expected": "heal",
+    "observation": {
+      "health": 33,
+      "ammo": 0,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 33/100 (critically low). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0068",
+    "expected": "heal",
+    "observation": {
+      "health": 1,
+      "ammo": 2,
+      "enemies": 4,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 1/100 (critically low). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 4; visible: 2. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0077",
+    "expected": "heal",
+    "observation": {
+      "health": 33,
+      "ammo": 3,
+      "enemies": 3,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 33/100 (critically low). Ammunition: 3 rounds (sufficient). Hostiles remaining: 3; visible: 2. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0020",
+    "expected": "attack",
+    "observation": {
+      "health": 100,
+      "ammo": 4,
+      "enemies": 6,
+      "visibleEnemies": 6,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 100/100 (healthy). Ammunition: 4 rounds (sufficient). Hostiles remaining: 6; visible: 6. Medkits remaining: 1. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0184",
+    "expected": "extract",
+    "observation": {
+      "health": 64,
+      "ammo": 3,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 2,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 3 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0000",
+    "expected": "attack",
+    "observation": {
+      "health": 36,
+      "ammo": 4,
+      "enemies": 5,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 36/100 (wounded). Ammunition: 4 rounds (sufficient). Hostiles remaining: 5; visible: 0. Medkits remaining: 0. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0024",
+    "expected": "attack",
+    "observation": {
+      "health": 35,
+      "ammo": 2,
+      "enemies": 2,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 2; visible: 1. Medkits remaining: 2. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0078",
+    "expected": "heal",
+    "observation": {
+      "health": 1,
+      "ammo": 1,
+      "enemies": 2,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 1/100 (critically low). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 2; visible: 2. Medkits remaining: 2. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0057",
+    "expected": "heal",
+    "observation": {
+      "health": 33,
+      "ammo": 2,
+      "enemies": 3,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 33/100 (critically low). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 3; visible: 1. Medkits remaining: 2. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0139",
+    "expected": "collect",
+    "observation": {
+      "health": 100,
+      "ammo": 3,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 2,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 100/100 (healthy). Ammunition: 3 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 1. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0093",
+    "expected": "resupply",
+    "observation": {
+      "health": 64,
+      "ammo": 1,
+      "enemies": 4,
+      "visibleEnemies": 3,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 4; visible: 3. Medkits remaining: 0. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0056",
+    "expected": "heal",
+    "observation": {
+      "health": 34,
+      "ammo": 3,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 1,
+      "ammoCrates": 2,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 34/100 (critically low). Ammunition: 3 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 1. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0148",
+    "expected": "collect",
+    "observation": {
+      "health": 34,
+      "ammo": 0,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 34/100 (critically low). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 1. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0116",
+    "expected": "resupply",
+    "observation": {
+      "health": 36,
+      "ammo": 2,
+      "enemies": 3,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 36/100 (wounded). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 3; visible: 1. Medkits remaining: 1. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0112",
+    "expected": "resupply",
+    "observation": {
+      "health": 57,
+      "ammo": 1,
+      "enemies": 4,
+      "visibleEnemies": 4,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 57/100 (wounded). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 4; visible: 4. Medkits remaining: 0. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0009",
+    "expected": "attack",
+    "observation": {
+      "health": 35,
+      "ammo": 1,
+      "enemies": 1,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 1; visible: 0. Medkits remaining: 1. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0085",
+    "expected": "resupply",
+    "observation": {
+      "health": 100,
+      "ammo": 2,
+      "enemies": 6,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 100/100 (healthy). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 6; visible: 1. Medkits remaining: 2. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0137",
+    "expected": "collect",
+    "observation": {
+      "health": 36,
+      "ammo": 25,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 36/100 (wounded). Ammunition: 25 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0142",
+    "expected": "collect",
+    "observation": {
+      "health": 55,
+      "ammo": 4,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 55/100 (wounded). Ammunition: 4 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0129",
+    "expected": "collect",
+    "observation": {
+      "health": 100,
+      "ammo": 2,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 100/100 (healthy). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0169",
+    "expected": "extract",
+    "observation": {
+      "health": 35,
+      "ammo": 1,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 1,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 1. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0062",
+    "expected": "heal",
+    "observation": {
+      "health": 33,
+      "ammo": 3,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 2,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 33/100 (critically low). Ammunition: 3 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0155",
+    "expected": "collect",
+    "observation": {
+      "health": 35,
+      "ammo": 2,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 1,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 1. Ammo crates remaining: 0. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0146",
+    "expected": "collect",
+    "observation": {
+      "health": 43,
+      "ammo": 4,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 2,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 43/100 (wounded). Ammunition: 4 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 3. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0195",
+    "expected": "extract",
+    "observation": {
+      "health": 65,
+      "ammo": 3,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 0,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 65/100 (healthy). Ammunition: 3 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 0. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0174",
+    "expected": "extract",
+    "observation": {
+      "health": 64,
+      "ammo": 4,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 1,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 4 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 1. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0119",
+    "expected": "resupply",
+    "observation": {
+      "health": 100,
+      "ammo": 1,
+      "enemies": 3,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 100/100 (healthy). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 3; visible: 0. Medkits remaining: 0. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0181",
+    "expected": "extract",
+    "observation": {
+      "health": 35,
+      "ammo": 29,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 1,
+      "ammoCrates": 2,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 29 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 1. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0095",
+    "expected": "resupply",
+    "observation": {
+      "health": 1,
+      "ammo": 1,
+      "enemies": 5,
+      "visibleEnemies": 5,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 1/100 (critically low). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 5; visible: 5. Medkits remaining: 0. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0099",
+    "expected": "resupply",
+    "observation": {
+      "health": 64,
+      "ammo": 1,
+      "enemies": 3,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 3; visible: 2. Medkits remaining: 1. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0029",
+    "expected": "attack",
+    "observation": {
+      "health": 100,
+      "ammo": 3,
+      "enemies": 3,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 100/100 (healthy). Ammunition: 3 rounds (sufficient). Hostiles remaining: 3; visible: 0. Medkits remaining: 1. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0060",
+    "expected": "heal",
+    "observation": {
+      "health": 1,
+      "ammo": 1,
+      "enemies": 2,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 1/100 (critically low). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 2; visible: 0. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0132",
+    "expected": "collect",
+    "observation": {
+      "health": 42,
+      "ammo": 3,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 42/100 (wounded). Ammunition: 3 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0145",
+    "expected": "collect",
+    "observation": {
+      "health": 64,
+      "ammo": 3,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 2,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 3 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 3. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0071",
+    "expected": "heal",
+    "observation": {
+      "health": 33,
+      "ammo": 3,
+      "enemies": 6,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 33/100 (critically low). Ammunition: 3 rounds (sufficient). Hostiles remaining: 6; visible: 0. Medkits remaining: 2. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0045",
+    "expected": "heal",
+    "observation": {
+      "health": 1,
+      "ammo": 24,
+      "enemies": 1,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 1/100 (critically low). Ammunition: 24 rounds (sufficient). Hostiles remaining: 1; visible: 0. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0098",
+    "expected": "resupply",
+    "observation": {
+      "health": 36,
+      "ammo": 1,
+      "enemies": 6,
+      "visibleEnemies": 5,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 36/100 (wounded). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 6; visible: 5. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0121",
+    "expected": "collect",
+    "observation": {
+      "health": 36,
+      "ammo": 3,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 36/100 (wounded). Ammunition: 3 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 1. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0072",
+    "expected": "heal",
+    "observation": {
+      "health": 33,
+      "ammo": 0,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 1,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 33/100 (critically low). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 1. Ammo crates remaining: 3. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0065",
+    "expected": "heal",
+    "observation": {
+      "health": 31,
+      "ammo": 4,
+      "enemies": 4,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 31/100 (critically low). Ammunition: 4 rounds (sufficient). Hostiles remaining: 4; visible: 0. Medkits remaining: 1. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0150",
+    "expected": "collect",
+    "observation": {
+      "health": 52,
+      "ammo": 3,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 2,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 52/100 (wounded). Ammunition: 3 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 0. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0076",
+    "expected": "heal",
+    "observation": {
+      "health": 33,
+      "ammo": 2,
+      "enemies": 2,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 33/100 (critically low). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 2; visible: 2. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0096",
+    "expected": "resupply",
+    "observation": {
+      "health": 64,
+      "ammo": 2,
+      "enemies": 4,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 4; visible: 1. Medkits remaining: 3. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0004",
+    "expected": "attack",
+    "observation": {
+      "health": 64,
+      "ammo": 3,
+      "enemies": 4,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 3 rounds (sufficient). Hostiles remaining: 4; visible: 1. Medkits remaining: 1. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0030",
+    "expected": "attack",
+    "observation": {
+      "health": 33,
+      "ammo": 4,
+      "enemies": 3,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 33/100 (critically low). Ammunition: 4 rounds (sufficient). Hostiles remaining: 3; visible: 0. Medkits remaining: 0. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0038",
+    "expected": "attack",
+    "observation": {
+      "health": 100,
+      "ammo": 33,
+      "enemies": 3,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 100/100 (healthy). Ammunition: 33 rounds (sufficient). Hostiles remaining: 3; visible: 0. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0172",
+    "expected": "extract",
+    "observation": {
+      "health": 1,
+      "ammo": 1,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 0,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 1/100 (critically low). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 0. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0190",
+    "expected": "extract",
+    "observation": {
+      "health": 34,
+      "ammo": 1,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 2,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 34/100 (critically low). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0107",
+    "expected": "resupply",
+    "observation": {
+      "health": 2,
+      "ammo": 2,
+      "enemies": 6,
+      "visibleEnemies": 4,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 2/100 (critically low). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 6; visible: 4. Medkits remaining: 0. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0050",
+    "expected": "heal",
+    "observation": {
+      "health": 34,
+      "ammo": 1,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 2,
+      "ammoCrates": 1,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 34/100 (critically low). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 1. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0025",
+    "expected": "attack",
+    "observation": {
+      "health": 36,
+      "ammo": 17,
+      "enemies": 6,
+      "visibleEnemies": 6,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 36/100 (wounded). Ammunition: 17 rounds (sufficient). Hostiles remaining: 6; visible: 6. Medkits remaining: 3. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0081",
+    "expected": "resupply",
+    "observation": {
+      "health": 100,
+      "ammo": 1,
+      "enemies": 3,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 100/100 (healthy). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 3; visible: 2. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0199",
+    "expected": "extract",
+    "observation": {
+      "health": 64,
+      "ammo": 0,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 3,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0152",
+    "expected": "collect",
+    "observation": {
+      "health": 36,
+      "ammo": 0,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 36/100 (wounded). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 0. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0193",
+    "expected": "extract",
+    "observation": {
+      "health": 38,
+      "ammo": 4,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 2,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 38/100 (wounded). Ammunition: 4 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0175",
+    "expected": "extract",
+    "observation": {
+      "health": 34,
+      "ammo": 0,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 1,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 34/100 (critically low). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 1. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0106",
+    "expected": "resupply",
+    "observation": {
+      "health": 64,
+      "ammo": 1,
+      "enemies": 4,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 4; visible: 0. Medkits remaining: 1. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0017",
+    "expected": "attack",
+    "observation": {
+      "health": 64,
+      "ammo": 3,
+      "enemies": 6,
+      "visibleEnemies": 3,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 3 rounds (sufficient). Hostiles remaining: 6; visible: 3. Medkits remaining: 3. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0023",
+    "expected": "attack",
+    "observation": {
+      "health": 34,
+      "ammo": 3,
+      "enemies": 1,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 34/100 (critically low). Ammunition: 3 rounds (sufficient). Hostiles remaining: 1; visible: 1. Medkits remaining: 0. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0026",
+    "expected": "attack",
+    "observation": {
+      "health": 100,
+      "ammo": 4,
+      "enemies": 1,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 100/100 (healthy). Ammunition: 4 rounds (sufficient). Hostiles remaining: 1; visible: 1. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0147",
+    "expected": "collect",
+    "observation": {
+      "health": 59,
+      "ammo": 0,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 59/100 (wounded). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0178",
+    "expected": "extract",
+    "observation": {
+      "health": 64,
+      "ammo": 1,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 1,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 1. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0046",
+    "expected": "heal",
+    "observation": {
+      "health": 33,
+      "ammo": 1,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 33/100 (critically low). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0168",
+    "expected": "extract",
+    "observation": {
+      "health": 100,
+      "ammo": 1,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 2,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 100/100 (healthy). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0111",
+    "expected": "resupply",
+    "observation": {
+      "health": 49,
+      "ammo": 2,
+      "enemies": 3,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 49/100 (wounded). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 3; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0010",
+    "expected": "attack",
+    "observation": {
+      "health": 35,
+      "ammo": 4,
+      "enemies": 5,
+      "visibleEnemies": 5,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 4 rounds (sufficient). Hostiles remaining: 5; visible: 5. Medkits remaining: 3. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0189",
+    "expected": "extract",
+    "observation": {
+      "health": 33,
+      "ammo": 2,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 2,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 33/100 (critically low). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0064",
+    "expected": "heal",
+    "observation": {
+      "health": 1,
+      "ammo": 2,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 0,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 1/100 (critically low). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 0. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0013",
+    "expected": "attack",
+    "observation": {
+      "health": 100,
+      "ammo": 4,
+      "enemies": 1,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 100/100 (healthy). Ammunition: 4 rounds (sufficient). Hostiles remaining: 1; visible: 1. Medkits remaining: 2. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0185",
+    "expected": "extract",
+    "observation": {
+      "health": 64,
+      "ammo": 2,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 2,
+      "ammoCrates": 3,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 3. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0135",
+    "expected": "collect",
+    "observation": {
+      "health": 33,
+      "ammo": 4,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 33/100 (critically low). Ammunition: 4 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 3. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0192",
+    "expected": "extract",
+    "observation": {
+      "health": 100,
+      "ammo": 28,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 2,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 100/100 (healthy). Ammunition: 28 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0188",
+    "expected": "extract",
+    "observation": {
+      "health": 35,
+      "ammo": 1,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 0,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 0. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0176",
+    "expected": "extract",
+    "observation": {
+      "health": 35,
+      "ammo": 0,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 2,
+      "ammoCrates": 0,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 0. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0104",
+    "expected": "resupply",
+    "observation": {
+      "health": 34,
+      "ammo": 0,
+      "enemies": 3,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 34/100 (critically low). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 3; visible: 2. Medkits remaining: 0. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0130",
+    "expected": "collect",
+    "observation": {
+      "health": 64,
+      "ammo": 1,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 0. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0074",
+    "expected": "heal",
+    "observation": {
+      "health": 33,
+      "ammo": 1,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 2,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 33/100 (critically low). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 1. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0109",
+    "expected": "resupply",
+    "observation": {
+      "health": 65,
+      "ammo": 1,
+      "enemies": 1,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 65/100 (healthy). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 1; visible: 0. Medkits remaining: 2. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0066",
+    "expected": "heal",
+    "observation": {
+      "health": 1,
+      "ammo": 4,
+      "enemies": 3,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 1/100 (critically low). Ammunition: 4 rounds (sufficient). Hostiles remaining: 3; visible: 2. Medkits remaining: 2. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0170",
+    "expected": "extract",
+    "observation": {
+      "health": 48,
+      "ammo": 3,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 0,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 48/100 (wounded). Ammunition: 3 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 0. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0141",
+    "expected": "collect",
+    "observation": {
+      "health": 100,
+      "ammo": 4,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 100/100 (healthy). Ammunition: 4 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0124",
+    "expected": "collect",
+    "observation": {
+      "health": 35,
+      "ammo": 0,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 3,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 3. Ammo crates remaining: 1. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0084",
+    "expected": "resupply",
+    "observation": {
+      "health": 75,
+      "ammo": 1,
+      "enemies": 4,
+      "visibleEnemies": 3,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 75/100 (healthy). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 4; visible: 3. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0149",
+    "expected": "collect",
+    "observation": {
+      "health": 100,
+      "ammo": 2,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 2,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 100/100 (healthy). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 3. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0018",
+    "expected": "attack",
+    "observation": {
+      "health": 33,
+      "ammo": 4,
+      "enemies": 3,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 33/100 (critically low). Ammunition: 4 rounds (sufficient). Hostiles remaining: 3; visible: 1. Medkits remaining: 0. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0051",
+    "expected": "heal",
+    "observation": {
+      "health": 34,
+      "ammo": 7,
+      "enemies": 2,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 34/100 (critically low). Ammunition: 7 rounds (sufficient). Hostiles remaining: 2; visible: 2. Medkits remaining: 1. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0100",
+    "expected": "resupply",
+    "observation": {
+      "health": 87,
+      "ammo": 0,
+      "enemies": 1,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 87/100 (healthy). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 1; visible: 1. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0113",
+    "expected": "resupply",
+    "observation": {
+      "health": 65,
+      "ammo": 2,
+      "enemies": 1,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 65/100 (healthy). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 1; visible: 0. Medkits remaining: 1. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0039",
+    "expected": "attack",
+    "observation": {
+      "health": 65,
+      "ammo": 4,
+      "enemies": 1,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 65/100 (healthy). Ammunition: 4 rounds (sufficient). Hostiles remaining: 1; visible: 1. Medkits remaining: 3. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0015",
+    "expected": "attack",
+    "observation": {
+      "health": 65,
+      "ammo": 4,
+      "enemies": 3,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 65/100 (healthy). Ammunition: 4 rounds (sufficient). Hostiles remaining: 3; visible: 0. Medkits remaining: 1. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0154",
+    "expected": "collect",
+    "observation": {
+      "health": 100,
+      "ammo": 15,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 2,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 100/100 (healthy). Ammunition: 15 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 3. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0049",
+    "expected": "heal",
+    "observation": {
+      "health": 1,
+      "ammo": 18,
+      "enemies": 2,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 1/100 (critically low). Ammunition: 18 rounds (sufficient). Hostiles remaining: 2; visible: 0. Medkits remaining: 1. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0055",
+    "expected": "heal",
+    "observation": {
+      "health": 15,
+      "ammo": 1,
+      "enemies": 1,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 15/100 (critically low). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 1; visible: 0. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0153",
+    "expected": "collect",
+    "observation": {
+      "health": 35,
+      "ammo": 1,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 1,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 1. Ammo crates remaining: 3. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0022",
+    "expected": "attack",
+    "observation": {
+      "health": 82,
+      "ammo": 3,
+      "enemies": 5,
+      "visibleEnemies": 4,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 82/100 (healthy). Ammunition: 3 rounds (sufficient). Hostiles remaining: 5; visible: 4. Medkits remaining: 0. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0144",
+    "expected": "collect",
+    "observation": {
+      "health": 65,
+      "ammo": 0,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 1,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 65/100 (healthy). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 1. Ammo crates remaining: 1. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0003",
+    "expected": "attack",
+    "observation": {
+      "health": 1,
+      "ammo": 4,
+      "enemies": 6,
+      "visibleEnemies": 1,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 1/100 (critically low). Ammunition: 4 rounds (sufficient). Hostiles remaining: 6; visible: 1. Medkits remaining: 0. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0115",
+    "expected": "resupply",
+    "observation": {
+      "health": 35,
+      "ammo": 2,
+      "enemies": 3,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 3; visible: 2. Medkits remaining: 0. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0164",
+    "expected": "extract",
+    "observation": {
+      "health": 65,
+      "ammo": 4,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 1,
+      "ammoCrates": 0,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 65/100 (healthy). Ammunition: 4 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 1. Ammo crates remaining: 0. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0002",
+    "expected": "attack",
+    "observation": {
+      "health": 36,
+      "ammo": 0,
+      "enemies": 2,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 36/100 (wounded). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 2; visible: 0. Medkits remaining: 3. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0167",
+    "expected": "extract",
+    "observation": {
+      "health": 65,
+      "ammo": 2,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 1,
+      "ammoCrates": 1,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 65/100 (healthy). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 1. Ammo crates remaining: 1. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0044",
+    "expected": "heal",
+    "observation": {
+      "health": 33,
+      "ammo": 1,
+      "enemies": 1,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 33/100 (critically low). Ammunition: 1 rounds (critically low or empty). Hostiles remaining: 1; visible: 0. Medkits remaining: 2. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0016",
+    "expected": "attack",
+    "observation": {
+      "health": 35,
+      "ammo": 2,
+      "enemies": 6,
+      "visibleEnemies": 5,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 35/100 (wounded). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 6; visible: 5. Medkits remaining: 2. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0179",
+    "expected": "extract",
+    "observation": {
+      "health": 36,
+      "ammo": 2,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 2,
+      "ammoCrates": 2,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 36/100 (wounded). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0136",
+    "expected": "collect",
+    "observation": {
+      "health": 34,
+      "ammo": 3,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 34/100 (critically low). Ammunition: 3 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 1. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0011",
+    "expected": "attack",
+    "observation": {
+      "health": 65,
+      "ammo": 0,
+      "enemies": 4,
+      "visibleEnemies": 4,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 65/100 (healthy). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 4; visible: 4. Medkits remaining: 0. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0048",
+    "expected": "heal",
+    "observation": {
+      "health": 1,
+      "ammo": 4,
+      "enemies": 6,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 3,
+      "ammoCrates": 1,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 1/100 (critically low). Ammunition: 4 rounds (sufficient). Hostiles remaining: 6; visible: 2. Medkits remaining: 3. Ammo crates remaining: 1. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0035",
+    "expected": "attack",
+    "observation": {
+      "health": 1,
+      "ammo": 3,
+      "enemies": 2,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 1/100 (critically low). Ammunition: 3 rounds (sufficient). Hostiles remaining: 2; visible: 2. Medkits remaining: 0. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0021",
+    "expected": "attack",
+    "observation": {
+      "health": 50,
+      "ammo": 3,
+      "enemies": 5,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 2,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 50/100 (wounded). Ammunition: 3 rounds (sufficient). Hostiles remaining: 5; visible: 2. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0031",
+    "expected": "attack",
+    "observation": {
+      "health": 80,
+      "ammo": 7,
+      "enemies": 2,
+      "visibleEnemies": 0,
+      "nearestEnemy": 4,
+      "medkits": 0,
+      "ammoCrates": 0,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 80/100 (healthy). Ammunition: 7 rounds (sufficient). Hostiles remaining: 2; visible: 0. Medkits remaining: 0. Ammo crates remaining: 0. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0140",
+    "expected": "collect",
+    "observation": {
+      "health": 65,
+      "ammo": 2,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 1,
+      "ammoCrates": 3,
+      "carryingCore": false,
+      "coreAvailable": true,
+      "time": 0,
+      "text": "Health: 65/100 (healthy). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 0; visible: 0. Medkits remaining: 1. Ammo crates remaining: 3. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core."
+    }
+  },
+  {
+    "id": "test-0161",
+    "expected": "extract",
+    "observation": {
+      "health": 64,
+      "ammo": 31,
+      "enemies": 0,
+      "visibleEnemies": 0,
+      "nearestEnemy": null,
+      "medkits": 0,
+      "ammoCrates": 1,
+      "carryingCore": true,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 31 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 0. Ammo crates remaining: 1. The reactor core is in your inventory. The exit is open."
+    }
+  },
+  {
+    "id": "test-0103",
+    "expected": "resupply",
+    "observation": {
+      "health": 64,
+      "ammo": 0,
+      "enemies": 3,
+      "visibleEnemies": 2,
+      "nearestEnemy": 4,
+      "medkits": 1,
+      "ammoCrates": 2,
+      "carryingCore": false,
+      "coreAvailable": false,
+      "time": 0,
+      "text": "Health: 64/100 (wounded). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 3; visible: 2. Medkits remaining: 1. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core."
+    }
+  }
+]

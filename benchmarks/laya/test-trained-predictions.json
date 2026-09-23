@@ -1,0 +1,4002 @@
+[
+  {
+    "id": "test-0187",
+    "expected": "extract",
+    "correct": true,
+    "ms": 44.00214299994332,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0042",
+    "expected": "heal",
+    "correct": true,
+    "ms": 40.76742200004446,
+    "tokens": 191,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0171",
+    "expected": "extract",
+    "correct": true,
+    "ms": 39.77370699999483,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0005",
+    "expected": "attack",
+    "correct": true,
+    "ms": 41.15030399998432,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0138",
+    "expected": "collect",
+    "correct": true,
+    "ms": 40.06909800000358,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0001",
+    "expected": "attack",
+    "correct": true,
+    "ms": 41.05271100002028,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0037",
+    "expected": "attack",
+    "correct": true,
+    "ms": 40.23717299992313,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0134",
+    "expected": "collect",
+    "correct": true,
+    "ms": 39.996172999963164,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0032",
+    "expected": "attack",
+    "correct": true,
+    "ms": 43.94589100002122,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0019",
+    "expected": "attack",
+    "correct": true,
+    "ms": 42.341650000025766,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0034",
+    "expected": "attack",
+    "correct": true,
+    "ms": 40.990145000023404,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0197",
+    "expected": "extract",
+    "correct": true,
+    "ms": 40.923080000084155,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0052",
+    "expected": "heal",
+    "correct": true,
+    "ms": 42.715306999980385,
+    "tokens": 191,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0086",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 45.43482399981258,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0063",
+    "expected": "heal",
+    "correct": true,
+    "ms": 44.67014500005462,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0194",
+    "expected": "extract",
+    "correct": true,
+    "ms": 45.13428600012048,
+    "tokens": 193,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0156",
+    "expected": "collect",
+    "correct": true,
+    "ms": 42.22964900009174,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0054",
+    "expected": "heal",
+    "correct": true,
+    "ms": 42.05589599996529,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0198",
+    "expected": "extract",
+    "correct": true,
+    "ms": 59.68512799995551,
+    "tokens": 189,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0058",
+    "expected": "heal",
+    "correct": true,
+    "ms": 40.848637999943094,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0079",
+    "expected": "heal",
+    "correct": true,
+    "ms": 41.283985000063694,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0177",
+    "expected": "extract",
+    "correct": true,
+    "ms": 40.98880699984875,
+    "tokens": 189,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0067",
+    "expected": "heal",
+    "correct": true,
+    "ms": 37.831255000128294,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0033",
+    "expected": "attack",
+    "correct": true,
+    "ms": 43.633088999968095,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0165",
+    "expected": "extract",
+    "correct": true,
+    "ms": 40.33221700001377,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0089",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 39.97398699993937,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0131",
+    "expected": "collect",
+    "correct": true,
+    "ms": 40.98899500013431,
+    "tokens": 202,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0120",
+    "expected": "collect",
+    "correct": true,
+    "ms": 40.140006999990874,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0117",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 41.717973999993774,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0070",
+    "expected": "heal",
+    "correct": true,
+    "ms": 41.037570000071355,
+    "tokens": 191,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0126",
+    "expected": "collect",
+    "correct": true,
+    "ms": 40.04735399985293,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0090",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 40.06106900010309,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0162",
+    "expected": "extract",
+    "correct": true,
+    "ms": 47.889898999983416,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0087",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 41.269091000003755,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0186",
+    "expected": "extract",
+    "correct": true,
+    "ms": 43.640792999894984,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.1387,
+      "collect": 0.0,
+      "extract": 0.8613
+    },
+    "confidence": 0.7499,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0073",
+    "expected": "heal",
+    "correct": true,
+    "ms": 42.25969300000543,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0183",
+    "expected": "extract",
+    "correct": true,
+    "ms": 41.387951999922734,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0097",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 41.54572900006315,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0133",
+    "expected": "collect",
+    "correct": true,
+    "ms": 41.425178999816126,
+    "tokens": 202,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0110",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 43.00352099994598,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0012",
+    "expected": "attack",
+    "correct": true,
+    "ms": 41.56523299980108,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0114",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 39.946685999893816,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0173",
+    "expected": "extract",
+    "correct": true,
+    "ms": 40.5447450000338,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0102",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 60.655630999917776,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0043",
+    "expected": "heal",
+    "correct": true,
+    "ms": 40.47011600005135,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0157",
+    "expected": "collect",
+    "correct": true,
+    "ms": 41.90807700001642,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0125",
+    "expected": "collect",
+    "correct": true,
+    "ms": 45.47594899986507,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0101",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 41.50633400013248,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0151",
+    "expected": "collect",
+    "correct": true,
+    "ms": 39.724512000020695,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0123",
+    "expected": "collect",
+    "correct": true,
+    "ms": 39.27240799998799,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0006",
+    "expected": "attack",
+    "correct": true,
+    "ms": 45.333863999985624,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0163",
+    "expected": "extract",
+    "correct": true,
+    "ms": 45.24345699996957,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0094",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 43.004381999935504,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0159",
+    "expected": "collect",
+    "correct": true,
+    "ms": 41.45396800004164,
+    "tokens": 202,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0008",
+    "expected": "attack",
+    "correct": true,
+    "ms": 41.050562999998874,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0118",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 49.035923000019466,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0059",
+    "expected": "heal",
+    "correct": true,
+    "ms": 42.08283000002666,
+    "tokens": 191,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0191",
+    "expected": "extract",
+    "correct": true,
+    "ms": 42.39006300008441,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0122",
+    "expected": "collect",
+    "correct": true,
+    "ms": 42.3742929999662,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0075",
+    "expected": "heal",
+    "correct": true,
+    "ms": 42.80499099991175,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0041",
+    "expected": "heal",
+    "correct": true,
+    "ms": 45.02007299993238,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.8448,
+      "resupply": 0.0,
+      "collect": 0.1552,
+      "extract": 0.0
+    },
+    "confidence": 0.7319,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0040",
+    "expected": "heal",
+    "correct": true,
+    "ms": 42.90589200013528,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0092",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 46.53159100007542,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0053",
+    "expected": "heal",
+    "correct": true,
+    "ms": 43.03097000001799,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0014",
+    "expected": "attack",
+    "correct": true,
+    "ms": 41.762586000004376,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0028",
+    "expected": "attack",
+    "correct": true,
+    "ms": 41.242742000122234,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0127",
+    "expected": "collect",
+    "correct": true,
+    "ms": 41.16881300001296,
+    "tokens": 201,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0128",
+    "expected": "collect",
+    "correct": true,
+    "ms": 60.310628000024735,
+    "tokens": 201,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0196",
+    "expected": "extract",
+    "correct": true,
+    "ms": 39.739588999964326,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0069",
+    "expected": "heal",
+    "correct": true,
+    "ms": 44.865456000025006,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0143",
+    "expected": "collect",
+    "correct": true,
+    "ms": 41.54991800010066,
+    "tokens": 201,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0027",
+    "expected": "attack",
+    "correct": true,
+    "ms": 41.06559100000595,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0182",
+    "expected": "extract",
+    "correct": true,
+    "ms": 41.639932999942175,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0080",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 42.24993499997254,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0158",
+    "expected": "collect",
+    "correct": true,
+    "ms": 43.76781600012691,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0180",
+    "expected": "extract",
+    "correct": true,
+    "ms": 41.33463099992696,
+    "tokens": 191,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0108",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 41.94969100012713,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0082",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 41.395133999913014,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0083",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 49.31972200006385,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0105",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 41.72632699987844,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0160",
+    "expected": "extract",
+    "correct": true,
+    "ms": 41.30604400006632,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0088",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 41.793761999997514,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0166",
+    "expected": "extract",
+    "correct": true,
+    "ms": 40.58825599986449,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0007",
+    "expected": "attack",
+    "correct": true,
+    "ms": 42.318794000038906,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0047",
+    "expected": "heal",
+    "correct": true,
+    "ms": 44.23497400011911,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0036",
+    "expected": "attack",
+    "correct": true,
+    "ms": 43.38466400008656,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0091",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 41.760566999982984,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0061",
+    "expected": "heal",
+    "correct": true,
+    "ms": 42.0067040001868,
+    "tokens": 202,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.8373,
+      "resupply": 0.0,
+      "collect": 0.1627,
+      "extract": 0.0
+    },
+    "confidence": 0.724,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0068",
+    "expected": "heal",
+    "correct": true,
+    "ms": 40.57828800000607,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0077",
+    "expected": "heal",
+    "correct": true,
+    "ms": 41.640440000037415,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0020",
+    "expected": "attack",
+    "correct": true,
+    "ms": 41.258909000134736,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0184",
+    "expected": "extract",
+    "correct": true,
+    "ms": 61.96415100021113,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0000",
+    "expected": "attack",
+    "correct": true,
+    "ms": 45.78678300003958,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0024",
+    "expected": "attack",
+    "correct": true,
+    "ms": 44.08309699988422,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0078",
+    "expected": "heal",
+    "correct": true,
+    "ms": 41.64946700007022,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0057",
+    "expected": "heal",
+    "correct": true,
+    "ms": 39.826790999995865,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0139",
+    "expected": "collect",
+    "correct": true,
+    "ms": 40.44098800000029,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0093",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 43.88261400004012,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0056",
+    "expected": "heal",
+    "correct": true,
+    "ms": 41.934344000083,
+    "tokens": 191,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0148",
+    "expected": "collect",
+    "correct": true,
+    "ms": 41.580810999903406,
+    "tokens": 202,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0116",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 43.05972599991037,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0112",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 48.996912999882625,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0009",
+    "expected": "attack",
+    "correct": true,
+    "ms": 42.09912099986468,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0085",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 40.5515090001245,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0137",
+    "expected": "collect",
+    "correct": true,
+    "ms": 42.58083199988505,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0142",
+    "expected": "collect",
+    "correct": true,
+    "ms": 42.875267999988864,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0129",
+    "expected": "collect",
+    "correct": true,
+    "ms": 41.78012799980024,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0169",
+    "expected": "extract",
+    "correct": true,
+    "ms": 44.13294000005408,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0393,
+      "collect": 0.0,
+      "extract": 0.9607
+    },
+    "confidence": 0.897,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0062",
+    "expected": "heal",
+    "correct": true,
+    "ms": 45.381213000155185,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.868,
+      "resupply": 0.0,
+      "collect": 0.132,
+      "extract": 0.0
+    },
+    "confidence": 0.7575,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0155",
+    "expected": "collect",
+    "correct": true,
+    "ms": 42.52939000002698,
+    "tokens": 201,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0146",
+    "expected": "collect",
+    "correct": true,
+    "ms": 42.389123000020845,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0195",
+    "expected": "extract",
+    "correct": true,
+    "ms": 41.72248400004719,
+    "tokens": 189,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0174",
+    "expected": "extract",
+    "correct": true,
+    "ms": 41.821754999773475,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0119",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 42.3371929998666,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0181",
+    "expected": "extract",
+    "correct": true,
+    "ms": 44.23120599994945,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0095",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 53.59218199987481,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0099",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 47.60964599995532,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0029",
+    "expected": "attack",
+    "correct": true,
+    "ms": 40.13218299996879,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0060",
+    "expected": "heal",
+    "correct": true,
+    "ms": 38.87124700008826,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0132",
+    "expected": "collect",
+    "correct": true,
+    "ms": 40.84179100004803,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0145",
+    "expected": "collect",
+    "correct": true,
+    "ms": 42.181778000212944,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0071",
+    "expected": "heal",
+    "correct": true,
+    "ms": 41.848597999887716,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0045",
+    "expected": "heal",
+    "correct": true,
+    "ms": 40.400025000053574,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0098",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 41.31262999999308,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0121",
+    "expected": "collect",
+    "correct": true,
+    "ms": 43.650197000033586,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0072",
+    "expected": "heal",
+    "correct": true,
+    "ms": 44.10364600016692,
+    "tokens": 202,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.8386,
+      "resupply": 0.0,
+      "collect": 0.1614,
+      "extract": 0.0
+    },
+    "confidence": 0.7253,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0065",
+    "expected": "heal",
+    "correct": true,
+    "ms": 41.31987100004153,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0150",
+    "expected": "collect",
+    "correct": true,
+    "ms": 41.81860200014853,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0076",
+    "expected": "heal",
+    "correct": true,
+    "ms": 38.89516799995363,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0096",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 42.416286999923614,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0004",
+    "expected": "attack",
+    "correct": true,
+    "ms": 40.79995500001132,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0030",
+    "expected": "attack",
+    "correct": true,
+    "ms": 40.34546399998362,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0038",
+    "expected": "attack",
+    "correct": true,
+    "ms": 41.97546699992927,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0172",
+    "expected": "extract",
+    "correct": true,
+    "ms": 40.79788199987888,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0190",
+    "expected": "extract",
+    "correct": true,
+    "ms": 41.2582389999443,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0107",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 41.05357299999923,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0050",
+    "expected": "heal",
+    "correct": true,
+    "ms": 45.1571309999963,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0025",
+    "expected": "attack",
+    "correct": true,
+    "ms": 43.72665699997924,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0081",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 45.526332999997976,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0199",
+    "expected": "extract",
+    "correct": true,
+    "ms": 47.02087800001209,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0152",
+    "expected": "collect",
+    "correct": true,
+    "ms": 62.07234400017114,
+    "tokens": 201,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0193",
+    "expected": "extract",
+    "correct": true,
+    "ms": 43.0916210000305,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0175",
+    "expected": "extract",
+    "correct": true,
+    "ms": 41.29107600010684,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0001,
+      "collect": 0.0,
+      "extract": 0.9999
+    },
+    "confidence": 0.9992,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0106",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 41.68814599984216,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0017",
+    "expected": "attack",
+    "correct": true,
+    "ms": 43.774661000043125,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0023",
+    "expected": "attack",
+    "correct": true,
+    "ms": 43.089217999977336,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0026",
+    "expected": "attack",
+    "correct": true,
+    "ms": 41.62843199992494,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0147",
+    "expected": "collect",
+    "correct": true,
+    "ms": 43.15145200007464,
+    "tokens": 201,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0178",
+    "expected": "extract",
+    "correct": true,
+    "ms": 45.05443399989417,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0046",
+    "expected": "heal",
+    "correct": true,
+    "ms": 45.64075500002218,
+    "tokens": 202,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.8143,
+      "resupply": 0.0,
+      "collect": 0.1857,
+      "extract": 0.0
+    },
+    "confidence": 0.7018,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0168",
+    "expected": "extract",
+    "correct": true,
+    "ms": 59.25294199983,
+    "tokens": 193,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0111",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 43.81418599996323,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0010",
+    "expected": "attack",
+    "correct": true,
+    "ms": 45.84199299983993,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0189",
+    "expected": "extract",
+    "correct": true,
+    "ms": 46.70781000004354,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0064",
+    "expected": "heal",
+    "correct": true,
+    "ms": 47.83371899998201,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0013",
+    "expected": "attack",
+    "correct": true,
+    "ms": 44.66643400019166,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0185",
+    "expected": "extract",
+    "correct": true,
+    "ms": 44.421434000014415,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0135",
+    "expected": "collect",
+    "correct": true,
+    "ms": 46.405632000187325,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0192",
+    "expected": "extract",
+    "correct": true,
+    "ms": 43.990258999883736,
+    "tokens": 189,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0188",
+    "expected": "extract",
+    "correct": true,
+    "ms": 43.7507099998129,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0176",
+    "expected": "extract",
+    "correct": true,
+    "ms": 42.05432600019776,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0104",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 45.75660399996195,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0130",
+    "expected": "collect",
+    "correct": true,
+    "ms": 45.590062999963266,
+    "tokens": 201,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0074",
+    "expected": "heal",
+    "correct": true,
+    "ms": 59.784076999903846,
+    "tokens": 202,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.8143,
+      "resupply": 0.0,
+      "collect": 0.1857,
+      "extract": 0.0
+    },
+    "confidence": 0.7018,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0109",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 43.519777000028625,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0066",
+    "expected": "heal",
+    "correct": true,
+    "ms": 44.56065299996226,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0170",
+    "expected": "extract",
+    "correct": true,
+    "ms": 43.04924899997786,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0141",
+    "expected": "collect",
+    "correct": true,
+    "ms": 42.71955799981697,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0124",
+    "expected": "collect",
+    "correct": true,
+    "ms": 42.45752700012417,
+    "tokens": 201,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0084",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 50.405466000029264,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0149",
+    "expected": "collect",
+    "correct": true,
+    "ms": 41.0635870000533,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0018",
+    "expected": "attack",
+    "correct": true,
+    "ms": 46.06847899981403,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0051",
+    "expected": "heal",
+    "correct": true,
+    "ms": 43.85828699992089,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0100",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 41.629321000073105,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0113",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 42.195752999987235,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0039",
+    "expected": "attack",
+    "correct": true,
+    "ms": 41.450615000030666,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0015",
+    "expected": "attack",
+    "correct": true,
+    "ms": 43.37090099988927,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0154",
+    "expected": "collect",
+    "correct": true,
+    "ms": 41.28996899999038,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0049",
+    "expected": "heal",
+    "correct": true,
+    "ms": 40.73635800000375,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0055",
+    "expected": "heal",
+    "correct": true,
+    "ms": 39.067542999873694,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0153",
+    "expected": "collect",
+    "correct": true,
+    "ms": 41.73860699984289,
+    "tokens": 201,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0022",
+    "expected": "attack",
+    "correct": true,
+    "ms": 41.305294000039794,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0144",
+    "expected": "collect",
+    "correct": true,
+    "ms": 40.643658999897525,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0003",
+    "expected": "attack",
+    "correct": true,
+    "ms": 40.38189299990336,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0115",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 42.81722199993965,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0164",
+    "expected": "extract",
+    "correct": true,
+    "ms": 43.98912700003166,
+    "tokens": 189,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0002",
+    "expected": "attack",
+    "correct": true,
+    "ms": 41.87897499991777,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0167",
+    "expected": "extract",
+    "correct": true,
+    "ms": 55.89189200009059,
+    "tokens": 193,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0044",
+    "expected": "heal",
+    "correct": true,
+    "ms": 49.137434000158464,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0016",
+    "expected": "attack",
+    "correct": true,
+    "ms": 44.91028099982941,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0179",
+    "expected": "extract",
+    "correct": true,
+    "ms": 44.52835100005359,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0136",
+    "expected": "collect",
+    "correct": true,
+    "ms": 42.608638999809045,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0011",
+    "expected": "attack",
+    "correct": true,
+    "ms": 49.57934599997316,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0048",
+    "expected": "heal",
+    "correct": true,
+    "ms": 42.88987199993244,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "heal",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 1.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0035",
+    "expected": "attack",
+    "correct": true,
+    "ms": 42.0873410000695,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 0.9999,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 0.9995,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0021",
+    "expected": "attack",
+    "correct": true,
+    "ms": 42.219437000085236,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0031",
+    "expected": "attack",
+    "correct": true,
+    "ms": 41.383105000022624,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "attack",
+    "probabilities": {
+      "attack": 1.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0140",
+    "expected": "collect",
+    "correct": true,
+    "ms": 41.26176499994472,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 1.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0161",
+    "expected": "extract",
+    "correct": true,
+    "ms": 55.19440100010797,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "extract",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 0.0,
+      "collect": 0.0,
+      "extract": 1.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0103",
+    "expected": "resupply",
+    "correct": true,
+    "ms": 69.25814000010178,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "resupply",
+    "probabilities": {
+      "attack": 0.0,
+      "heal": 0.0,
+      "resupply": 1.0,
+      "collect": 0.0,
+      "extract": 0.0
+    },
+    "confidence": 1.0,
+    "action": {
+      "act_probability": 1.0
+    }
+  }
+]

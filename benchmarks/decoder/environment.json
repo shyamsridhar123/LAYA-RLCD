@@ -1,0 +1,38 @@
+{
+  "utc": "2026-09-23T02:47:01Z",
+  "python": "3.13.15",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "Tesla T4",
+  "gpu_memory_gib": 14.56317138671875,
+  "model_id": "jhu-clsp/ettin-decoder-17m",
+  "revision": "728fb5b6b3dc5916aa20829c027143ae8eca4eeb",
+  "precision": "FP32 weights, forward and backward; no autocast",
+  "packages": {
+    "laya": "0.3.4",
+    "transformers": "5.0.0",
+    "huggingface_hub": "1.29.0",
+    "safetensors": "0.8.0",
+    "numpy": "2.1.3"
+  },
+  "proper_reward_source_sha256": "761980690fbde87bc97d7d8a4010f93d471b37670847bb983e4cafb83690b8ee",
+  "parameters": 16864512,
+  "download_and_load_seconds": 4.749874013999943,
+  "loading_info": {
+    "missing_keys": [
+      "classifier.weight",
+      "head.dense.weight",
+      "head.norm.weight"
+    ],
+    "unexpected_keys": [
+      "decoder.bias",
+      "decoder.weight",
+      "lm_head.dense.weight",
+      "lm_head.norm.weight"
+    ],
+    "mismatched_keys": [],
+    "error_msgs": []
+  },
+  "reference_run_script_sha256": "5713f0aea541685e9beb6ceae92b25517b03227b9a0415e3d00dd81e3127cb1f",
+  "reference_run_protocol_sha256": "cda4f1090ba0da8a2f3d9ee5673eff380c81320fa4893413f4c62e034349486c"
+}

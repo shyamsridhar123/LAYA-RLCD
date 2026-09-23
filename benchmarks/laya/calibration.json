@@ -1,0 +1,2239 @@
+{
+  "temperature": 1.6595869064331055,
+  "temperature_metrics": {
+    "n": 100,
+    "correct": 99,
+    "accuracy": 0.9900000095367432,
+    "nll": 0.022869857028126717,
+    "brier": 0.01463982742279768,
+    "ece_10bins": 0.014317507564555854
+  },
+  "temperature_grid": [
+    {
+      "temperature": 0.10000000149011612,
+      "nll": 0.22812500596046448
+    },
+    {
+      "temperature": 0.10471285134553909,
+      "nll": 0.21785765886306763
+    },
+    {
+      "temperature": 0.10964781790971756,
+      "nll": 0.2080523669719696
+    },
+    {
+      "temperature": 0.1148153617978096,
+      "nll": 0.19868850708007812
+    },
+    {
+      "temperature": 0.12022644281387329,
+      "nll": 0.18974609673023224
+    },
+    {
+      "temperature": 0.1258925348520279,
+      "nll": 0.18120604753494263
+    },
+    {
+      "temperature": 0.13182567059993744,
+      "nll": 0.17305053770542145
+    },
+    {
+      "temperature": 0.13803842663764954,
+      "nll": 0.16526183485984802
+    },
+    {
+      "temperature": 0.14454397559165955,
+      "nll": 0.15782395005226135
+    },
+    {
+      "temperature": 0.15135613083839417,
+      "nll": 0.15072067081928253
+    },
+    {
+      "temperature": 0.15848931670188904,
+      "nll": 0.1439371556043625
+    },
+    {
+      "temperature": 0.1659586876630783,
+      "nll": 0.1374588906764984
+    },
+    {
+      "temperature": 0.17378008365631104,
+      "nll": 0.13127222657203674
+    },
+    {
+      "temperature": 0.18197008967399597,
+      "nll": 0.1253640502691269
+    },
+    {
+      "temperature": 0.19054606556892395,
+      "nll": 0.11972178518772125
+    },
+    {
+      "temperature": 0.19952623546123505,
+      "nll": 0.11433352530002594
+    },
+    {
+      "temperature": 0.2089296132326126,
+      "nll": 0.1091877743601799
+    },
+    {
+      "temperature": 0.2187761664390564,
+      "nll": 0.10427382588386536
+    },
+    {
+      "temperature": 0.229086771607399,
+      "nll": 0.09958107769489288
+    },
+    {
+      "temperature": 0.23988328874111176,
+      "nll": 0.09509969502687454
+    },
+    {
+      "temperature": 0.25118863582611084,
+      "nll": 0.09082028269767761
+    },
+    {
+      "temperature": 0.26302680373191833,
+      "nll": 0.08673395216464996
+    },
+    {
+      "temperature": 0.2754228711128235,
+      "nll": 0.08283207565546036
+    },
+    {
+      "temperature": 0.28840315341949463,
+      "nll": 0.07910653203725815
+    },
+    {
+      "temperature": 0.3019951581954956,
+      "nll": 0.07554969936609268
+    },
+    {
+      "temperature": 0.3162277638912201,
+      "nll": 0.07215443253517151
+    },
+    {
+      "temperature": 0.33113113045692444,
+      "nll": 0.06891374289989471
+    },
+    {
+      "temperature": 0.3467368483543396,
+      "nll": 0.0658213421702385
+    },
+    {
+      "temperature": 0.3630780577659607,
+      "nll": 0.06287115067243576
+    },
+    {
+      "temperature": 0.3801893889904022,
+      "nll": 0.06005755066871643
+    },
+    {
+      "temperature": 0.3981071710586548,
+      "nll": 0.05737541988492012
+    },
+    {
+      "temperature": 0.4168693721294403,
+      "nll": 0.05481977388262749
+    },
+    {
+      "temperature": 0.43651583790779114,
+      "nll": 0.052386313676834106
+    },
+    {
+      "temperature": 0.4570882022380829,
+      "nll": 0.05007093399763107
+    },
+    {
+      "temperature": 0.47863009572029114,
+      "nll": 0.04786980524659157
+    },
+    {
+      "temperature": 0.5011872053146362,
+      "nll": 0.045779623091220856
+    },
+    {
+      "temperature": 0.5248074531555176,
+      "nll": 0.043797317892313004
+    },
+    {
+      "temperature": 0.5495408773422241,
+      "nll": 0.04191999509930611
+    },
+    {
+      "temperature": 0.5754399299621582,
+      "nll": 0.04014512896537781
+    },
+    {
+      "temperature": 0.6025595664978027,
+      "nll": 0.03847045078873634
+    },
+    {
+      "temperature": 0.6309573650360107,
+      "nll": 0.03689371049404144
+    },
+    {
+      "temperature": 0.6606934666633606,
+      "nll": 0.035412900149822235
+    },
+    {
+      "temperature": 0.6918309926986694,
+      "nll": 0.034026190638542175
+    },
+    {
+      "temperature": 0.7244359850883484,
+      "nll": 0.03273176774382591
+    },
+    {
+      "temperature": 0.7585775852203369,
+      "nll": 0.03152777627110481
+    },
+    {
+      "temperature": 0.7943282127380371,
+      "nll": 0.03041248582303524
+    },
+    {
+      "temperature": 0.831763744354248,
+      "nll": 0.029384039342403412
+    },
+    {
+      "temperature": 0.8709635734558105,
+      "nll": 0.02844058908522129
+    },
+    {
+      "temperature": 0.9120108485221863,
+      "nll": 0.027580223977565765
+    },
+    {
+      "temperature": 0.9549925923347473,
+      "nll": 0.02680087648332119
+    },
+    {
+      "temperature": 1.0,
+      "nll": 0.02610035426914692
+    },
+    {
+      "temperature": 1.0471285581588745,
+      "nll": 0.025476424023509026
+    },
+    {
+      "temperature": 1.0964782238006592,
+      "nll": 0.02492670528590679
+    },
+    {
+      "temperature": 1.1481536626815796,
+      "nll": 0.024448659271001816
+    },
+    {
+      "temperature": 1.202264428138733,
+      "nll": 0.02403964288532734
+    },
+    {
+      "temperature": 1.258925437927246,
+      "nll": 0.023696942254900932
+    },
+    {
+      "temperature": 1.3182567358016968,
+      "nll": 0.023417696356773376
+    },
+    {
+      "temperature": 1.3803842067718506,
+      "nll": 0.023198997601866722
+    },
+    {
+      "temperature": 1.4454398155212402,
+      "nll": 0.0230378620326519
+    },
+    {
+      "temperature": 1.5135612487792969,
+      "nll": 0.02293131873011589
+    },
+    {
+      "temperature": 1.5848932266235352,
+      "nll": 0.022876298055052757
+    },
+    {
+      "temperature": 1.6595869064331055,
+      "nll": 0.022869857028126717
+    },
+    {
+      "temperature": 1.7378008365631104,
+      "nll": 0.02290906384587288
+    },
+    {
+      "temperature": 1.819700837135315,
+      "nll": 0.022991007193922997
+    },
+    {
+      "temperature": 1.9054607152938843,
+      "nll": 0.02311311662197113
+    },
+    {
+      "temperature": 1.9952622652053833,
+      "nll": 0.023273039609193802
+    },
+    {
+      "temperature": 2.0892961025238037,
+      "nll": 0.02346881851553917
+    },
+    {
+      "temperature": 2.1877615451812744,
+      "nll": 0.023699121549725533
+    },
+    {
+      "temperature": 2.290867567062378,
+      "nll": 0.023963451385498047
+    },
+    {
+      "temperature": 2.3988330364227295,
+      "nll": 0.024262405931949615
+    },
+    {
+      "temperature": 2.5118863582611084,
+      "nll": 0.02459820546209812
+    },
+    {
+      "temperature": 2.630268096923828,
+      "nll": 0.024975024163722992
+    },
+    {
+      "temperature": 2.7542285919189453,
+      "nll": 0.02539971098303795
+    },
+    {
+      "temperature": 2.8840315341949463,
+      "nll": 0.025882476940751076
+    },
+    {
+      "temperature": 3.019951820373535,
+      "nll": 0.02643764205276966
+    },
+    {
+      "temperature": 3.1622776985168457,
+      "nll": 0.027084626257419586
+    },
+    {
+      "temperature": 3.3113112449645996,
+      "nll": 0.027848755940794945
+    },
+    {
+      "temperature": 3.4673686027526855,
+      "nll": 0.028762351721525192
+    },
+    {
+      "temperature": 3.6307804584503174,
+      "nll": 0.029865600168704987
+    },
+    {
+      "temperature": 3.801893949508667,
+      "nll": 0.031207295134663582
+    },
+    {
+      "temperature": 3.981071710586548,
+      "nll": 0.03284565731883049
+    },
+    {
+      "temperature": 4.168694019317627,
+      "nll": 0.034848593175411224
+    },
+    {
+      "temperature": 4.365158557891846,
+      "nll": 0.03729388862848282
+    },
+    {
+      "temperature": 4.5708818435668945,
+      "nll": 0.040268778800964355
+    },
+    {
+      "temperature": 4.786301136016846,
+      "nll": 0.04386942833662033
+    },
+    {
+      "temperature": 5.011872291564941,
+      "nll": 0.04819948971271515
+    },
+    {
+      "temperature": 5.248074531555176,
+      "nll": 0.05336843430995941
+    },
+    {
+      "temperature": 5.495408535003662,
+      "nll": 0.05948933586478233
+    },
+    {
+      "temperature": 5.754399299621582,
+      "nll": 0.0666760802268982
+    },
+    {
+      "temperature": 6.025595664978027,
+      "nll": 0.07504026591777802
+    },
+    {
+      "temperature": 6.309573650360107,
+      "nll": 0.08468794822692871
+    },
+    {
+      "temperature": 6.606934547424316,
+      "nll": 0.09571592509746552
+    },
+    {
+      "temperature": 6.918309688568115,
+      "nll": 0.10820851475000381
+    },
+    {
+      "temperature": 7.244359493255615,
+      "nll": 0.12223406136035919
+    },
+    {
+      "temperature": 7.585775852203369,
+      "nll": 0.13784250617027283
+    },
+    {
+      "temperature": 7.943282127380371,
+      "nll": 0.15506266057491302
+    },
+    {
+      "temperature": 8.31763744354248,
+      "nll": 0.17390115559101105
+    },
+    {
+      "temperature": 8.709635734558105,
+      "nll": 0.1943415105342865
+    },
+    {
+      "temperature": 9.120108604431152,
+      "nll": 0.21634431183338165
+    },
+    {
+      "temperature": 9.549925804138184,
+      "nll": 0.23984818160533905
+    },
+    {
+      "temperature": 10.0,
+      "nll": 0.26477155089378357
+    }
+  ],
+  "gate_threshold": 0.0,
+  "gate_grid": [
+    {
+      "threshold": 0.0,
+      "accepted": 100,
+      "errors": 0
+    },
+    {
+      "threshold": 0.05,
+      "accepted": 100,
+      "errors": 0
+    },
+    {
+      "threshold": 0.1,
+      "accepted": 100,
+      "errors": 0
+    },
+    {
+      "threshold": 0.15,
+      "accepted": 100,
+      "errors": 0
+    },
+    {
+      "threshold": 0.2,
+      "accepted": 100,
+      "errors": 0
+    },
+    {
+      "threshold": 0.25,
+      "accepted": 100,
+      "errors": 0
+    },
+    {
+      "threshold": 0.3,
+      "accepted": 100,
+      "errors": 0
+    },
+    {
+      "threshold": 0.35,
+      "accepted": 100,
+      "errors": 0
+    },
+    {
+      "threshold": 0.4,
+      "accepted": 100,
+      "errors": 0
+    },
+    {
+      "threshold": 0.45,
+      "accepted": 100,
+      "errors": 0
+    },
+    {
+      "threshold": 0.5,
+      "accepted": 100,
+      "errors": 0
+    },
+    {
+      "threshold": 0.55,
+      "accepted": 100,
+      "errors": 0
+    },
+    {
+      "threshold": 0.6,
+      "accepted": 100,
+      "errors": 0
+    },
+    {
+      "threshold": 0.65,
+      "accepted": 100,
+      "errors": 0
+    },
+    {
+      "threshold": 0.7,
+      "accepted": 100,
+      "errors": 0
+    },
+    {
+      "threshold": 0.75,
+      "accepted": 99,
+      "errors": 0
+    },
+    {
+      "threshold": 0.8,
+      "accepted": 98,
+      "errors": 0
+    },
+    {
+      "threshold": 0.85,
+      "accepted": 98,
+      "errors": 0
+    },
+    {
+      "threshold": 0.9,
+      "accepted": 98,
+      "errors": 0
+    },
+    {
+      "threshold": 0.95,
+      "accepted": 98,
+      "errors": 0
+    },
+    {
+      "threshold": 1.0,
+      "accepted": 97,
+      "errors": 0
+    },
+    {
+      "threshold": 1.01,
+      "accepted": 0,
+      "errors": 0
+    }
+  ],
+  "gate_predictions": [
+    {
+      "id": "gate-0019",
+      "expected": "attack",
+      "type": "choice",
+      "choice": "attack",
+      "probabilities": {
+        "attack": 1.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0086",
+      "expected": "extract",
+      "type": "choice",
+      "choice": "extract",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 1.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0066",
+      "expected": "collect",
+      "type": "choice",
+      "choice": "collect",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 1.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0059",
+      "expected": "resupply",
+      "type": "choice",
+      "choice": "resupply",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 1.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0083",
+      "expected": "extract",
+      "type": "choice",
+      "choice": "extract",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 1.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0072",
+      "expected": "collect",
+      "type": "choice",
+      "choice": "collect",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 1.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0013",
+      "expected": "attack",
+      "type": "choice",
+      "choice": "attack",
+      "probabilities": {
+        "attack": 1.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0039",
+      "expected": "heal",
+      "type": "choice",
+      "choice": "heal",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.8712,
+        "resupply": 0.0,
+        "collect": 0.1288,
+        "extract": 0.0
+      },
+      "confidence": 0.7613,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0040",
+      "expected": "resupply",
+      "type": "choice",
+      "choice": "resupply",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 1.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0084",
+      "expected": "extract",
+      "type": "choice",
+      "choice": "extract",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 1.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0049",
+      "expected": "resupply",
+      "type": "choice",
+      "choice": "resupply",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 1.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0008",
+      "expected": "attack",
+      "type": "choice",
+      "choice": "attack",
+      "probabilities": {
+        "attack": 1.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0007",
+      "expected": "attack",
+      "type": "choice",
+      "choice": "attack",
+      "probabilities": {
+        "attack": 1.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0027",
+      "expected": "heal",
+      "type": "choice",
+      "choice": "heal",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 1.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0065",
+      "expected": "collect",
+      "type": "choice",
+      "choice": "collect",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 1.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0044",
+      "expected": "resupply",
+      "type": "choice",
+      "choice": "resupply",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 1.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0054",
+      "expected": "resupply",
+      "type": "choice",
+      "choice": "resupply",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 1.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0055",
+      "expected": "resupply",
+      "type": "choice",
+      "choice": "resupply",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 1.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0042",
+      "expected": "resupply",
+      "type": "choice",
+      "choice": "resupply",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 1.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0058",
+      "expected": "resupply",
+      "type": "choice",
+      "choice": "resupply",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 1.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0024",
+      "expected": "heal",
+      "type": "choice",
+      "choice": "heal",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 1.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0057",
+      "expected": "resupply",
+      "type": "choice",
+      "choice": "resupply",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 1.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0036",
+      "expected": "heal",
+      "type": "choice",
+      "choice": "heal",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 1.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0067",
+      "expected": "collect",
+      "type": "choice",
+      "choice": "collect",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 1.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0014",
+      "expected": "attack",
+      "type": "choice",
+      "choice": "attack",
+      "probabilities": {
+        "attack": 1.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0029",
+      "expected": "heal",
+      "type": "choice",
+      "choice": "heal",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 1.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0023",
+      "expected": "heal",
+      "type": "choice",
+      "choice": "heal",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 1.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0021",
+      "expected": "heal",
+      "type": "choice",
+      "choice": "heal",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 1.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0017",
+      "expected": "attack",
+      "type": "choice",
+      "choice": "attack",
+      "probabilities": {
+        "attack": 1.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0070",
+      "expected": "collect",
+      "type": "choice",
+      "choice": "collect",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 1.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0063",
+      "expected": "collect",
+      "type": "choice",
+      "choice": "collect",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 1.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0071",
+      "expected": "collect",
+      "type": "choice",
+      "choice": "collect",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 1.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0051",
+      "expected": "resupply",
+      "type": "choice",
+      "choice": "resupply",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 1.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0094",
+      "expected": "extract",
+      "type": "choice",
+      "choice": "extract",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 1.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0097",
+      "expected": "extract",
+      "type": "choice",
+      "choice": "extract",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 1.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0062",
+      "expected": "collect",
+      "type": "choice",
+      "choice": "collect",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 1.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0079",
+      "expected": "collect",
+      "type": "choice",
+      "choice": "collect",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 1.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0002",
+      "expected": "attack",
+      "type": "choice",
+      "choice": "attack",
+      "probabilities": {
+        "attack": 1.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0028",
+      "expected": "heal",
+      "type": "choice",
+      "choice": "heal",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 1.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0009",
+      "expected": "attack",
+      "type": "choice",
+      "choice": "attack",
+      "probabilities": {
+        "attack": 1.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0018",
+      "expected": "attack",
+      "type": "choice",
+      "choice": "attack",
+      "probabilities": {
+        "attack": 1.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0022",
+      "expected": "heal",
+      "type": "choice",
+      "choice": "heal",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 1.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0000",
+      "expected": "attack",
+      "type": "choice",
+      "choice": "attack",
+      "probabilities": {
+        "attack": 1.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0073",
+      "expected": "collect",
+      "type": "choice",
+      "choice": "collect",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 1.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0095",
+      "expected": "extract",
+      "type": "choice",
+      "choice": "extract",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 1.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0088",
+      "expected": "extract",
+      "type": "choice",
+      "choice": "extract",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 1.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0076",
+      "expected": "collect",
+      "type": "choice",
+      "choice": "collect",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 1.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0099",
+      "expected": "extract",
+      "type": "choice",
+      "choice": "extract",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 1.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0050",
+      "expected": "resupply",
+      "type": "choice",
+      "choice": "resupply",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 1.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0089",
+      "expected": "extract",
+      "type": "choice",
+      "choice": "extract",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 1.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0082",
+      "expected": "extract",
+      "type": "choice",
+      "choice": "extract",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 1.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0096",
+      "expected": "extract",
+      "type": "choice",
+      "choice": "extract",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 1.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0053",
+      "expected": "resupply",
+      "type": "choice",
+      "choice": "resupply",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 1.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0043",
+      "expected": "resupply",
+      "type": "choice",
+      "choice": "resupply",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 1.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0085",
+      "expected": "extract",
+      "type": "choice",
+      "choice": "extract",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 1.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0001",
+      "expected": "attack",
+      "type": "choice",
+      "choice": "attack",
+      "probabilities": {
+        "attack": 1.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0037",
+      "expected": "heal",
+      "type": "choice",
+      "choice": "heal",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 1.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0032",
+      "expected": "heal",
+      "type": "choice",
+      "choice": "heal",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 1.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0010",
+      "expected": "attack",
+      "type": "choice",
+      "choice": "attack",
+      "probabilities": {
+        "attack": 1.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0031",
+      "expected": "heal",
+      "type": "choice",
+      "choice": "heal",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 1.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0074",
+      "expected": "collect",
+      "type": "choice",
+      "choice": "collect",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 1.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0061",
+      "expected": "collect",
+      "type": "choice",
+      "choice": "collect",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 1.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0098",
+      "expected": "extract",
+      "type": "choice",
+      "choice": "extract",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 1.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0064",
+      "expected": "collect",
+      "type": "choice",
+      "choice": "collect",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 1.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0087",
+      "expected": "extract",
+      "type": "choice",
+      "choice": "extract",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 1.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0047",
+      "expected": "resupply",
+      "type": "choice",
+      "choice": "resupply",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 1.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0033",
+      "expected": "heal",
+      "type": "choice",
+      "choice": "heal",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 1.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0041",
+      "expected": "resupply",
+      "type": "choice",
+      "choice": "resupply",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 1.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0080",
+      "expected": "extract",
+      "type": "choice",
+      "choice": "extract",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 1.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0034",
+      "expected": "heal",
+      "type": "choice",
+      "choice": "heal",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 1.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0090",
+      "expected": "extract",
+      "type": "choice",
+      "choice": "extract",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 1.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0015",
+      "expected": "attack",
+      "type": "choice",
+      "choice": "attack",
+      "probabilities": {
+        "attack": 1.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0060",
+      "expected": "collect",
+      "type": "choice",
+      "choice": "collect",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 1.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0091",
+      "expected": "extract",
+      "type": "choice",
+      "choice": "extract",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 1.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0025",
+      "expected": "heal",
+      "type": "choice",
+      "choice": "heal",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 1.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0004",
+      "expected": "attack",
+      "type": "choice",
+      "choice": "attack",
+      "probabilities": {
+        "attack": 1.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0056",
+      "expected": "resupply",
+      "type": "choice",
+      "choice": "resupply",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 1.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0026",
+      "expected": "heal",
+      "type": "choice",
+      "choice": "heal",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 1.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0069",
+      "expected": "collect",
+      "type": "choice",
+      "choice": "collect",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 1.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0052",
+      "expected": "resupply",
+      "type": "choice",
+      "choice": "resupply",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 1.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0045",
+      "expected": "resupply",
+      "type": "choice",
+      "choice": "resupply",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 1.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0016",
+      "expected": "attack",
+      "type": "choice",
+      "choice": "attack",
+      "probabilities": {
+        "attack": 1.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0035",
+      "expected": "heal",
+      "type": "choice",
+      "choice": "heal",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.8398,
+        "resupply": 0.0,
+        "collect": 0.1602,
+        "extract": 0.0
+      },
+      "confidence": 0.7267,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0003",
+      "expected": "attack",
+      "type": "choice",
+      "choice": "attack",
+      "probabilities": {
+        "attack": 1.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0006",
+      "expected": "attack",
+      "type": "choice",
+      "choice": "attack",
+      "probabilities": {
+        "attack": 1.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0048",
+      "expected": "resupply",
+      "type": "choice",
+      "choice": "resupply",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 1.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0092",
+      "expected": "extract",
+      "type": "choice",
+      "choice": "extract",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 1.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0077",
+      "expected": "collect",
+      "type": "choice",
+      "choice": "collect",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 1.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0005",
+      "expected": "attack",
+      "type": "choice",
+      "choice": "attack",
+      "probabilities": {
+        "attack": 1.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0011",
+      "expected": "attack",
+      "type": "choice",
+      "choice": "attack",
+      "probabilities": {
+        "attack": 1.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0078",
+      "expected": "collect",
+      "type": "choice",
+      "choice": "collect",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 1.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0030",
+      "expected": "heal",
+      "type": "choice",
+      "choice": "heal",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 1.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0012",
+      "expected": "attack",
+      "type": "choice",
+      "choice": "attack",
+      "probabilities": {
+        "attack": 1.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0038",
+      "expected": "heal",
+      "type": "choice",
+      "choice": "heal",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 1.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0075",
+      "expected": "collect",
+      "type": "choice",
+      "choice": "collect",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 1.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0020",
+      "expected": "heal",
+      "type": "choice",
+      "choice": "heal",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 1.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0046",
+      "expected": "resupply",
+      "type": "choice",
+      "choice": "resupply",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 1.0,
+        "collect": 0.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0093",
+      "expected": "extract",
+      "type": "choice",
+      "choice": "extract",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 0.0,
+        "extract": 1.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0081",
+      "expected": "extract",
+      "type": "choice",
+      "choice": "extract",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0135,
+        "collect": 0.0,
+        "extract": 0.9865
+      },
+      "confidence": 0.9554,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    {
+      "id": "gate-0068",
+      "expected": "collect",
+      "type": "choice",
+      "choice": "collect",
+      "probabilities": {
+        "attack": 0.0,
+        "heal": 0.0,
+        "resupply": 0.0,
+        "collect": 1.0,
+        "extract": 0.0
+      },
+      "confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    }
+  ],
+  "selection": {
+    "temperature_grid": "101 log-spaced values from 0.1 to 10; minimum temperature-split NLL",
+    "gate_grid": "0.00, 0.05, ..., 1.00, 1.01",
+    "gate_selection": "Lowest entropy-confidence threshold accepting >=20 gate cases with zero observed errors; otherwise 1.01 (escalate all)",
+    "scope": "Empirical calibration on 100 cases per stage; no guarantee of test error rate"
+  },
+  "utc": "2026-09-21T14:33:35Z"
+}

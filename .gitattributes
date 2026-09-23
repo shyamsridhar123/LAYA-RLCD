@@ -1,0 +1,3 @@
+# Preserve the byte-level hashes of frozen evidence and embedded notebook files.
+* -text
+*.png binary

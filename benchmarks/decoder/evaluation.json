@@ -1,0 +1,73 @@
+{
+  "initial_random_head": {
+    "n": 200,
+    "correct": 40,
+    "accuracy": 0.20000000298023224,
+    "nll": 1.7453924417495728,
+    "brier": 0.8439841270446777,
+    "per_action": {
+      "attack": {
+        "n": 40,
+        "correct": 0
+      },
+      "heal": {
+        "n": 40,
+        "correct": 0
+      },
+      "resupply": {
+        "n": 40,
+        "correct": 40
+      },
+      "collect": {
+        "n": 40,
+        "correct": 0
+      },
+      "extract": {
+        "n": 40,
+        "correct": 0
+      }
+    },
+    "median_ms": 9.00848000003407,
+    "p95_ms": 10.950558650063154
+  },
+  "rlcd_trained": {
+    "n": 200,
+    "correct": 183,
+    "accuracy": 0.9150000214576721,
+    "nll": 0.8131086230278015,
+    "brier": 0.15542981028556824,
+    "per_action": {
+      "attack": {
+        "n": 40,
+        "correct": 39
+      },
+      "heal": {
+        "n": 40,
+        "correct": 27
+      },
+      "resupply": {
+        "n": 40,
+        "correct": 37
+      },
+      "collect": {
+        "n": 40,
+        "correct": 40
+      },
+      "extract": {
+        "n": 40,
+        "correct": 40
+      }
+    },
+    "median_ms": 11.874563499986834,
+    "p95_ms": 16.738746599986598
+  },
+  "selected_epoch": 4,
+  "calibration": "None; probabilities are uncalibrated",
+  "timing": "Batch one; FP32 weights and forward pass, SDPA, 3 warmups, CUDA synchronization. Includes tokenization, transfers, model forward and returned CPU logits; excludes HTTP and game rendering.",
+  "limitations": [
+    "Synthetic fixed-template five-action classification; test set reused from the earlier frozen game protocol",
+    "Initial baseline has a new random classification head; it is not a zero-shot text-generation baseline",
+    "This experiment does not measure improvement over CE-only training",
+    "No live-game reward, gameplay evaluation, arbitrary-choice interface, or language-generation RL"
+  ]
+}

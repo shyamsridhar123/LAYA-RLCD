@@ -1,0 +1,23 @@
+{
+  "name": "laya-rlcd-cinder-station",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite game --host 127.0.0.1 --port 4173 --strictPort",
+    "build": "tsc --noEmit && vite build game",
+    "test": "tsx --test tests/simulation.test.ts tests/decision.test.ts",
+    "bench": "tsx scripts/benchmark.ts",
+    "verify:replays": "tsx scripts/verify_replays.ts"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.5.2",
+    "@types/three": "0.180.0",
+    "tsx": "4.20.5",
+    "typescript": "5.9.2",
+    "vite": "7.3.6"
+  }
+}

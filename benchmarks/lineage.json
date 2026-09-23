@@ -1,0 +1,223 @@
+{
+  "publication": "2026-09-23",
+  "note": "Reference runs predate this clean publication. Protocol label-source prose and one source timing description were sanitized. Dataset bytes, numerical training code and retained measurements are unchanged. Original private bundles are not distributed. The source digests document extraction lineage, not public download locations.",
+  "dataset_splits": {
+    "train": "7060a50604ad3fac3c391e45ff398dba535882065ad4e184e081f06122e2d89b",
+    "validation": "c1d8833147b91fd2c4f87ce0545675524885218e8b0d5d3ca02f4a5622610c93",
+    "temperature": "382546c43e22047bd78200201e602472fa6294d0a60c8c3141aaf41204e55cd8",
+    "gate": "5f124a65f0d79772549684137b5c5d0a214dbcccd55e4a6b8606c3f6647c2f1f",
+    "test": "7057f49b6dc47cd3e79fda2f778d85e3ccf794f114d6cf76c40fcae831447bb8"
+  },
+  "public_protocol_sha256": "3ea89efd6c776f949352fadda1a65749c664fb86dbcb4635e8ec91354fe6fac2",
+  "public_training_sources": {
+    "finetune_colab.py": "675f9fe21c4fd3c50becd07795e4997d765a7a14a3ae37ba5ab230b40bfb8b57",
+    "modernbert_decoder_colab.py": "5713f0aea541685e9beb6ceae92b25517b03227b9a0415e3d00dd81e3127cb1f"
+  },
+  "files": [
+    {
+      "public_file": "benchmarks/decoder/environment.json",
+      "reference_source_sha256": "3b3f98303090e1af914336691d0ed49867656448cfbf34862d7b0e368c65c04f",
+      "transformation": "Numerical values retained; public fields selected"
+    },
+    {
+      "public_file": "benchmarks/decoder/evaluation.json",
+      "reference_source_sha256": "5b823de91e2822cd176c9e8480b9fdf93f02cb4a7a7893a9bdef968aa81ded28",
+      "transformation": "Numerical values retained; public fields selected"
+    },
+    {
+      "public_file": "benchmarks/decoder/gradient-check.json",
+      "reference_source_sha256": "49f15f6227da3da1f2e5432579a95ad827dc4d3419a71b6c76f2b49d1e9a90a1",
+      "transformation": "Numerical values retained; public fields selected"
+    },
+    {
+      "public_file": "benchmarks/decoder/training-steps.json",
+      "reference_source_sha256": "b2711cc9f3486cef52b4509ed9f7d77da77f9a88849569b764f12df485f0fb5b",
+      "transformation": "Numerical values retained; public fields selected"
+    },
+    {
+      "public_file": "benchmarks/decoder/training.json",
+      "reference_source_sha256": "9678563feb6f3fb92b1f77cb0535eb8027e873bff7041dfc8be5ae26884cbb4d",
+      "transformation": "Numerical values retained; public fields selected"
+    },
+    {
+      "public_file": "benchmarks/decoder/test-initial_random_head-predictions.json",
+      "reference_source_sha256": "e835b28e87683cecb1758f536b14a8293cc1a84b7b0b8f58e1c9c98431b1d36d",
+      "transformation": "Numerical values retained; public fields selected"
+    },
+    {
+      "public_file": "benchmarks/decoder/test-rlcd_trained-predictions.json",
+      "reference_source_sha256": "9634924fcc945bfb9f4166aa00baa4f2787c830d9a3e7a879a3ca4f66fa90b8f",
+      "transformation": "Numerical values retained; public fields selected"
+    },
+    {
+      "public_file": "benchmarks/laya/environment.json",
+      "reference_source_sha256": "413ba60467c7b5d2179ba40500c77875bbb1cfbb9757c9708611eb968128f914",
+      "transformation": "Numerical values retained; public fields selected"
+    },
+    {
+      "public_file": "benchmarks/laya/training.json",
+      "reference_source_sha256": "6cd0a47fa0794a47dffbf6669d16182af15d4d25df78fc003857e4aa20117d46",
+      "transformation": "Numerical values retained; public fields selected"
+    },
+    {
+      "public_file": "benchmarks/laya/history.json",
+      "reference_source_sha256": "a6965aa007bd9113ead964da677466cd1fcd200ef31938da84b653ab72d3414e",
+      "transformation": "Numerical values retained; public fields selected"
+    },
+    {
+      "public_file": "benchmarks/laya/calibration.json",
+      "reference_source_sha256": "f374f4de8b53381cc0be51bd7f01b318ceefa9f139567297d09996d28e40206b",
+      "transformation": "Numerical values retained; public fields selected"
+    },
+    {
+      "public_file": "benchmarks/laya/test-base-predictions.json",
+      "reference_source_sha256": "6909cda3ed0d824e52f650f586041fc73e7af0d9c9ff121cf61c896c0c9a653e",
+      "transformation": "Numerical values retained; public fields selected"
+    },
+    {
+      "public_file": "benchmarks/laya/test-trained-predictions.json",
+      "reference_source_sha256": "f85e9677abbc93597c370de15645719a5df668c69346edb415645ef605a55b95",
+      "transformation": "Numerical values retained; public fields selected"
+    },
+    {
+      "public_file": "benchmarks/laya/manifest.json",
+      "reference_source_sha256": "2aeb0b933449c7a4598bdaa3105fafe547c8d748af35a2a51d22aaad4b669697",
+      "transformation": "Timing description sanitized; source hashes labeled reference_run; numbers unchanged"
+    },
+    {
+      "public_file": "benchmarks/laya/training-steps.json",
+      "reference_source_sha256": "592391600fc3d11f407f81981a900b9abb36bfa58581b5f937a10784a7b2781d",
+      "transformation": "JSONL converted to a JSON array; values unchanged"
+    },
+    {
+      "public_file": "benchmarks/laya/cpu-base-predictions.json",
+      "reference_source_sha256": "ffb42fbdea5e66342be387062fe1096f5b09b97998206d4c088fde537e1bcd3b",
+      "transformation": "Only standalone Laya rows retained; explicit public columns; numeric CSV cells parsed"
+    },
+    {
+      "public_file": "benchmarks/laya/cpu-base-summary.json",
+      "reference_source_sha256": "7e2378dbb0265aa7dcf8fce533572f808586fd112e0586df1437bb3cde581202",
+      "transformation": "Standalone Laya summary only; explicit timing and accuracy fields"
+    },
+    {
+      "public_file": "benchmarks/gameplay/traces/rule-20260921.json",
+      "reference_source_sha256": "5bd63f680f6e80b30d00a8b63d1f4e95ecc2172b62aa381fe9c227e9ffd70add",
+      "transformation": "Tactical action trace, synthetic game events and final state only; request metadata removed"
+    },
+    {
+      "public_file": "benchmarks/gameplay/traces/random-20260921.json",
+      "reference_source_sha256": "b16cfb33fb8131a785da14bc35e81e4da1f5efeab6c94dc277f17a507a5409c7",
+      "transformation": "Tactical action trace, synthetic game events and final state only; request metadata removed"
+    },
+    {
+      "public_file": "benchmarks/gameplay/traces/laya-base-20260921.json",
+      "reference_source_sha256": "7c6dc202125ddddf57468ab6e896208d0723d6512f3ee638fba3f88959953f15",
+      "transformation": "Tactical action trace, synthetic game events and final state only; request metadata removed"
+    },
+    {
+      "public_file": "benchmarks/gameplay/traces/rule-20260922.json",
+      "reference_source_sha256": "b2b990ec8db6ff3a2dacd980df247b2b36d084f6f45e603feab576a9f4acfc58",
+      "transformation": "Tactical action trace, synthetic game events and final state only; request metadata removed"
+    },
+    {
+      "public_file": "benchmarks/gameplay/traces/random-20260922.json",
+      "reference_source_sha256": "eada47f55900c3411e7ded9913b6cfc44cb0af405709f5d24f8a4e0abff93d06",
+      "transformation": "Tactical action trace, synthetic game events and final state only; request metadata removed"
+    },
+    {
+      "public_file": "benchmarks/gameplay/traces/laya-base-20260922.json",
+      "reference_source_sha256": "620a3a7673be9e2887966ef39876382d0daba002b24dd1d0cf8708640f325b3e",
+      "transformation": "Tactical action trace, synthetic game events and final state only; request metadata removed"
+    },
+    {
+      "public_file": "benchmarks/gameplay/traces/rule-20260923.json",
+      "reference_source_sha256": "695cb144864467708f9af395170eb2643e5afedb92085392a098573b3aede335",
+      "transformation": "Tactical action trace, synthetic game events and final state only; request metadata removed"
+    },
+    {
+      "public_file": "benchmarks/gameplay/traces/random-20260923.json",
+      "reference_source_sha256": "6369be9d929a91a0fdd8391788d25fb613292da940250f79c70907f508b9ab31",
+      "transformation": "Tactical action trace, synthetic game events and final state only; request metadata removed"
+    },
+    {
+      "public_file": "benchmarks/gameplay/traces/laya-base-20260923.json",
+      "reference_source_sha256": "9f85474e80662a31a39aa46ef61bda1dcaad9639ed34cd34115cb3d6c1897655",
+      "transformation": "Tactical action trace, synthetic game events and final state only; request metadata removed"
+    },
+    {
+      "public_file": "benchmarks/gameplay/traces/rule-20260924.json",
+      "reference_source_sha256": "4c817acc7e56474267306e3eb2ec22085991793100f50bf9ec1a9cc6db5b404c",
+      "transformation": "Tactical action trace, synthetic game events and final state only; request metadata removed"
+    },
+    {
+      "public_file": "benchmarks/gameplay/traces/random-20260924.json",
+      "reference_source_sha256": "113360315749ec378d65edf6fceaa99ca5b52fc0e8b6239809f0127dbe9e5bb2",
+      "transformation": "Tactical action trace, synthetic game events and final state only; request metadata removed"
+    },
+    {
+      "public_file": "benchmarks/gameplay/traces/laya-base-20260924.json",
+      "reference_source_sha256": "921395727ac249b9dad8fba1a72d13f3c34e1895b75a8709b4954057d8e4162b",
+      "transformation": "Tactical action trace, synthetic game events and final state only; request metadata removed"
+    },
+    {
+      "public_file": "benchmarks/gameplay/traces/rule-20260925.json",
+      "reference_source_sha256": "bbe4a43f00c273ecb7ffa8a86733de4e8607963e194a552503c802b1a884b6f2",
+      "transformation": "Tactical action trace, synthetic game events and final state only; request metadata removed"
+    },
+    {
+      "public_file": "benchmarks/gameplay/traces/random-20260925.json",
+      "reference_source_sha256": "b70f02895cab7e93179bb3671347b5f0970020023a525da4ab1ab51e2002925f",
+      "transformation": "Tactical action trace, synthetic game events and final state only; request metadata removed"
+    },
+    {
+      "public_file": "benchmarks/gameplay/traces/laya-base-20260925.json",
+      "reference_source_sha256": "e1d05aa5811ad31dde5847a56eec7b4b61304a48f4aba7cc80066ab3704fed71",
+      "transformation": "Tactical action trace, synthetic game events and final state only; request metadata removed"
+    },
+    {
+      "public_file": "benchmarks/laya/cpu-trained-predictions.json",
+      "reference_source_sha256": "7bfe16fc86ffc7a4752200bcfd958133881f2f51053c5e6d8124f699a9169f22",
+      "transformation": "Only standalone Laya rows retained; explicit public columns; numeric CSV cells parsed"
+    },
+    {
+      "public_file": "benchmarks/laya/cpu-trained-summary.json",
+      "reference_source_sha256": "0144a6f570b0be89db8a4fec5a355b510001b6c6518abd7db840a1a2fbbf82e1",
+      "transformation": "Standalone Laya summary only; explicit timing and accuracy fields"
+    },
+    {
+      "public_file": "benchmarks/gameplay/traces/laya-trained-20260921.json",
+      "reference_source_sha256": "47e423513084bf519f8b5d37a6041e84073358ba48a0644d5e6d72e11a5bf417",
+      "transformation": "Tactical action trace, synthetic game events and final state only; request metadata removed"
+    },
+    {
+      "public_file": "benchmarks/gameplay/traces/laya-trained-20260922.json",
+      "reference_source_sha256": "585468d62f82082b5e154738816317dd16c85fa17c3363ef7e689341e2ee6833",
+      "transformation": "Tactical action trace, synthetic game events and final state only; request metadata removed"
+    },
+    {
+      "public_file": "benchmarks/gameplay/traces/laya-trained-20260923.json",
+      "reference_source_sha256": "e3777f237f2a9a29fa0658d87c0287f22dca0aa3e3479aaece84cfdeeae50401",
+      "transformation": "Tactical action trace, synthetic game events and final state only; request metadata removed"
+    },
+    {
+      "public_file": "benchmarks/gameplay/traces/laya-trained-20260924.json",
+      "reference_source_sha256": "0287e7c4969e40c6cbb553aa2c397063bec90885f3cd1312ee24cfe99658683c",
+      "transformation": "Tactical action trace, synthetic game events and final state only; request metadata removed"
+    },
+    {
+      "public_file": "benchmarks/gameplay/traces/laya-trained-20260925.json",
+      "reference_source_sha256": "8afeebf91095f6c7c18a4f94612e6b06bb3e7429dbc4e40fe21d41f6d202ea96",
+      "transformation": "Tactical action trace, synthetic game events and final state only; request metadata removed"
+    },
+    {
+      "public_file": "benchmarks/jev/demo.json",
+      "reference_source_sha256": "b6e1b6d4af35e32c07013b33af6f43cf34d617d671b6d8f60fdacbe1931b50db",
+      "transformation": "Only the official Jev single-mission measurements retained; comparisons, process and browser metadata omitted"
+    },
+    {
+      "public_file": "benchmarks/jev/decisions.json",
+      "reference_source_sha256": "ee3159ec58b9dfda7ad99a30b812dadf0edfc00924d1d7ca008da9ec5ac0cfe3",
+      "transformation": "11 Jev decisions only; synthetic text states, probabilities and timings; no request identifiers"
+    }
+  ]
+}

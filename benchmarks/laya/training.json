@@ -1,0 +1,104 @@
+{
+  "experiment": "game-finetune-20260921",
+  "base_validation": {
+    "n": 100,
+    "correct": 20,
+    "accuracy": 0.20000000298023224,
+    "nll": 2.4152350425720215,
+    "brier": 1.0372275114059448,
+    "ece_10bins": 0.4943643952719867
+  },
+  "completed_epochs": 4,
+  "optimizer_updates": 252,
+  "skipped_nonfinite_updates": 0,
+  "training_seconds_including_validation_saves_and_drive_copy": 285.9323784630001,
+  "selected_epoch": 4,
+  "selected_validation": {
+    "n": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "nll": 0.001978892832994461,
+    "brier": 0.0003605670062825084,
+    "ece_10bins": 0.0018824046128429472
+  },
+  "peak_allocated_gib": 7.079778671264648,
+  "peak_reserved_gib": 7.828125,
+  "encoder_probe": "encoder.layers.0.attn.Wqkv.weight",
+  "last_epoch_encoder_probe_delta": 0.0008385777473449707,
+  "last_epoch_scorer_probe_delta": 0.0036154910922050476,
+  "precision": "FP32 trainable weights; FP16 autocast/GradScaler; FP16 exported weights",
+  "selection_precision": "Validation uses in-memory FP32 weights with FP16 autocast; calibration/test reload the selected FP16 export",
+  "optimizer": "AdamW, full encoder and decision heads, gradient checkpointing, clip norm 1.0",
+  "objective": "Upstream proper scoring reward with noisy logits and centered advantages + cross-entropy",
+  "history": [
+    {
+      "epoch": 1,
+      "mean_cross_entropy": 1.3989214163311827,
+      "validation": {
+        "n": 100,
+        "correct": 91,
+        "accuracy": 0.9100000262260437,
+        "nll": 1.4868015050888062,
+        "brier": 0.18030893802642822,
+        "ece_10bins": 0.09098985278978944
+      },
+      "selected_so_far": 1,
+      "seconds_including_validation_and_save": 64.294262559
+    },
+    {
+      "epoch": 2,
+      "mean_cross_entropy": 1.5564943918251106,
+      "validation": {
+        "n": 100,
+        "correct": 86,
+        "accuracy": 0.8600000143051147,
+        "nll": 1.9316930770874023,
+        "brier": 0.22237566113471985,
+        "ece_10bins": 0.11733266478404403
+      },
+      "selected_so_far": 1,
+      "seconds_including_validation_and_save": 63.244468385999994
+    },
+    {
+      "epoch": 3,
+      "mean_cross_entropy": 0.8674408650063489,
+      "validation": {
+        "n": 100,
+        "correct": 100,
+        "accuracy": 1.0,
+        "nll": 0.008316176012158394,
+        "brier": 0.004634087905287743,
+        "ece_10bins": 0.00680010300129652
+      },
+      "selected_so_far": 3,
+      "seconds_including_validation_and_save": 65.25964997500012
+    },
+    {
+      "epoch": 4,
+      "mean_cross_entropy": 0.007107502002720333,
+      "validation": {
+        "n": 100,
+        "correct": 100,
+        "accuracy": 1.0,
+        "nll": 0.001978892832994461,
+        "brier": 0.0003605670062825084,
+        "ece_10bins": 0.0018824046128429472
+      },
+      "selected_so_far": 4,
+      "seconds_including_validation_and_save": 78.93813852699986
+    }
+  ],
+  "config": {
+    "seed": 1729,
+    "epochs": 4,
+    "microbatch": 2,
+    "gradient_accumulation": 4,
+    "encoder_lr": 2.5e-05,
+    "head_lr": 0.0001,
+    "weight_decay": 0.01,
+    "reward_samples": 4,
+    "sigma_start": 0.4,
+    "sigma_end": 0.1,
+    "selection": "Maximum validation accuracy, then minimum validation NLL; no test-based changes"
+  }
+}

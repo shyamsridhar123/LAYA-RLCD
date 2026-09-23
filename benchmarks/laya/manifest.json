@@ -1,0 +1,119 @@
+{
+  "experiment": "game-finetune-20260921",
+  "base_revision": "1c5edc17a7acd8701df6fc341c0d179f1c62c982",
+  "base_sha256": "891102d372688fc2a094dac56a384bc537b87c63f21f9f3dac0be2b7cbc8d86c",
+  "selected_weights_sha256": "a28adbc55d1305c718ef224464cd66ab89a41dc77a03c507523d4563e6abfd0b",
+  "selected_weights_bytes": 842609220,
+  "config_sha256": "7d554fa48bd0ce2b50794b5ed634a1da17b62d36b0dc3c56931ee98d71d5784e",
+  "selected_epoch": 4,
+  "temperature": 1.6595869064331055,
+  "entropy_threshold": 0.0,
+  "test": {
+    "base": {
+      "n": 200,
+      "correct": 40,
+      "accuracy": 0.2,
+      "median_ms": 43.47461749989634,
+      "p95_ms": 89.19359999997594,
+      "min_ms": 38.67533200013895,
+      "max_ms": 102.19495299998016,
+      "confusion": {
+        "attack": {
+          "attack": 0,
+          "heal": 0,
+          "resupply": 0,
+          "collect": 40,
+          "extract": 0
+        },
+        "heal": {
+          "attack": 0,
+          "heal": 0,
+          "resupply": 0,
+          "collect": 40,
+          "extract": 0
+        },
+        "resupply": {
+          "attack": 0,
+          "heal": 0,
+          "resupply": 0,
+          "collect": 40,
+          "extract": 0
+        },
+        "collect": {
+          "attack": 0,
+          "heal": 0,
+          "resupply": 0,
+          "collect": 40,
+          "extract": 0
+        },
+        "extract": {
+          "attack": 0,
+          "heal": 0,
+          "resupply": 0,
+          "collect": 40,
+          "extract": 0
+        }
+      },
+      "accepted_by_trained_gate": null,
+      "accepted_errors": null
+    },
+    "trained": {
+      "n": 200,
+      "correct": 200,
+      "accuracy": 1.0,
+      "median_ms": 42.18876550010009,
+      "p95_ms": 53.67229294988644,
+      "min_ms": 37.831255000128294,
+      "max_ms": 69.25814000010178,
+      "confusion": {
+        "attack": {
+          "attack": 40,
+          "heal": 0,
+          "resupply": 0,
+          "collect": 0,
+          "extract": 0
+        },
+        "heal": {
+          "attack": 0,
+          "heal": 40,
+          "resupply": 0,
+          "collect": 0,
+          "extract": 0
+        },
+        "resupply": {
+          "attack": 0,
+          "heal": 0,
+          "resupply": 40,
+          "collect": 0,
+          "extract": 0
+        },
+        "collect": {
+          "attack": 0,
+          "heal": 0,
+          "resupply": 0,
+          "collect": 40,
+          "extract": 0
+        },
+        "extract": {
+          "attack": 0,
+          "heal": 0,
+          "resupply": 0,
+          "collect": 0,
+          "extract": 40
+        }
+      },
+      "accepted_by_trained_gate": 200,
+      "accepted_errors": 0
+    }
+  },
+  "test_latency_scope": "Sequential Agent.predict on T4, batch=1, includes tokenization/decoding, CUDA synchronized, three warmups; excludes HTTP and game rendering",
+  "limitations": [
+    "Synthetic balanced state classification in one fixed text format",
+    "Same handcrafted map; fresh episode seeds are not unseen maps",
+    "Model chooses tactics; the shared game motor handles movement and aiming",
+    "Reward is the upstream proper scoring rule plus cross-entropy, not reward from live gameplay",
+    "No hyperparameter search or test-set feedback during this experiment"
+  ],
+  "reference_run_script_sha256": "1cf92a4e6483552c9688621e2eeb2e642441028bda9fcea1454b581f02966af2",
+  "reference_run_protocol_sha256": "cda4f1090ba0da8a2f3d9ee5673eff380c81320fa4893413f4c62e034349486c"
+}

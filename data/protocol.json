@@ -1,0 +1,107 @@
+{
+  "experiment": "game-finetune-20260921",
+  "actions": [
+    "attack",
+    "heal",
+    "resupply",
+    "collect",
+    "extract"
+  ],
+  "splits": {
+    "train": {
+      "seed": 2201,
+      "n": 500,
+      "per_action": 100,
+      "sha256": "7060a50604ad3fac3c391e45ff398dba535882065ad4e184e081f06122e2d89b",
+      "boundary_health_34_35": 101,
+      "boundary_ammo_2_3": 176
+    },
+    "validation": {
+      "seed": 2202,
+      "n": 100,
+      "per_action": 20,
+      "sha256": "c1d8833147b91fd2c4f87ce0545675524885218e8b0d5d3ca02f4a5622610c93",
+      "boundary_health_34_35": 16,
+      "boundary_ammo_2_3": 34
+    },
+    "temperature": {
+      "seed": 2203,
+      "n": 100,
+      "per_action": 20,
+      "sha256": "382546c43e22047bd78200201e602472fa6294d0a60c8c3141aaf41204e55cd8",
+      "boundary_health_34_35": 26,
+      "boundary_ammo_2_3": 35
+    },
+    "gate": {
+      "seed": 2204,
+      "n": 100,
+      "per_action": 20,
+      "sha256": "5f124a65f0d79772549684137b5c5d0a214dbcccd55e4a6b8606c3f6647c2f1f",
+      "boundary_health_34_35": 20,
+      "boundary_ammo_2_3": 28
+    },
+    "test": {
+      "seed": 2205,
+      "n": 200,
+      "per_action": 40,
+      "sha256": "7057f49b6dc47cd3e79fda2f778d85e3ccf794f114d6cf76c40fcae831447bb8",
+      "boundary_health_34_35": 43,
+      "boundary_ammo_2_3": 62
+    }
+  },
+  "question": {
+    "type": "choice",
+    "instructions": "Choose the next tactical action in a fictional shooter. Priorities: heal if health is below 35 and a medkit remains; otherwise resupply if ammo is 2 or less and hostiles and ammo crates remain; otherwise attack hostiles. After all hostiles are defeated, collect the reactor core, then extract.",
+    "criteria": {
+      "attack": "Move toward and shoot the nearest hostile.",
+      "heal": "Move to a medkit and restore health.",
+      "resupply": "Move to an ammo crate and refill ammunition.",
+      "collect": "Retrieve the unlocked reactor core.",
+      "extract": "Carry the reactor core to the exit."
+    }
+  },
+  "original_scenarios_sha256": "9e0dda5e7a4ba59f58296da397a5db6b0f671931a56c0a9464ffe8ffc4e93ccf",
+  "group_key": [
+    "health",
+    "ammo",
+    "enemies",
+    "medkits",
+    "ammoCrates",
+    "carryingCore"
+  ],
+  "label_source": "Explicit game rule priorities; no model-generated labels",
+  "episode_seeds": [
+    20260921,
+    20260922,
+    20260923,
+    20260924,
+    20260925
+  ],
+  "recording_seed": 20260926,
+  "training": {
+    "seed": 1729,
+    "epochs": 4,
+    "microbatch": 2,
+    "gradient_accumulation": 4,
+    "encoder_lr": 2.5e-05,
+    "head_lr": 0.0001,
+    "weight_decay": 0.01,
+    "reward_samples": 4,
+    "sigma_start": 0.4,
+    "sigma_end": 0.1,
+    "selection": "Maximum validation accuracy, then minimum validation NLL; no test-based changes"
+  },
+  "calibration": {
+    "temperature_grid": "101 log-spaced values from 0.1 to 10; minimum temperature-split NLL",
+    "gate_grid": "0.00, 0.05, ..., 1.00, 1.01",
+    "gate_selection": "Lowest entropy-confidence threshold accepting >=20 gate cases with zero observed errors; otherwise 1.01 (escalate all)",
+    "scope": "Empirical calibration on 100 cases per stage; no guarantee of test error rate"
+  },
+  "limitations": [
+    "Synthetic balanced state classification in one fixed text format",
+    "Same handcrafted map; fresh episode seeds are not unseen maps",
+    "Model chooses tactics; the shared game motor handles movement and aiming",
+    "Reward is the upstream proper scoring rule plus cross-entropy, not reward from live gameplay",
+    "No hyperparameter search or test-set feedback during this experiment"
+  ]
+}

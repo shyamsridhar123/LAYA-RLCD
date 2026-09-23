@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#151713" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23131b14'/%3E%3Cpath d='M45 17H20V47H45' fill='none' stroke='%23e8a456' stroke-width='8'/%3E%3C/svg%3E" />
+    <title>Cinder Station · LAYA-RLCD</title>
+  </head>
+  <body>
+    <canvas id="world" aria-label="Cinder Station first person game"></canvas>
+    <div id="vignette"></div><div id="damage"></div><div id="scanlines"></div>
+    <header id="hud-top">
+      <div class="mission"><span class="eyebrow">RLCD EXPERIMENT / 01</span><span id="objective">PURGE THE STATION</span><small id="objective-detail">6 hostile signals detected</small></div>
+      <div class="right-status"><span class="live-dot"></span><span id="pilot">MANUAL CONTROL</span><span class="divider">/</span><span id="fps">— FPS</span><button id="telemetry-toggle" title="Telemetry (Tab)" aria-label="Toggle telemetry">▥</button><button id="audio-toggle" title="Toggle sound" aria-label="Toggle sound">♪</button><button id="pause-toggle" title="Pause (Esc)" aria-label="Pause mission">Ⅱ</button></div>
+    </header>
+    <div id="crosshair"><i></i><i></i><i></i><i></i></div>
+    <div id="message" role="status" aria-live="polite"></div>
+    <div id="thinking"><span class="live-dot"></span><span>DECIDING</span><small>simulation held</small></div>
+    <footer id="hud-bottom">
+      <div class="vital"><span class="eyebrow">VITAL SIGNS</span><div><b id="health">082</b><span class="unit">HP</span></div><div class="health-track"><i id="health-fill"></i></div><small id="status-line">SUIT INTEGRITY NOMINAL</small></div>
+      <div class="ammo"><span class="eyebrow">M-09 / PULSE SHOTGUN</span><div><b id="ammo">10</b><span class="unit">ROUNDS</span></div><small><span id="kills">0</span> / 6 SIGNALS ELIMINATED <span class="tiny-dot">◆</span> <span id="clock">00:00</span></small></div>
+    </footer>
+    <div id="hint">W A S D <span>move</span> · MOUSE <span>aim</span> · CLICK / SPACE <span>fire</span> · ESC <span>pause</span></div>
+    <aside id="telemetry" hidden>
+      <div class="panel-heading"><span>DECISION TELEMETRY</span><button id="telemetry-close" aria-label="Close telemetry">×</button></div>
+      <div id="telemetry-model">Choose a pilot</div>
+      <div class="telemetry-grid"><span>Last decision</span><b id="last-action">—</b><span>Request time</span><b id="last-latency">—</b><span id="confidence-label">Entropy confidence</span><b id="last-confidence">—</b><span>Decision count</span><b id="decision-count">0</b></div>
+      <div id="action-probabilities" aria-label="Action probabilities"></div>
+      <details class="learn-details"><summary>What does the pilot see?</summary><p id="observed-state">Start a mission to inspect its text state.</p><p>The policy chooses a tactic every two simulation seconds. Confidence describes this output; it is not a guarantee that the action is right.</p></details>
+      <canvas id="minimap" width="230" height="230" aria-label="Station map"></canvas>
+      <p id="gate-description">Models read text state and pick a tactic. The shared motor moves and aims. A model error stops the run.</p>
+      <a href="https://github.com/shyamsridhar123/LAYA-RLCD/blob/main/docs/BENCHMARKS.md" target="_blank" rel="noopener">OPEN BENCHMARK REPORT ↗</a>
+    </aside>
+    <section id="menu" aria-label="Main menu">
+      <div class="menu-content">
+        <div class="brand"><span class="brand-mark">C / 09</span><span>RLCD<br>FIELD TEST</span></div>
+        <p class="eyebrow intro-kicker">DEEP SPACE / REACTOR COMPLEX</p>
+        <h1>CINDER<br><em>STATION</em><span>01</span></h1>
+        <p class="intro-copy">Six hostile signals. One unstable core.<br>Clear the station and get out alive.</p>
+        <button id="play" class="primary">ENTER THE STATION <span>↗</span></button>
+        <div class="autopilot-row"><button id="watch">WATCH AI PLAY <span>▷</span></button><select id="controller" aria-label="AI controller"><option value="rule">Rule baseline · start here</option><option value="random">Random baseline</option><option value="laya" disabled>Laya · local</option><option value="decoder" disabled>ModernBERT Decoder · local</option><option value="jev" disabled>Jev · TypeSafe</option></select></div>
+        <label class="seed-control">MISSION SEED <input id="mission-seed" type="number" min="0" max="4294967295" step="1" value="42" aria-label="Mission seed" /></label>
+        <label class="seed-control"><input id="record-gameplay" type="checkbox" style="width:auto" /> RECORD GAMEPLAY &amp; TELEMETRY</label>
+        <p id="service-status"><span class="live-dot"></span>Connecting to decision service…</p>
+      </div>
+      <div class="menu-footer"><span>01 <b>ELIMINATE</b></span><span>02 <b>RECOVER</b></span><span>03 <b>EXTRACT</b></span><a href="https://github.com/shyamsridhar123/LAYA-RLCD/blob/main/docs/BENCHMARKS.md" target="_blank" rel="noopener">BENCHMARKS ↗</a></div>
+      <div class="world-caption">CINDER STATION<br><span>SECTOR 7 · CONTAINMENT BREACHED</span></div>
+    </section>
+    <section id="pause" class="modal" hidden><div><p class="eyebrow">SIGNAL ON HOLD</p><h2>PAUSED</h2><p>Take a breath. The station can wait.</p><button id="resume" class="primary">RESUME MISSION <span>↗</span></button><button id="restart-pause" class="secondary">RESTART</button><button id="menu-pause" class="secondary">MAIN MENU</button></div></section>
+    <section id="result" class="modal" hidden><div><p class="eyebrow" id="result-kicker">MISSION REPORT</p><h2 id="result-title">EXTRACTED</h2><p id="result-copy"></p><div id="result-stats"></div><button id="replay" class="primary">RUN IT AGAIN <span>↗</span></button><button id="return-menu" class="secondary">MAIN MENU</button><a class="report-link" href="https://github.com/shyamsridhar123/LAYA-RLCD/blob/main/docs/BENCHMARKS.md" target="_blank" rel="noopener">VIEW BENCHMARKS ↗</a></div></section>
+    <section id="error" class="modal" hidden><div><p class="eyebrow">CONNECTION INTERRUPTED</p><h2>LINK LOST</h2><p id="error-message"></p><button id="error-menu" class="primary">MAIN MENU</button></div></section>
+    <div id="touch-controls"><div><button data-key="KeyW" aria-label="Move forward">↑</button><div><button data-key="KeyA" aria-label="Strafe left">←</button><button data-key="KeyS" aria-label="Move back">↓</button><button data-key="KeyD" aria-label="Strafe right">→</button></div></div><div><button data-key="ArrowLeft" aria-label="Look left">↶</button><button data-key="Space" aria-label="Fire">FIRE</button><button data-key="ArrowRight" aria-label="Look right">↷</button></div></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

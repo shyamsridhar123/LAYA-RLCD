@@ -1,0 +1,401 @@
+{
+  "controller": "laya-trained",
+  "seed": 20260923,
+  "trace": [
+    {
+      "time": 0,
+      "state": "Health: 77/100 (healthy). Ammunition: 8 rounds (sufficient). Hostiles remaining: 6; visible: 2. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "attack"
+    },
+    {
+      "time": 2,
+      "state": "Health: 77/100 (healthy). Ammunition: 2 rounds (critically low or empty). Hostiles remaining: 4; visible: 2. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "resupply"
+    },
+    {
+      "time": 4,
+      "state": "Health: 77/100 (healthy). Ammunition: 17 rounds (sufficient). Hostiles remaining: 4; visible: 1. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "attack"
+    },
+    {
+      "time": 6,
+      "state": "Health: 68/100 (healthy). Ammunition: 14 rounds (sufficient). Hostiles remaining: 3; visible: 0. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "attack"
+    },
+    {
+      "time": 8,
+      "state": "Health: 68/100 (healthy). Ammunition: 11 rounds (sufficient). Hostiles remaining: 2; visible: 0. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "attack"
+    },
+    {
+      "time": 10,
+      "state": "Health: 68/100 (healthy). Ammunition: 11 rounds (sufficient). Hostiles remaining: 2; visible: 1. Medkits remaining: 3. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "attack"
+    },
+    {
+      "time": 12,
+      "state": "Health: 100/100 (healthy). Ammunition: 8 rounds (sufficient). Hostiles remaining: 1; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "attack"
+    },
+    {
+      "time": 14,
+      "state": "Health: 100/100 (healthy). Ammunition: 8 rounds (sufficient). Hostiles remaining: 1; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "attack"
+    },
+    {
+      "time": 16,
+      "state": "Health: 100/100 (healthy). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "collect"
+    },
+    {
+      "time": 18,
+      "state": "Health: 100/100 (healthy). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open.",
+      "action": "extract"
+    },
+    {
+      "time": 20,
+      "state": "Health: 100/100 (healthy). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open.",
+      "action": "extract"
+    },
+    {
+      "time": 22,
+      "state": "Health: 100/100 (healthy). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open.",
+      "action": "extract"
+    },
+    {
+      "time": 24,
+      "state": "Health: 100/100 (healthy). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open.",
+      "action": "extract"
+    }
+  ],
+  "final": {
+    "seed": 20260923,
+    "ticks": 493,
+    "time": 24.650000000000002,
+    "status": "won",
+    "player": {
+      "x": 11.50174241920343,
+      "z": 20.575212913523057,
+      "yaw": -3.138803840050063,
+      "hp": 100,
+      "ammo": 5,
+      "kills": 6,
+      "shots": 18,
+      "hits": 18,
+      "damageTaken": 9,
+      "core": true,
+      "cooldown": 0,
+      "lastShot": 15.9,
+      "lastHurt": 4.6000000000000005
+    },
+    "enemies": [
+      {
+        "id": 0,
+        "x": 11.628743573007405,
+        "z": 16.923036879670633,
+        "hp": -12,
+        "cooldown": 0.9351771264336997,
+        "hitAt": 0.75,
+        "alive": false
+      },
+      {
+        "id": 1,
+        "x": 6.230812862658345,
+        "z": 17.853133925382746,
+        "hp": -12,
+        "cooldown": 0.8374090848024927,
+        "hitAt": 1.8,
+        "alive": false
+      },
+      {
+        "id": 2,
+        "x": 17.25877246465076,
+        "z": 16.909725652625497,
+        "hp": -12,
+        "cooldown": 0.9168283663922914,
+        "hitAt": 7.050000000000001,
+        "alive": false
+      },
+      {
+        "id": 3,
+        "x": 11.765147789058071,
+        "z": 11.339991957123464,
+        "hp": -12,
+        "cooldown": 0.8234586587874211,
+        "hitAt": 4.75,
+        "alive": false
+      },
+      {
+        "id": 4,
+        "x": 6.034282429292451,
+        "z": 5.73538656276216,
+        "hp": -12,
+        "cooldown": 0.7633255528984582,
+        "hitAt": 15.9,
+        "alive": false
+      },
+      {
+        "id": 5,
+        "x": 18.72321031735181,
+        "z": 6.079458623525691,
+        "hp": -12,
+        "cooldown": 0.6250686588697125,
+        "hitAt": 11.55,
+        "alive": false
+      }
+    ],
+    "pickups": [
+      {
+        "id": "med-1",
+        "kind": "med",
+        "x": 10.5,
+        "z": 19.5,
+        "taken": false
+      },
+      {
+        "id": "med-2",
+        "kind": "med",
+        "x": 17.5,
+        "z": 10.5,
+        "taken": true
+      },
+      {
+        "id": "med-3",
+        "kind": "med",
+        "x": 5.5,
+        "z": 3.5,
+        "taken": false
+      },
+      {
+        "id": "ammo-1",
+        "kind": "ammo",
+        "x": 12.5,
+        "z": 18.5,
+        "taken": true
+      },
+      {
+        "id": "ammo-2",
+        "kind": "ammo",
+        "x": 4.5,
+        "z": 10.5,
+        "taken": false
+      },
+      {
+        "id": "ammo-3",
+        "kind": "ammo",
+        "x": 18.5,
+        "z": 3.5,
+        "taken": false
+      },
+      {
+        "id": "core",
+        "kind": "core",
+        "x": 11.5,
+        "z": 2.5,
+        "taken": true
+      }
+    ],
+    "projectiles": []
+  },
+  "events": [
+    {
+      "type": "shot",
+      "time": 0.05,
+      "x": 11.501893511217919,
+      "z": 20.440405073703648,
+      "target": 0
+    },
+    {
+      "type": "shot",
+      "time": 0.4,
+      "x": 11.686474007488894,
+      "z": 20.025034726898408,
+      "target": 0
+    },
+    {
+      "type": "shot",
+      "time": 0.75,
+      "x": 12.07687014644767,
+      "z": 19.815747991357703,
+      "target": 0
+    },
+    {
+      "type": "kill",
+      "time": 0.75,
+      "x": 11.628743573007405,
+      "z": 16.923036879670633,
+      "target": 0
+    },
+    {
+      "type": "shot",
+      "time": 1.1,
+      "x": 11.79585407049689,
+      "z": 19.300403064669414,
+      "target": 1
+    },
+    {
+      "type": "shot",
+      "time": 1.4500000000000002,
+      "x": 11.44049319672933,
+      "z": 18.99484568329226,
+      "target": 1
+    },
+    {
+      "type": "shot",
+      "time": 1.8,
+      "x": 11.012238936552606,
+      "z": 18.996300412367955,
+      "target": 1
+    },
+    {
+      "type": "kill",
+      "time": 1.8,
+      "x": 6.230812862658345,
+      "z": 17.853133925382746,
+      "target": 1
+    },
+    {
+      "type": "ammo",
+      "time": 2.25,
+      "x": 12.5,
+      "z": 18.5
+    },
+    {
+      "type": "shot",
+      "time": 4.05,
+      "x": 11.55631339314077,
+      "z": 14.066978529369123,
+      "target": 3
+    },
+    {
+      "type": "shot",
+      "time": 4.4,
+      "x": 11.803665149974337,
+      "z": 14.07565751266244,
+      "target": 3
+    },
+    {
+      "type": "hurt",
+      "time": 4.6000000000000005,
+      "x": 11.810555958746717,
+      "z": 14.075592981170292,
+      "value": 9
+    },
+    {
+      "type": "shot",
+      "time": 4.75,
+      "x": 11.747123939634413,
+      "z": 14.076167140049815,
+      "target": 3
+    },
+    {
+      "type": "kill",
+      "time": 4.75,
+      "x": 11.765147789058071,
+      "z": 11.339991957123464,
+      "target": 3
+    },
+    {
+      "type": "shot",
+      "time": 6.3500000000000005,
+      "x": 13.545836822924844,
+      "z": 17.166086460529417,
+      "target": 2
+    },
+    {
+      "type": "shot",
+      "time": 6.7,
+      "x": 14.006156934998039,
+      "z": 17.499454770382734,
+      "target": 2
+    },
+    {
+      "type": "shot",
+      "time": 7.050000000000001,
+      "x": 14.453579999627406,
+      "z": 17.827935421302975,
+      "target": 2
+    },
+    {
+      "type": "kill",
+      "time": 7.050000000000001,
+      "x": 17.25877246465076,
+      "z": 16.909725652625497,
+      "target": 2
+    },
+    {
+      "type": "shot",
+      "time": 10.850000000000001,
+      "x": 18.308873001791394,
+      "z": 12.678168924937948,
+      "target": 5
+    },
+    {
+      "type": "shot",
+      "time": 11.200000000000001,
+      "x": 17.957477359255712,
+      "z": 12.227451531796465,
+      "target": 5
+    },
+    {
+      "type": "shot",
+      "time": 11.55,
+      "x": 17.60765470131168,
+      "z": 11.750913608389384,
+      "target": 5
+    },
+    {
+      "type": "kill",
+      "time": 11.55,
+      "x": 18.72321031735181,
+      "z": 6.079458623525691,
+      "target": 5
+    },
+    {
+      "type": "med",
+      "time": 11.850000000000001,
+      "x": 17.5,
+      "z": 10.5
+    },
+    {
+      "type": "shot",
+      "time": 15.200000000000001,
+      "x": 12.65240061685113,
+      "z": 6.2274982597836726,
+      "target": 4
+    },
+    {
+      "type": "shot",
+      "time": 15.55,
+      "x": 12.252224309654412,
+      "z": 5.887075386244188,
+      "target": 4
+    },
+    {
+      "type": "shot",
+      "time": 15.9,
+      "x": 11.832060440155207,
+      "z": 5.454530517714175,
+      "target": 4
+    },
+    {
+      "type": "kill",
+      "time": 15.9,
+      "x": 6.034282429292451,
+      "z": 5.73538656276216,
+      "target": 4
+    },
+    {
+      "type": "core",
+      "time": 16.95,
+      "x": 11.5,
+      "z": 2.5
+    },
+    {
+      "type": "won",
+      "time": 24.650000000000002,
+      "x": 11.50174241920343,
+      "z": 20.575212913523057
+    }
+  ]
+}

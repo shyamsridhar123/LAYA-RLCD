@@ -1,0 +1,4002 @@
+[
+  {
+    "id": "test-0187",
+    "expected": "extract",
+    "correct": false,
+    "ms": 48.08279899998524,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1493,
+      "heal": 0.0991,
+      "resupply": 0.0541,
+      "collect": 0.4369,
+      "extract": 0.2605
+    },
+    "confidence": 0.1407,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0042",
+    "expected": "heal",
+    "correct": false,
+    "ms": 43.612492999955066,
+    "tokens": 191,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1561,
+      "heal": 0.0618,
+      "resupply": 0.057,
+      "collect": 0.4561,
+      "extract": 0.269
+    },
+    "confidence": 0.1696,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0171",
+    "expected": "extract",
+    "correct": false,
+    "ms": 42.983135999975275,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1557,
+      "heal": 0.0912,
+      "resupply": 0.0631,
+      "collect": 0.4706,
+      "extract": 0.2194
+    },
+    "confidence": 0.1489,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0005",
+    "expected": "attack",
+    "correct": false,
+    "ms": 42.367264999938925,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1754,
+      "heal": 0.0613,
+      "resupply": 0.0669,
+      "collect": 0.4073,
+      "extract": 0.2891
+    },
+    "confidence": 0.1413,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0138",
+    "expected": "collect",
+    "correct": true,
+    "ms": 59.4923060000383,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1012,
+      "heal": 0.0409,
+      "resupply": 0.0442,
+      "collect": 0.6887,
+      "extract": 0.125
+    },
+    "confidence": 0.368,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0001",
+    "expected": "attack",
+    "correct": false,
+    "ms": 42.68629700004567,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1751,
+      "heal": 0.0421,
+      "resupply": 0.0594,
+      "collect": 0.4488,
+      "extract": 0.2745
+    },
+    "confidence": 0.1794,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0037",
+    "expected": "attack",
+    "correct": false,
+    "ms": 42.33008599999266,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1605,
+      "heal": 0.0448,
+      "resupply": 0.0584,
+      "collect": 0.4756,
+      "extract": 0.2607
+    },
+    "confidence": 0.1906,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0134",
+    "expected": "collect",
+    "correct": true,
+    "ms": 42.68405300013001,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.102,
+      "heal": 0.0558,
+      "resupply": 0.0494,
+      "collect": 0.7102,
+      "extract": 0.0826
+    },
+    "confidence": 0.384,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0032",
+    "expected": "attack",
+    "correct": false,
+    "ms": 42.175200999963636,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.188,
+      "heal": 0.0778,
+      "resupply": 0.077,
+      "collect": 0.3838,
+      "extract": 0.2733
+    },
+    "confidence": 0.11,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0019",
+    "expected": "attack",
+    "correct": false,
+    "ms": 42.63115399999151,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1744,
+      "heal": 0.0401,
+      "resupply": 0.0523,
+      "collect": 0.5121,
+      "extract": 0.2211
+    },
+    "confidence": 0.2145,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0034",
+    "expected": "attack",
+    "correct": false,
+    "ms": 45.02469800013387,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1807,
+      "heal": 0.0425,
+      "resupply": 0.06,
+      "collect": 0.4834,
+      "extract": 0.2334
+    },
+    "confidence": 0.1903,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0197",
+    "expected": "extract",
+    "correct": false,
+    "ms": 43.77398599990556,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1562,
+      "heal": 0.0983,
+      "resupply": 0.0606,
+      "collect": 0.4621,
+      "extract": 0.2229
+    },
+    "confidence": 0.1431,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0052",
+    "expected": "heal",
+    "correct": false,
+    "ms": 45.15503099992202,
+    "tokens": 191,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.16,
+      "heal": 0.0584,
+      "resupply": 0.0603,
+      "collect": 0.4478,
+      "extract": 0.2736
+    },
+    "confidence": 0.1657,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0086",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 42.35637700003281,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.2225,
+      "heal": 0.0694,
+      "resupply": 0.081,
+      "collect": 0.4005,
+      "extract": 0.2266
+    },
+    "confidence": 0.114,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0063",
+    "expected": "heal",
+    "correct": false,
+    "ms": 43.608505999827685,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1739,
+      "heal": 0.0446,
+      "resupply": 0.0618,
+      "collect": 0.4672,
+      "extract": 0.2524
+    },
+    "confidence": 0.181,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0194",
+    "expected": "extract",
+    "correct": false,
+    "ms": 41.12362000000758,
+    "tokens": 193,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1458,
+      "heal": 0.0544,
+      "resupply": 0.0484,
+      "collect": 0.475,
+      "extract": 0.2764
+    },
+    "confidence": 0.1956,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0156",
+    "expected": "collect",
+    "correct": true,
+    "ms": 41.58301100005701,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1054,
+      "heal": 0.0535,
+      "resupply": 0.0469,
+      "collect": 0.7173,
+      "extract": 0.0768
+    },
+    "confidence": 0.3956,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0054",
+    "expected": "heal",
+    "correct": false,
+    "ms": 41.56186499994874,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1644,
+      "heal": 0.0419,
+      "resupply": 0.054,
+      "collect": 0.5171,
+      "extract": 0.2225
+    },
+    "confidence": 0.2154,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0198",
+    "expected": "extract",
+    "correct": false,
+    "ms": 43.42375299984269,
+    "tokens": 189,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1191,
+      "heal": 0.0534,
+      "resupply": 0.0389,
+      "collect": 0.5341,
+      "extract": 0.2545
+    },
+    "confidence": 0.2423,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0058",
+    "expected": "heal",
+    "correct": false,
+    "ms": 41.635695999957534,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1741,
+      "heal": 0.0423,
+      "resupply": 0.0533,
+      "collect": 0.4702,
+      "extract": 0.26
+    },
+    "confidence": 0.1925,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0079",
+    "expected": "heal",
+    "correct": false,
+    "ms": 42.49845799995455,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1886,
+      "heal": 0.0491,
+      "resupply": 0.0687,
+      "collect": 0.4369,
+      "extract": 0.2568
+    },
+    "confidence": 0.1566,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0177",
+    "expected": "extract",
+    "correct": false,
+    "ms": 41.7514459998074,
+    "tokens": 189,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1336,
+      "heal": 0.0606,
+      "resupply": 0.0503,
+      "collect": 0.5352,
+      "extract": 0.2203
+    },
+    "confidence": 0.219,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0067",
+    "expected": "heal",
+    "correct": false,
+    "ms": 42.92820499995287,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1544,
+      "heal": 0.046,
+      "resupply": 0.0567,
+      "collect": 0.4989,
+      "extract": 0.2439
+    },
+    "confidence": 0.2022,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0033",
+    "expected": "attack",
+    "correct": false,
+    "ms": 43.416211000021576,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1684,
+      "heal": 0.0387,
+      "resupply": 0.0489,
+      "collect": 0.4887,
+      "extract": 0.2553
+    },
+    "confidence": 0.2098,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0165",
+    "expected": "extract",
+    "correct": false,
+    "ms": 42.91446399997767,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1679,
+      "heal": 0.0814,
+      "resupply": 0.0561,
+      "collect": 0.4671,
+      "extract": 0.2276
+    },
+    "confidence": 0.1564,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0089",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 42.979930999990756,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1445,
+      "heal": 0.0459,
+      "resupply": 0.0519,
+      "collect": 0.5336,
+      "extract": 0.2241
+    },
+    "confidence": 0.2265,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0131",
+    "expected": "collect",
+    "correct": true,
+    "ms": 41.97055400004501,
+    "tokens": 202,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1021,
+      "heal": 0.0377,
+      "resupply": 0.0471,
+      "collect": 0.7264,
+      "extract": 0.0867
+    },
+    "confidence": 0.413,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0120",
+    "expected": "collect",
+    "correct": true,
+    "ms": 40.863540999907855,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.099,
+      "heal": 0.0456,
+      "resupply": 0.0489,
+      "collect": 0.6783,
+      "extract": 0.1283
+    },
+    "confidence": 0.3513,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0117",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 60.224379999908706,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1534,
+      "heal": 0.0516,
+      "resupply": 0.0652,
+      "collect": 0.5094,
+      "extract": 0.2204
+    },
+    "confidence": 0.1951,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0070",
+    "expected": "heal",
+    "correct": false,
+    "ms": 45.93322700020508,
+    "tokens": 191,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1424,
+      "heal": 0.0564,
+      "resupply": 0.0522,
+      "collect": 0.4427,
+      "extract": 0.3063
+    },
+    "confidence": 0.1817,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0126",
+    "expected": "collect",
+    "correct": true,
+    "ms": 42.7359330001309,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0924,
+      "heal": 0.0315,
+      "resupply": 0.0368,
+      "collect": 0.7479,
+      "extract": 0.0914
+    },
+    "confidence": 0.4492,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0090",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 41.84325699998226,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1659,
+      "heal": 0.0453,
+      "resupply": 0.0581,
+      "collect": 0.5095,
+      "extract": 0.2212
+    },
+    "confidence": 0.2042,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0162",
+    "expected": "extract",
+    "correct": false,
+    "ms": 41.68328099990504,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1712,
+      "heal": 0.0948,
+      "resupply": 0.0644,
+      "collect": 0.4345,
+      "extract": 0.2352
+    },
+    "confidence": 0.1272,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0087",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 45.13013500013585,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1558,
+      "heal": 0.0552,
+      "resupply": 0.0644,
+      "collect": 0.4797,
+      "extract": 0.2449
+    },
+    "confidence": 0.1779,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0186",
+    "expected": "extract",
+    "correct": false,
+    "ms": 41.25028799990105,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1523,
+      "heal": 0.0906,
+      "resupply": 0.0595,
+      "collect": 0.4816,
+      "extract": 0.2159
+    },
+    "confidence": 0.1581,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0073",
+    "expected": "heal",
+    "correct": false,
+    "ms": 42.114357000173186,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1484,
+      "heal": 0.0503,
+      "resupply": 0.0444,
+      "collect": 0.5338,
+      "extract": 0.2231
+    },
+    "confidence": 0.2286,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0183",
+    "expected": "extract",
+    "correct": false,
+    "ms": 52.57273100005477,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1578,
+      "heal": 0.1124,
+      "resupply": 0.0721,
+      "collect": 0.4289,
+      "extract": 0.2289
+    },
+    "confidence": 0.1132,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0097",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 47.26353399996697,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.2121,
+      "heal": 0.07,
+      "resupply": 0.0764,
+      "collect": 0.4172,
+      "extract": 0.2242
+    },
+    "confidence": 0.1229,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0133",
+    "expected": "collect",
+    "correct": true,
+    "ms": 42.56329600002573,
+    "tokens": 202,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.108,
+      "heal": 0.0434,
+      "resupply": 0.0496,
+      "collect": 0.7135,
+      "extract": 0.0855
+    },
+    "confidence": 0.3932,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0110",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 46.66255799997998,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.2013,
+      "heal": 0.0793,
+      "resupply": 0.0898,
+      "collect": 0.3968,
+      "extract": 0.2327
+    },
+    "confidence": 0.1014,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0012",
+    "expected": "attack",
+    "correct": false,
+    "ms": 43.26141199999256,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1815,
+      "heal": 0.0704,
+      "resupply": 0.0737,
+      "collect": 0.3765,
+      "extract": 0.2979
+    },
+    "confidence": 0.1193,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0114",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 42.705250999915734,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1931,
+      "heal": 0.0888,
+      "resupply": 0.0847,
+      "collect": 0.3783,
+      "extract": 0.2551
+    },
+    "confidence": 0.0941,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0173",
+    "expected": "extract",
+    "correct": false,
+    "ms": 41.332341000043016,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1482,
+      "heal": 0.0876,
+      "resupply": 0.0559,
+      "collect": 0.493,
+      "extract": 0.2152
+    },
+    "confidence": 0.1694,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0102",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 41.061007000052996,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1606,
+      "heal": 0.0472,
+      "resupply": 0.0536,
+      "collect": 0.5254,
+      "extract": 0.2132
+    },
+    "confidence": 0.2156,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0043",
+    "expected": "heal",
+    "correct": false,
+    "ms": 66.75935299995217,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1686,
+      "heal": 0.0525,
+      "resupply": 0.0682,
+      "collect": 0.4726,
+      "extract": 0.2381
+    },
+    "confidence": 0.1712,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0157",
+    "expected": "collect",
+    "correct": true,
+    "ms": 92.74939299984908,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0986,
+      "heal": 0.0515,
+      "resupply": 0.0464,
+      "collect": 0.7237,
+      "extract": 0.0798
+    },
+    "confidence": 0.4039,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0125",
+    "expected": "collect",
+    "correct": true,
+    "ms": 79.48151300001882,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.113,
+      "heal": 0.0362,
+      "resupply": 0.0409,
+      "collect": 0.7316,
+      "extract": 0.0784
+    },
+    "confidence": 0.4251,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0101",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 79.78735599999709,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1494,
+      "heal": 0.0479,
+      "resupply": 0.0583,
+      "collect": 0.5087,
+      "extract": 0.2358
+    },
+    "confidence": 0.2049,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0151",
+    "expected": "collect",
+    "correct": true,
+    "ms": 93.39534500008995,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0864,
+      "heal": 0.0308,
+      "resupply": 0.032,
+      "collect": 0.7451,
+      "extract": 0.1057
+    },
+    "confidence": 0.4496,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0123",
+    "expected": "collect",
+    "correct": true,
+    "ms": 79.27198600009433,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1037,
+      "heal": 0.0607,
+      "resupply": 0.0494,
+      "collect": 0.7042,
+      "extract": 0.0819
+    },
+    "confidence": 0.3751,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0006",
+    "expected": "attack",
+    "correct": false,
+    "ms": 79.62335499996698,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1851,
+      "heal": 0.0632,
+      "resupply": 0.0684,
+      "collect": 0.3889,
+      "extract": 0.2944
+    },
+    "confidence": 0.1317,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0163",
+    "expected": "extract",
+    "correct": false,
+    "ms": 81.93346799998835,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1405,
+      "heal": 0.0757,
+      "resupply": 0.047,
+      "collect": 0.4943,
+      "extract": 0.2424
+    },
+    "confidence": 0.1881,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0094",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 85.16563200009841,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1665,
+      "heal": 0.0456,
+      "resupply": 0.0573,
+      "collect": 0.5039,
+      "extract": 0.2267
+    },
+    "confidence": 0.2016,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0159",
+    "expected": "collect",
+    "correct": true,
+    "ms": 73.15966900000603,
+    "tokens": 202,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1064,
+      "heal": 0.0434,
+      "resupply": 0.0498,
+      "collect": 0.7133,
+      "extract": 0.0871
+    },
+    "confidence": 0.3926,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0008",
+    "expected": "attack",
+    "correct": false,
+    "ms": 74.86109499996019,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1699,
+      "heal": 0.046,
+      "resupply": 0.0582,
+      "collect": 0.4524,
+      "extract": 0.2734
+    },
+    "confidence": 0.1787,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0118",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 73.48718100001861,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1976,
+      "heal": 0.0716,
+      "resupply": 0.0806,
+      "collect": 0.4275,
+      "extract": 0.2227
+    },
+    "confidence": 0.124,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0059",
+    "expected": "heal",
+    "correct": false,
+    "ms": 74.12657300005776,
+    "tokens": 191,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.142,
+      "heal": 0.0589,
+      "resupply": 0.0518,
+      "collect": 0.4737,
+      "extract": 0.2735
+    },
+    "confidence": 0.1885,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0191",
+    "expected": "extract",
+    "correct": false,
+    "ms": 76.94395800012899,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1429,
+      "heal": 0.0866,
+      "resupply": 0.0515,
+      "collect": 0.4722,
+      "extract": 0.2467
+    },
+    "confidence": 0.166,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0122",
+    "expected": "collect",
+    "correct": true,
+    "ms": 79.06763799996952,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1043,
+      "heal": 0.0375,
+      "resupply": 0.0411,
+      "collect": 0.6884,
+      "extract": 0.1287
+    },
+    "confidence": 0.3718,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0075",
+    "expected": "heal",
+    "correct": false,
+    "ms": 66.97258200006218,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.168,
+      "heal": 0.0423,
+      "resupply": 0.0575,
+      "collect": 0.4606,
+      "extract": 0.2716
+    },
+    "confidence": 0.1868,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0041",
+    "expected": "heal",
+    "correct": false,
+    "ms": 63.89311100019768,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0847,
+      "heal": 0.0325,
+      "resupply": 0.0363,
+      "collect": 0.7451,
+      "extract": 0.1014
+    },
+    "confidence": 0.4457,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0040",
+    "expected": "heal",
+    "correct": false,
+    "ms": 68.68497899995418,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1417,
+      "heal": 0.0492,
+      "resupply": 0.0444,
+      "collect": 0.5127,
+      "extract": 0.252
+    },
+    "confidence": 0.2214,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0092",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 72.60066899993944,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.2324,
+      "heal": 0.0671,
+      "resupply": 0.0831,
+      "collect": 0.3972,
+      "extract": 0.2201
+    },
+    "confidence": 0.1133,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0053",
+    "expected": "heal",
+    "correct": false,
+    "ms": 91.73145799991289,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1589,
+      "heal": 0.0493,
+      "resupply": 0.0592,
+      "collect": 0.4878,
+      "extract": 0.2449
+    },
+    "confidence": 0.1906,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0014",
+    "expected": "attack",
+    "correct": false,
+    "ms": 83.67741500001102,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1659,
+      "heal": 0.04,
+      "resupply": 0.0514,
+      "collect": 0.4955,
+      "extract": 0.2471
+    },
+    "confidence": 0.2091,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0028",
+    "expected": "attack",
+    "correct": false,
+    "ms": 78.34184599983018,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1862,
+      "heal": 0.0692,
+      "resupply": 0.0722,
+      "collect": 0.3757,
+      "extract": 0.2966
+    },
+    "confidence": 0.1202,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0127",
+    "expected": "collect",
+    "correct": true,
+    "ms": 86.87934199997471,
+    "tokens": 201,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1008,
+      "heal": 0.0591,
+      "resupply": 0.0651,
+      "collect": 0.7079,
+      "extract": 0.0671
+    },
+    "confidence": 0.3774,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0128",
+    "expected": "collect",
+    "correct": true,
+    "ms": 82.74634199983666,
+    "tokens": 201,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1089,
+      "heal": 0.0496,
+      "resupply": 0.0557,
+      "collect": 0.7117,
+      "extract": 0.074
+    },
+    "confidence": 0.3873,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0196",
+    "expected": "extract",
+    "correct": false,
+    "ms": 80.84519599992745,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1395,
+      "heal": 0.0584,
+      "resupply": 0.0503,
+      "collect": 0.4693,
+      "extract": 0.2826
+    },
+    "confidence": 0.1903,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0069",
+    "expected": "heal",
+    "correct": false,
+    "ms": 86.76997500015204,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.148,
+      "heal": 0.0598,
+      "resupply": 0.0533,
+      "collect": 0.5256,
+      "extract": 0.2132
+    },
+    "confidence": 0.2077,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0143",
+    "expected": "collect",
+    "correct": true,
+    "ms": 87.1154789999764,
+    "tokens": 201,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0993,
+      "heal": 0.0615,
+      "resupply": 0.0624,
+      "collect": 0.7109,
+      "extract": 0.0659
+    },
+    "confidence": 0.3814,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0027",
+    "expected": "attack",
+    "correct": false,
+    "ms": 73.86726499998986,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.2158,
+      "heal": 0.0672,
+      "resupply": 0.0718,
+      "collect": 0.4019,
+      "extract": 0.2434
+    },
+    "confidence": 0.1228,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0182",
+    "expected": "extract",
+    "correct": false,
+    "ms": 74.08271400004196,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1633,
+      "heal": 0.1009,
+      "resupply": 0.0632,
+      "collect": 0.4591,
+      "extract": 0.2135
+    },
+    "confidence": 0.137,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0080",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 75.34983200002898,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1563,
+      "heal": 0.061,
+      "resupply": 0.0696,
+      "collect": 0.4628,
+      "extract": 0.2503
+    },
+    "confidence": 0.1615,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0158",
+    "expected": "collect",
+    "correct": true,
+    "ms": 76.21945799996865,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1053,
+      "heal": 0.0592,
+      "resupply": 0.0482,
+      "collect": 0.7107,
+      "extract": 0.0766
+    },
+    "confidence": 0.3849,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0180",
+    "expected": "extract",
+    "correct": false,
+    "ms": 71.93952500006162,
+    "tokens": 191,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1455,
+      "heal": 0.0579,
+      "resupply": 0.0504,
+      "collect": 0.4135,
+      "extract": 0.3327
+    },
+    "confidence": 0.1753,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0108",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 90.53974600010406,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1932,
+      "heal": 0.0759,
+      "resupply": 0.0855,
+      "collect": 0.3719,
+      "extract": 0.2735
+    },
+    "confidence": 0.1015,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0082",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 73.88124200019774,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1901,
+      "heal": 0.0697,
+      "resupply": 0.0821,
+      "collect": 0.4164,
+      "extract": 0.2415
+    },
+    "confidence": 0.1211,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0083",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 72.5407400000222,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.165,
+      "heal": 0.052,
+      "resupply": 0.0626,
+      "collect": 0.5057,
+      "extract": 0.2147
+    },
+    "confidence": 0.1926,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0105",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 84.36032999998133,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1455,
+      "heal": 0.0455,
+      "resupply": 0.0587,
+      "collect": 0.5147,
+      "extract": 0.2356
+    },
+    "confidence": 0.2109,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0160",
+    "expected": "extract",
+    "correct": false,
+    "ms": 91.70867099987845,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1536,
+      "heal": 0.0898,
+      "resupply": 0.0566,
+      "collect": 0.4762,
+      "extract": 0.2237
+    },
+    "confidence": 0.158,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0088",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 80.85906599990267,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.2144,
+      "heal": 0.0708,
+      "resupply": 0.0778,
+      "collect": 0.4031,
+      "extract": 0.234
+    },
+    "confidence": 0.1163,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0166",
+    "expected": "extract",
+    "correct": false,
+    "ms": 90.09748700009368,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1418,
+      "heal": 0.0792,
+      "resupply": 0.052,
+      "collect": 0.5109,
+      "extract": 0.216
+    },
+    "confidence": 0.1886,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0007",
+    "expected": "attack",
+    "correct": false,
+    "ms": 50.961458999836395,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1946,
+      "heal": 0.0688,
+      "resupply": 0.0713,
+      "collect": 0.3701,
+      "extract": 0.2952
+    },
+    "confidence": 0.1183,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0047",
+    "expected": "heal",
+    "correct": false,
+    "ms": 52.150897000046825,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.173,
+      "heal": 0.0408,
+      "resupply": 0.0565,
+      "collect": 0.5028,
+      "extract": 0.2269
+    },
+    "confidence": 0.2056,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0036",
+    "expected": "attack",
+    "correct": false,
+    "ms": 89.14602699996976,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1674,
+      "heal": 0.0643,
+      "resupply": 0.0662,
+      "collect": 0.3897,
+      "extract": 0.3125
+    },
+    "confidence": 0.1388,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0091",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 94.67540999980883,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1997,
+      "heal": 0.0884,
+      "resupply": 0.0844,
+      "collect": 0.3905,
+      "extract": 0.2371
+    },
+    "confidence": 0.0971,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0061",
+    "expected": "heal",
+    "correct": false,
+    "ms": 97.67318100011835,
+    "tokens": 202,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1123,
+      "heal": 0.0402,
+      "resupply": 0.0504,
+      "collect": 0.718,
+      "extract": 0.0792
+    },
+    "confidence": 0.4011,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0068",
+    "expected": "heal",
+    "correct": false,
+    "ms": 91.01120999980594,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.157,
+      "heal": 0.0504,
+      "resupply": 0.0635,
+      "collect": 0.4885,
+      "extract": 0.2406
+    },
+    "confidence": 0.1866,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0077",
+    "expected": "heal",
+    "correct": false,
+    "ms": 102.19495299998016,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1932,
+      "heal": 0.0456,
+      "resupply": 0.0664,
+      "collect": 0.4603,
+      "extract": 0.2345
+    },
+    "confidence": 0.1701,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0020",
+    "expected": "attack",
+    "correct": false,
+    "ms": 78.4195239998553,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.158,
+      "heal": 0.0403,
+      "resupply": 0.0464,
+      "collect": 0.4978,
+      "extract": 0.2575
+    },
+    "confidence": 0.2171,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0184",
+    "expected": "extract",
+    "correct": false,
+    "ms": 41.09557800006769,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1416,
+      "heal": 0.0791,
+      "resupply": 0.0533,
+      "collect": 0.5221,
+      "extract": 0.204
+    },
+    "confidence": 0.194,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0000",
+    "expected": "attack",
+    "correct": false,
+    "ms": 40.86189800000284,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1755,
+      "heal": 0.061,
+      "resupply": 0.0648,
+      "collect": 0.3933,
+      "extract": 0.3054
+    },
+    "confidence": 0.141,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0024",
+    "expected": "attack",
+    "correct": false,
+    "ms": 42.19720200012489,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.2142,
+      "heal": 0.0879,
+      "resupply": 0.0843,
+      "collect": 0.3849,
+      "extract": 0.2287
+    },
+    "confidence": 0.0946,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0078",
+    "expected": "heal",
+    "correct": false,
+    "ms": 42.178762999810715,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1671,
+      "heal": 0.0483,
+      "resupply": 0.0582,
+      "collect": 0.4991,
+      "extract": 0.2273
+    },
+    "confidence": 0.1957,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0057",
+    "expected": "heal",
+    "correct": false,
+    "ms": 39.96384799984298,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.171,
+      "heal": 0.048,
+      "resupply": 0.0594,
+      "collect": 0.4982,
+      "extract": 0.2233
+    },
+    "confidence": 0.1938,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0139",
+    "expected": "collect",
+    "correct": true,
+    "ms": 43.3591080000042,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.117,
+      "heal": 0.0455,
+      "resupply": 0.0461,
+      "collect": 0.7176,
+      "extract": 0.0737
+    },
+    "confidence": 0.4011,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0093",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 45.1301919999878,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1913,
+      "heal": 0.0647,
+      "resupply": 0.0817,
+      "collect": 0.417,
+      "extract": 0.2454
+    },
+    "confidence": 0.1254,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0056",
+    "expected": "heal",
+    "correct": false,
+    "ms": 48.871129999952245,
+    "tokens": 191,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1418,
+      "heal": 0.0595,
+      "resupply": 0.0535,
+      "collect": 0.4921,
+      "extract": 0.2532
+    },
+    "confidence": 0.1934,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0148",
+    "expected": "collect",
+    "correct": true,
+    "ms": 42.87746400018477,
+    "tokens": 202,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1095,
+      "heal": 0.0443,
+      "resupply": 0.0504,
+      "collect": 0.7092,
+      "extract": 0.0866
+    },
+    "confidence": 0.3871,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0116",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 44.79824999998527,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1907,
+      "heal": 0.0793,
+      "resupply": 0.086,
+      "collect": 0.386,
+      "extract": 0.258
+    },
+    "confidence": 0.1021,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0112",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 43.99022100005823,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1936,
+      "heal": 0.07,
+      "resupply": 0.0787,
+      "collect": 0.4344,
+      "extract": 0.2233
+    },
+    "confidence": 0.1295,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0009",
+    "expected": "attack",
+    "correct": false,
+    "ms": 42.889238000043406,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1914,
+      "heal": 0.0694,
+      "resupply": 0.0693,
+      "collect": 0.4333,
+      "extract": 0.2367
+    },
+    "confidence": 0.1363,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0085",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 44.04053799999019,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1457,
+      "heal": 0.0572,
+      "resupply": 0.0581,
+      "collect": 0.5169,
+      "extract": 0.2221
+    },
+    "confidence": 0.2016,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0137",
+    "expected": "collect",
+    "correct": true,
+    "ms": 42.9385170000387,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0947,
+      "heal": 0.05,
+      "resupply": 0.0463,
+      "collect": 0.7323,
+      "extract": 0.0768
+    },
+    "confidence": 0.4157,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0142",
+    "expected": "collect",
+    "correct": true,
+    "ms": 41.92864000015106,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1042,
+      "heal": 0.0549,
+      "resupply": 0.0494,
+      "collect": 0.7203,
+      "extract": 0.0712
+    },
+    "confidence": 0.3986,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0129",
+    "expected": "collect",
+    "correct": true,
+    "ms": 40.268653999874005,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0951,
+      "heal": 0.0463,
+      "resupply": 0.0532,
+      "collect": 0.7022,
+      "extract": 0.1031
+    },
+    "confidence": 0.3757,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0169",
+    "expected": "extract",
+    "correct": false,
+    "ms": 41.862959999889426,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1616,
+      "heal": 0.1061,
+      "resupply": 0.0669,
+      "collect": 0.435,
+      "extract": 0.2303
+    },
+    "confidence": 0.1215,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0062",
+    "expected": "heal",
+    "correct": false,
+    "ms": 41.65991200011376,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0942,
+      "heal": 0.0325,
+      "resupply": 0.0377,
+      "collect": 0.7493,
+      "extract": 0.0863
+    },
+    "confidence": 0.4501,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0155",
+    "expected": "collect",
+    "correct": true,
+    "ms": 41.79278900005556,
+    "tokens": 201,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1005,
+      "heal": 0.0683,
+      "resupply": 0.0653,
+      "collect": 0.6963,
+      "extract": 0.0696
+    },
+    "confidence": 0.3601,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0146",
+    "expected": "collect",
+    "correct": true,
+    "ms": 44.30888000001687,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1021,
+      "heal": 0.054,
+      "resupply": 0.0467,
+      "collect": 0.7308,
+      "extract": 0.0664
+    },
+    "confidence": 0.4141,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0195",
+    "expected": "extract",
+    "correct": false,
+    "ms": 42.16395899993586,
+    "tokens": 189,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1412,
+      "heal": 0.0503,
+      "resupply": 0.0486,
+      "collect": 0.546,
+      "extract": 0.214
+    },
+    "confidence": 0.2333,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0174",
+    "expected": "extract",
+    "correct": false,
+    "ms": 65.2529180001693,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.153,
+      "heal": 0.0871,
+      "resupply": 0.055,
+      "collect": 0.4855,
+      "extract": 0.2193
+    },
+    "confidence": 0.1655,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0119",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 44.391350000069,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1447,
+      "heal": 0.0451,
+      "resupply": 0.0541,
+      "collect": 0.5119,
+      "extract": 0.2442
+    },
+    "confidence": 0.2145,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0181",
+    "expected": "extract",
+    "correct": false,
+    "ms": 41.52102700004434,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1416,
+      "heal": 0.0943,
+      "resupply": 0.0572,
+      "collect": 0.474,
+      "extract": 0.233
+    },
+    "confidence": 0.1573,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0095",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 40.71807299987995,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.152,
+      "heal": 0.045,
+      "resupply": 0.0537,
+      "collect": 0.4813,
+      "extract": 0.2679
+    },
+    "confidence": 0.1998,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0099",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 42.92081899984623,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.2004,
+      "heal": 0.0705,
+      "resupply": 0.0841,
+      "collect": 0.4089,
+      "extract": 0.2361
+    },
+    "confidence": 0.1154,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0029",
+    "expected": "attack",
+    "correct": false,
+    "ms": 42.88094100002127,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1802,
+      "heal": 0.0487,
+      "resupply": 0.0599,
+      "collect": 0.4382,
+      "extract": 0.2731
+    },
+    "confidence": 0.1671,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0060",
+    "expected": "heal",
+    "correct": false,
+    "ms": 39.40399399994021,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1639,
+      "heal": 0.0443,
+      "resupply": 0.0599,
+      "collect": 0.4892,
+      "extract": 0.2426
+    },
+    "confidence": 0.1944,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0132",
+    "expected": "collect",
+    "correct": true,
+    "ms": 40.55315100004009,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0989,
+      "heal": 0.0492,
+      "resupply": 0.0463,
+      "collect": 0.7395,
+      "extract": 0.0661
+    },
+    "confidence": 0.4271,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0145",
+    "expected": "collect",
+    "correct": true,
+    "ms": 40.99523199988653,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1011,
+      "heal": 0.0515,
+      "resupply": 0.0451,
+      "collect": 0.7282,
+      "extract": 0.0741
+    },
+    "confidence": 0.411,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0071",
+    "expected": "heal",
+    "correct": false,
+    "ms": 46.772105000172814,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.167,
+      "heal": 0.0415,
+      "resupply": 0.0538,
+      "collect": 0.5109,
+      "extract": 0.2268
+    },
+    "confidence": 0.2123,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0045",
+    "expected": "heal",
+    "correct": false,
+    "ms": 41.323180000063076,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1576,
+      "heal": 0.0448,
+      "resupply": 0.0647,
+      "collect": 0.4199,
+      "extract": 0.3129
+    },
+    "confidence": 0.1702,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0098",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 41.28824400004305,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1873,
+      "heal": 0.0689,
+      "resupply": 0.0807,
+      "collect": 0.4298,
+      "extract": 0.2332
+    },
+    "confidence": 0.1279,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0121",
+    "expected": "collect",
+    "correct": true,
+    "ms": 42.350361999979214,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0999,
+      "heal": 0.0516,
+      "resupply": 0.0463,
+      "collect": 0.7302,
+      "extract": 0.0721
+    },
+    "confidence": 0.4131,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0072",
+    "expected": "heal",
+    "correct": false,
+    "ms": 41.70964700006152,
+    "tokens": 202,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1108,
+      "heal": 0.0398,
+      "resupply": 0.0492,
+      "collect": 0.7207,
+      "extract": 0.0795
+    },
+    "confidence": 0.4049,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0065",
+    "expected": "heal",
+    "correct": false,
+    "ms": 46.05557700006102,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.176,
+      "heal": 0.0451,
+      "resupply": 0.0626,
+      "collect": 0.4407,
+      "extract": 0.2756
+    },
+    "confidence": 0.1703,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0150",
+    "expected": "collect",
+    "correct": true,
+    "ms": 45.02721400012888,
+    "tokens": 197,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0977,
+      "heal": 0.0538,
+      "resupply": 0.0445,
+      "collect": 0.7383,
+      "extract": 0.0657
+    },
+    "confidence": 0.4247,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0076",
+    "expected": "heal",
+    "correct": false,
+    "ms": 42.23840600002404,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1753,
+      "heal": 0.0487,
+      "resupply": 0.0662,
+      "collect": 0.4823,
+      "extract": 0.2275
+    },
+    "confidence": 0.1794,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0096",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 41.984104999983174,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.2008,
+      "heal": 0.0823,
+      "resupply": 0.09,
+      "collect": 0.3786,
+      "extract": 0.2483
+    },
+    "confidence": 0.094,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0004",
+    "expected": "attack",
+    "correct": false,
+    "ms": 42.38714699999946,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1975,
+      "heal": 0.0703,
+      "resupply": 0.0747,
+      "collect": 0.3816,
+      "extract": 0.276
+    },
+    "confidence": 0.1154,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0030",
+    "expected": "attack",
+    "correct": false,
+    "ms": 44.918121000137035,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1664,
+      "heal": 0.0426,
+      "resupply": 0.0629,
+      "collect": 0.4826,
+      "extract": 0.2455
+    },
+    "confidence": 0.1903,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0038",
+    "expected": "attack",
+    "correct": false,
+    "ms": 43.69693000012376,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1684,
+      "heal": 0.0489,
+      "resupply": 0.0591,
+      "collect": 0.4479,
+      "extract": 0.2758
+    },
+    "confidence": 0.1738,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0172",
+    "expected": "extract",
+    "correct": false,
+    "ms": 58.9857810000467,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1367,
+      "heal": 0.0482,
+      "resupply": 0.0405,
+      "collect": 0.4449,
+      "extract": 0.3297
+    },
+    "confidence": 0.2083,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0190",
+    "expected": "extract",
+    "correct": false,
+    "ms": 46.40373000006548,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1348,
+      "heal": 0.0518,
+      "resupply": 0.0469,
+      "collect": 0.5282,
+      "extract": 0.2384
+    },
+    "confidence": 0.2259,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0107",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 56.19088899993585,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1597,
+      "heal": 0.046,
+      "resupply": 0.0597,
+      "collect": 0.4724,
+      "extract": 0.2623
+    },
+    "confidence": 0.1873,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0050",
+    "expected": "heal",
+    "correct": false,
+    "ms": 47.777983000059976,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1406,
+      "heal": 0.0561,
+      "resupply": 0.0509,
+      "collect": 0.5366,
+      "extract": 0.2158
+    },
+    "confidence": 0.2208,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0025",
+    "expected": "attack",
+    "correct": false,
+    "ms": 41.836514999886276,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1774,
+      "heal": 0.0629,
+      "resupply": 0.0661,
+      "collect": 0.3727,
+      "extract": 0.3209
+    },
+    "confidence": 0.1345,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0081",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 42.356207000011636,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1711,
+      "heal": 0.0557,
+      "resupply": 0.0679,
+      "collect": 0.4809,
+      "extract": 0.2244
+    },
+    "confidence": 0.1718,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0199",
+    "expected": "extract",
+    "correct": false,
+    "ms": 43.14241499992022,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1718,
+      "heal": 0.0811,
+      "resupply": 0.0593,
+      "collect": 0.4685,
+      "extract": 0.2193
+    },
+    "confidence": 0.1538,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0152",
+    "expected": "collect",
+    "correct": true,
+    "ms": 43.045425000173054,
+    "tokens": 201,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1047,
+      "heal": 0.0514,
+      "resupply": 0.051,
+      "collect": 0.7188,
+      "extract": 0.0742
+    },
+    "confidence": 0.3968,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0193",
+    "expected": "extract",
+    "correct": false,
+    "ms": 42.18321100006506,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1472,
+      "heal": 0.0878,
+      "resupply": 0.059,
+      "collect": 0.4962,
+      "extract": 0.2098
+    },
+    "confidence": 0.1687,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0175",
+    "expected": "extract",
+    "correct": false,
+    "ms": 42.385016999787695,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1457,
+      "heal": 0.0486,
+      "resupply": 0.0434,
+      "collect": 0.5011,
+      "extract": 0.2612
+    },
+    "confidence": 0.2167,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0106",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 48.81912700011526,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1908,
+      "heal": 0.0666,
+      "resupply": 0.0815,
+      "collect": 0.4148,
+      "extract": 0.2463
+    },
+    "confidence": 0.1233,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0017",
+    "expected": "attack",
+    "correct": false,
+    "ms": 41.87423799999124,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.2005,
+      "heal": 0.0705,
+      "resupply": 0.0728,
+      "collect": 0.3575,
+      "extract": 0.2987
+    },
+    "confidence": 0.1124,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0023",
+    "expected": "attack",
+    "correct": false,
+    "ms": 41.833973999928276,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1753,
+      "heal": 0.0449,
+      "resupply": 0.0651,
+      "collect": 0.4728,
+      "extract": 0.2419
+    },
+    "confidence": 0.18,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0026",
+    "expected": "attack",
+    "correct": false,
+    "ms": 46.35069400001157,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1808,
+      "heal": 0.0511,
+      "resupply": 0.0633,
+      "collect": 0.4375,
+      "extract": 0.2673
+    },
+    "confidence": 0.1611,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0147",
+    "expected": "collect",
+    "correct": true,
+    "ms": 46.23505299991848,
+    "tokens": 201,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1128,
+      "heal": 0.0575,
+      "resupply": 0.0585,
+      "collect": 0.6943,
+      "extract": 0.077
+    },
+    "confidence": 0.3618,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0178",
+    "expected": "extract",
+    "correct": false,
+    "ms": 47.805180999830554,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1495,
+      "heal": 0.0867,
+      "resupply": 0.0579,
+      "collect": 0.4672,
+      "extract": 0.2387
+    },
+    "confidence": 0.1559,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0046",
+    "expected": "heal",
+    "correct": false,
+    "ms": 47.034517999918535,
+    "tokens": 202,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1096,
+      "heal": 0.0454,
+      "resupply": 0.0548,
+      "collect": 0.7053,
+      "extract": 0.0849
+    },
+    "confidence": 0.3802,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0168",
+    "expected": "extract",
+    "correct": false,
+    "ms": 46.08571700009634,
+    "tokens": 193,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1499,
+      "heal": 0.0691,
+      "resupply": 0.0627,
+      "collect": 0.4617,
+      "extract": 0.2567
+    },
+    "confidence": 0.1621,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0111",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 45.15879800010225,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1853,
+      "heal": 0.0792,
+      "resupply": 0.0866,
+      "collect": 0.3989,
+      "extract": 0.25
+    },
+    "confidence": 0.1064,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0010",
+    "expected": "attack",
+    "correct": false,
+    "ms": 43.92354699984935,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1937,
+      "heal": 0.0722,
+      "resupply": 0.0725,
+      "collect": 0.378,
+      "extract": 0.2836
+    },
+    "confidence": 0.1158,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0189",
+    "expected": "extract",
+    "correct": false,
+    "ms": 45.59774700010166,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1395,
+      "heal": 0.056,
+      "resupply": 0.0534,
+      "collect": 0.5171,
+      "extract": 0.2339
+    },
+    "confidence": 0.2087,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0064",
+    "expected": "heal",
+    "correct": false,
+    "ms": 45.161029999917446,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1523,
+      "heal": 0.0563,
+      "resupply": 0.0497,
+      "collect": 0.496,
+      "extract": 0.2457
+    },
+    "confidence": 0.1982,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0013",
+    "expected": "attack",
+    "correct": false,
+    "ms": 46.134053000059794,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1898,
+      "heal": 0.0491,
+      "resupply": 0.0577,
+      "collect": 0.4255,
+      "extract": 0.2779
+    },
+    "confidence": 0.1628,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0185",
+    "expected": "extract",
+    "correct": false,
+    "ms": 42.621121999900424,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1576,
+      "heal": 0.0997,
+      "resupply": 0.0668,
+      "collect": 0.476,
+      "extract": 0.1999
+    },
+    "confidence": 0.1444,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0135",
+    "expected": "collect",
+    "correct": true,
+    "ms": 45.215911000013875,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0924,
+      "heal": 0.0333,
+      "resupply": 0.0368,
+      "collect": 0.7456,
+      "extract": 0.0918
+    },
+    "confidence": 0.445,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0192",
+    "expected": "extract",
+    "correct": false,
+    "ms": 55.39955699987331,
+    "tokens": 189,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1204,
+      "heal": 0.0596,
+      "resupply": 0.0528,
+      "collect": 0.5168,
+      "extract": 0.2504
+    },
+    "confidence": 0.2133,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0188",
+    "expected": "extract",
+    "correct": false,
+    "ms": 47.54836400002205,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1565,
+      "heal": 0.0956,
+      "resupply": 0.0542,
+      "collect": 0.4115,
+      "extract": 0.2822
+    },
+    "confidence": 0.1331,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0176",
+    "expected": "extract",
+    "correct": false,
+    "ms": 38.67533200013895,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1801,
+      "heal": 0.098,
+      "resupply": 0.062,
+      "collect": 0.4197,
+      "extract": 0.2402
+    },
+    "confidence": 0.1203,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0104",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 42.26864699990074,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1718,
+      "heal": 0.043,
+      "resupply": 0.0565,
+      "collect": 0.4821,
+      "extract": 0.2466
+    },
+    "confidence": 0.194,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0130",
+    "expected": "collect",
+    "correct": true,
+    "ms": 42.9353260001335,
+    "tokens": 201,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1034,
+      "heal": 0.0545,
+      "resupply": 0.055,
+      "collect": 0.7049,
+      "extract": 0.0822
+    },
+    "confidence": 0.3758,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0074",
+    "expected": "heal",
+    "correct": false,
+    "ms": 42.11691000000428,
+    "tokens": 202,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.11,
+      "heal": 0.0472,
+      "resupply": 0.0566,
+      "collect": 0.7015,
+      "extract": 0.0848
+    },
+    "confidence": 0.3741,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0109",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 42.89356300000691,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1577,
+      "heal": 0.0428,
+      "resupply": 0.0557,
+      "collect": 0.5205,
+      "extract": 0.2232
+    },
+    "confidence": 0.2161,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0066",
+    "expected": "heal",
+    "correct": false,
+    "ms": 45.39855899997747,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1766,
+      "heal": 0.0443,
+      "resupply": 0.0628,
+      "collect": 0.4623,
+      "extract": 0.2539
+    },
+    "confidence": 0.178,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0170",
+    "expected": "extract",
+    "correct": false,
+    "ms": 43.097862000195164,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1585,
+      "heal": 0.0887,
+      "resupply": 0.0553,
+      "collect": 0.4739,
+      "extract": 0.2236
+    },
+    "confidence": 0.1576,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0141",
+    "expected": "collect",
+    "correct": true,
+    "ms": 42.623314000138635,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1184,
+      "heal": 0.0459,
+      "resupply": 0.0495,
+      "collect": 0.7098,
+      "extract": 0.0764
+    },
+    "confidence": 0.3895,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0124",
+    "expected": "collect",
+    "correct": true,
+    "ms": 42.37562599996636,
+    "tokens": 201,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1188,
+      "heal": 0.0584,
+      "resupply": 0.0634,
+      "collect": 0.6759,
+      "extract": 0.0835
+    },
+    "confidence": 0.3377,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0084",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 42.41014300009738,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1555,
+      "heal": 0.0454,
+      "resupply": 0.0571,
+      "collect": 0.5226,
+      "extract": 0.2194
+    },
+    "confidence": 0.2138,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0149",
+    "expected": "collect",
+    "correct": true,
+    "ms": 41.0573189999468,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0919,
+      "heal": 0.0425,
+      "resupply": 0.0474,
+      "collect": 0.723,
+      "extract": 0.0952
+    },
+    "confidence": 0.4057,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0018",
+    "expected": "attack",
+    "correct": false,
+    "ms": 46.81194299996605,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1696,
+      "heal": 0.0451,
+      "resupply": 0.0623,
+      "collect": 0.4854,
+      "extract": 0.2376
+    },
+    "confidence": 0.1887,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0051",
+    "expected": "heal",
+    "correct": false,
+    "ms": 44.0933560000758,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1706,
+      "heal": 0.0475,
+      "resupply": 0.0669,
+      "collect": 0.4789,
+      "extract": 0.2362
+    },
+    "confidence": 0.1794,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0100",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 44.87937600015357,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1669,
+      "heal": 0.0455,
+      "resupply": 0.0561,
+      "collect": 0.508,
+      "extract": 0.2235
+    },
+    "confidence": 0.2047,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0113",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 41.03086100008113,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1573,
+      "heal": 0.0494,
+      "resupply": 0.0639,
+      "collect": 0.497,
+      "extract": 0.2324
+    },
+    "confidence": 0.1911,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0039",
+    "expected": "attack",
+    "correct": false,
+    "ms": 41.308667000066635,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1933,
+      "heal": 0.0425,
+      "resupply": 0.0589,
+      "collect": 0.4398,
+      "extract": 0.2655
+    },
+    "confidence": 0.1723,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0015",
+    "expected": "attack",
+    "correct": false,
+    "ms": 40.772749999860025,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1709,
+      "heal": 0.0444,
+      "resupply": 0.0578,
+      "collect": 0.4659,
+      "extract": 0.2611
+    },
+    "confidence": 0.1852,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0154",
+    "expected": "collect",
+    "correct": true,
+    "ms": 40.08639700009553,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1169,
+      "heal": 0.0444,
+      "resupply": 0.0449,
+      "collect": 0.7143,
+      "extract": 0.0795
+    },
+    "confidence": 0.3972,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0049",
+    "expected": "heal",
+    "correct": false,
+    "ms": 43.52548199994999,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.164,
+      "heal": 0.0467,
+      "resupply": 0.0658,
+      "collect": 0.4188,
+      "extract": 0.3046
+    },
+    "confidence": 0.1641,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0055",
+    "expected": "heal",
+    "correct": false,
+    "ms": 39.73225100003219,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1684,
+      "heal": 0.0421,
+      "resupply": 0.059,
+      "collect": 0.4886,
+      "extract": 0.2418
+    },
+    "confidence": 0.1962,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0153",
+    "expected": "collect",
+    "correct": true,
+    "ms": 40.67213400003311,
+    "tokens": 201,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.106,
+      "heal": 0.064,
+      "resupply": 0.0611,
+      "collect": 0.6898,
+      "extract": 0.079
+    },
+    "confidence": 0.3529,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0022",
+    "expected": "attack",
+    "correct": false,
+    "ms": 40.494774000080724,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1491,
+      "heal": 0.039,
+      "resupply": 0.0462,
+      "collect": 0.4958,
+      "extract": 0.2699
+    },
+    "confidence": 0.221,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0144",
+    "expected": "collect",
+    "correct": true,
+    "ms": 46.41622200006168,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1108,
+      "heal": 0.0375,
+      "resupply": 0.0459,
+      "collect": 0.6739,
+      "extract": 0.1318
+    },
+    "confidence": 0.3529,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0003",
+    "expected": "attack",
+    "correct": false,
+    "ms": 49.54791399995884,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1562,
+      "heal": 0.0371,
+      "resupply": 0.0496,
+      "collect": 0.5094,
+      "extract": 0.2476
+    },
+    "confidence": 0.223,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0115",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 43.02106900013314,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1915,
+      "heal": 0.0821,
+      "resupply": 0.0821,
+      "collect": 0.4018,
+      "extract": 0.2425
+    },
+    "confidence": 0.1072,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0164",
+    "expected": "extract",
+    "correct": false,
+    "ms": 41.976285999908214,
+    "tokens": 189,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1327,
+      "heal": 0.0512,
+      "resupply": 0.0452,
+      "collect": 0.5426,
+      "extract": 0.2283
+    },
+    "confidence": 0.2363,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0002",
+    "expected": "attack",
+    "correct": false,
+    "ms": 40.14528600009726,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.2197,
+      "heal": 0.0616,
+      "resupply": 0.0773,
+      "collect": 0.3874,
+      "extract": 0.2541
+    },
+    "confidence": 0.119,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0167",
+    "expected": "extract",
+    "correct": false,
+    "ms": 40.368691000139734,
+    "tokens": 193,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1514,
+      "heal": 0.0683,
+      "resupply": 0.0635,
+      "collect": 0.4755,
+      "extract": 0.2414
+    },
+    "confidence": 0.167,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0044",
+    "expected": "heal",
+    "correct": false,
+    "ms": 39.59818499993162,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1705,
+      "heal": 0.0441,
+      "resupply": 0.0572,
+      "collect": 0.4943,
+      "extract": 0.234
+    },
+    "confidence": 0.1979,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0016",
+    "expected": "attack",
+    "correct": false,
+    "ms": 46.1029379998763,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1918,
+      "heal": 0.0801,
+      "resupply": 0.0737,
+      "collect": 0.4152,
+      "extract": 0.2392
+    },
+    "confidence": 0.1188,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0179",
+    "expected": "extract",
+    "correct": false,
+    "ms": 39.86575500016443,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1607,
+      "heal": 0.1083,
+      "resupply": 0.0707,
+      "collect": 0.4539,
+      "extract": 0.2065
+    },
+    "confidence": 0.1264,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0136",
+    "expected": "collect",
+    "correct": true,
+    "ms": 40.2109010001368,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0898,
+      "heal": 0.0323,
+      "resupply": 0.0361,
+      "collect": 0.7546,
+      "extract": 0.0873
+    },
+    "confidence": 0.4579,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0011",
+    "expected": "attack",
+    "correct": false,
+    "ms": 42.82159500007765,
+    "tokens": 198,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1622,
+      "heal": 0.0385,
+      "resupply": 0.0484,
+      "collect": 0.5003,
+      "extract": 0.2506
+    },
+    "confidence": 0.2169,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0048",
+    "expected": "heal",
+    "correct": false,
+    "ms": 42.36085399998046,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1628,
+      "heal": 0.0456,
+      "resupply": 0.0635,
+      "collect": 0.4901,
+      "extract": 0.238
+    },
+    "confidence": 0.1907,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0035",
+    "expected": "attack",
+    "correct": false,
+    "ms": 42.53169200001139,
+    "tokens": 196,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1792,
+      "heal": 0.0439,
+      "resupply": 0.067,
+      "collect": 0.4572,
+      "extract": 0.2528
+    },
+    "confidence": 0.1725,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0021",
+    "expected": "attack",
+    "correct": false,
+    "ms": 43.62283000000389,
+    "tokens": 195,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1899,
+      "heal": 0.0763,
+      "resupply": 0.0795,
+      "collect": 0.4027,
+      "extract": 0.2517
+    },
+    "confidence": 0.1136,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0031",
+    "expected": "attack",
+    "correct": false,
+    "ms": 41.539473999819165,
+    "tokens": 194,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.1886,
+      "heal": 0.0398,
+      "resupply": 0.0567,
+      "collect": 0.4302,
+      "extract": 0.2847
+    },
+    "confidence": 0.1759,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0140",
+    "expected": "collect",
+    "correct": true,
+    "ms": 40.13385600001129,
+    "tokens": 200,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.0969,
+      "heal": 0.0388,
+      "resupply": 0.0468,
+      "collect": 0.7043,
+      "extract": 0.1132
+    },
+    "confidence": 0.3854,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0161",
+    "expected": "extract",
+    "correct": false,
+    "ms": 40.01439099988602,
+    "tokens": 190,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.142,
+      "heal": 0.0841,
+      "resupply": 0.0504,
+      "collect": 0.5011,
+      "extract": 0.2224
+    },
+    "confidence": 0.1821,
+    "action": {
+      "act_probability": 1.0
+    }
+  },
+  {
+    "id": "test-0103",
+    "expected": "resupply",
+    "correct": false,
+    "ms": 40.41550799979632,
+    "tokens": 199,
+    "type": "choice",
+    "choice": "collect",
+    "probabilities": {
+      "attack": 0.2135,
+      "heal": 0.0657,
+      "resupply": 0.0797,
+      "collect": 0.4064,
+      "extract": 0.2346
+    },
+    "confidence": 0.12,
+    "action": {
+      "act_probability": 1.0
+    }
+  }
+]

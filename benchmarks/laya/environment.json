@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-21T14:25:09Z",
+  "python": "3.13.15",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "Tesla T4",
+  "gpu_count": 1,
+  "gpu_memory_gib": 14.56317138671875,
+  "packages": {
+    "laya": "0.3.4",
+    "transformers": "5.0.0",
+    "safetensors": "0.8.0",
+    "huggingface_hub": "1.29.0"
+  },
+  "base_revision": "1c5edc17a7acd8701df6fc341c0d179f1c62c982",
+  "base_sha256": "891102d372688fc2a094dac56a384bc537b87c63f21f9f3dac0be2b7cbc8d86c",
+  "parameters": 421293827,
+  "download_and_load_seconds": 35.17822906499998,
+  "reference_run_training_script_sha256": "1cf92a4e6483552c9688621e2eeb2e642441028bda9fcea1454b581f02966af2",
+  "reference_run_protocol_sha256": "cda4f1090ba0da8a2f3d9ee5673eff380c81320fa4893413f4c62e034349486c"
+}

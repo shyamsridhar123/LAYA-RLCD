@@ -1,0 +1,251 @@
+{
+  "controller": "laya-base",
+  "seed": 20260925,
+  "trace": [
+    {
+      "time": 0,
+      "state": "Health: 81/100 (healthy). Ammunition: 9 rounds (sufficient). Hostiles remaining: 6; visible: 2. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "collect"
+    },
+    {
+      "time": 2,
+      "state": "Health: 72/100 (healthy). Ammunition: 9 rounds (sufficient). Hostiles remaining: 6; visible: 2. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "collect"
+    },
+    {
+      "time": 4,
+      "state": "Health: 54/100 (wounded). Ammunition: 9 rounds (sufficient). Hostiles remaining: 6; visible: 2. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "collect"
+    },
+    {
+      "time": 6,
+      "state": "Health: 54/100 (wounded). Ammunition: 9 rounds (sufficient). Hostiles remaining: 6; visible: 4. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "collect"
+    },
+    {
+      "time": 8,
+      "state": "Health: 54/100 (wounded). Ammunition: 9 rounds (sufficient). Hostiles remaining: 6; visible: 2. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "collect"
+    },
+    {
+      "time": 10,
+      "state": "Health: 45/100 (wounded). Ammunition: 9 rounds (sufficient). Hostiles remaining: 6; visible: 2. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "collect"
+    },
+    {
+      "time": 12,
+      "state": "Health: 27/100 (critically low). Ammunition: 9 rounds (sufficient). Hostiles remaining: 6; visible: 2. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "collect"
+    },
+    {
+      "time": 14,
+      "state": "Health: 18/100 (critically low). Ammunition: 9 rounds (sufficient). Hostiles remaining: 6; visible: 2. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "collect"
+    },
+    {
+      "time": 16,
+      "state": "Health: 9/100 (critically low). Ammunition: 9 rounds (sufficient). Hostiles remaining: 6; visible: 2. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "collect"
+    }
+  ],
+  "final": {
+    "seed": 20260925,
+    "ticks": 328,
+    "time": 16.400000000000002,
+    "status": "dead",
+    "player": {
+      "x": 11.5,
+      "z": 2.4799999999999667,
+      "yaw": 0,
+      "hp": 0,
+      "ammo": 9,
+      "kills": 0,
+      "shots": 0,
+      "hits": 0,
+      "damageTaken": 81,
+      "core": false,
+      "cooldown": 0,
+      "lastShot": -10,
+      "lastHurt": 16.400000000000002
+    },
+    "enemies": [
+      {
+        "id": 0,
+        "x": 11.625657966709417,
+        "z": 16.02328795416584,
+        "hp": 90,
+        "cooldown": -11.385232545109496,
+        "hitAt": -10,
+        "alive": true
+      },
+      {
+        "id": 1,
+        "x": 5.736283208899223,
+        "z": 17.80716170679715,
+        "hp": 90,
+        "cooldown": -13.546609071851767,
+        "hitAt": -10,
+        "alive": true
+      },
+      {
+        "id": 2,
+        "x": 18.43602720055267,
+        "z": 16.716308315104328,
+        "hp": 90,
+        "cooldown": -15.120834667049431,
+        "hitAt": -10,
+        "alive": true
+      },
+      {
+        "id": 3,
+        "x": 11.395799826657019,
+        "z": 6.816487340162153,
+        "hp": 90,
+        "cooldown": 0.6917746966471885,
+        "hitAt": -10,
+        "alive": true
+      },
+      {
+        "id": 4,
+        "x": 5.805316244499249,
+        "z": 5.544995840131259,
+        "hp": 90,
+        "cooldown": -9.53572164711077,
+        "hitAt": -10,
+        "alive": true
+      },
+      {
+        "id": 5,
+        "x": 17.855520229507757,
+        "z": 5.292204518408127,
+        "hp": 90,
+        "cooldown": -9.185139979445374,
+        "hitAt": -10,
+        "alive": true
+      }
+    ],
+    "pickups": [
+      {
+        "id": "med-1",
+        "kind": "med",
+        "x": 10.5,
+        "z": 19.5,
+        "taken": false
+      },
+      {
+        "id": "med-2",
+        "kind": "med",
+        "x": 17.5,
+        "z": 10.5,
+        "taken": false
+      },
+      {
+        "id": "med-3",
+        "kind": "med",
+        "x": 5.5,
+        "z": 3.5,
+        "taken": false
+      },
+      {
+        "id": "ammo-1",
+        "kind": "ammo",
+        "x": 12.5,
+        "z": 18.5,
+        "taken": false
+      },
+      {
+        "id": "ammo-2",
+        "kind": "ammo",
+        "x": 4.5,
+        "z": 10.5,
+        "taken": false
+      },
+      {
+        "id": "ammo-3",
+        "kind": "ammo",
+        "x": 18.5,
+        "z": 3.5,
+        "taken": false
+      },
+      {
+        "id": "core",
+        "kind": "core",
+        "x": 11.5,
+        "z": 2.5,
+        "taken": false
+      }
+    ],
+    "projectiles": []
+  },
+  "events": [
+    {
+      "type": "hurt",
+      "time": 1.75,
+      "x": 11.5,
+      "z": 15.86249999999999,
+      "value": 9
+    },
+    {
+      "type": "hurt",
+      "time": 2.25,
+      "x": 11.5,
+      "z": 14.537499999999987,
+      "value": 9
+    },
+    {
+      "type": "hurt",
+      "time": 3.35,
+      "x": 11.5,
+      "z": 11.622499999999981,
+      "value": 9
+    },
+    {
+      "type": "hurt",
+      "time": 8.6,
+      "x": 11.5,
+      "z": 2.4799999999999667,
+      "value": 9
+    },
+    {
+      "type": "hurt",
+      "time": 10.200000000000001,
+      "x": 11.5,
+      "z": 2.4799999999999667,
+      "value": 9
+    },
+    {
+      "type": "hurt",
+      "time": 11.8,
+      "x": 11.5,
+      "z": 2.4799999999999667,
+      "value": 9
+    },
+    {
+      "type": "hurt",
+      "time": 13.200000000000001,
+      "x": 11.5,
+      "z": 2.4799999999999667,
+      "value": 9
+    },
+    {
+      "type": "hurt",
+      "time": 14.700000000000001,
+      "x": 11.5,
+      "z": 2.4799999999999667,
+      "value": 9
+    },
+    {
+      "type": "hurt",
+      "time": 16.400000000000002,
+      "x": 11.5,
+      "z": 2.4799999999999667,
+      "value": 9
+    },
+    {
+      "type": "dead",
+      "time": 16.400000000000002,
+      "x": 11.5,
+      "z": 2.4799999999999667
+    }
+  ]
+}

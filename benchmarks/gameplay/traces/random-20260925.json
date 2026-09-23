@@ -1,0 +1,724 @@
+{
+  "controller": "random",
+  "seed": 20260925,
+  "trace": [
+    {
+      "time": 0,
+      "state": "Health: 81/100 (healthy). Ammunition: 9 rounds (sufficient). Hostiles remaining: 6; visible: 2. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "collect"
+    },
+    {
+      "time": 2,
+      "state": "Health: 72/100 (healthy). Ammunition: 9 rounds (sufficient). Hostiles remaining: 6; visible: 2. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "extract"
+    },
+    {
+      "time": 4,
+      "state": "Health: 63/100 (wounded). Ammunition: 9 rounds (sufficient). Hostiles remaining: 6; visible: 2. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "extract"
+    },
+    {
+      "time": 6,
+      "state": "Health: 45/100 (wounded). Ammunition: 9 rounds (sufficient). Hostiles remaining: 6; visible: 2. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "attack"
+    },
+    {
+      "time": 8,
+      "state": "Health: 36/100 (wounded). Ammunition: 3 rounds (sufficient). Hostiles remaining: 4; visible: 2. Medkits remaining: 3. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "heal"
+    },
+    {
+      "time": 10,
+      "state": "Health: 82/100 (healthy). Ammunition: 3 rounds (sufficient). Hostiles remaining: 4; visible: 1. Medkits remaining: 2. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "attack"
+    },
+    {
+      "time": 12,
+      "state": "Health: 73/100 (healthy). Ammunition: 0 rounds (critically low or empty). Hostiles remaining: 3; visible: 0. Medkits remaining: 2. Ammo crates remaining: 3. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "extract"
+    },
+    {
+      "time": 14,
+      "state": "Health: 73/100 (healthy). Ammunition: 15 rounds (sufficient). Hostiles remaining: 3; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "attack"
+    },
+    {
+      "time": 16,
+      "state": "Health: 73/100 (healthy). Ammunition: 12 rounds (sufficient). Hostiles remaining: 2; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "attack"
+    },
+    {
+      "time": 18,
+      "state": "Health: 73/100 (healthy). Ammunition: 12 rounds (sufficient). Hostiles remaining: 2; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "extract"
+    },
+    {
+      "time": 20,
+      "state": "Health: 73/100 (healthy). Ammunition: 12 rounds (sufficient). Hostiles remaining: 2; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "extract"
+    },
+    {
+      "time": 22,
+      "state": "Health: 73/100 (healthy). Ammunition: 12 rounds (sufficient). Hostiles remaining: 2; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "resupply"
+    },
+    {
+      "time": 24,
+      "state": "Health: 73/100 (healthy). Ammunition: 12 rounds (sufficient). Hostiles remaining: 2; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "resupply"
+    },
+    {
+      "time": 26,
+      "state": "Health: 73/100 (healthy). Ammunition: 12 rounds (sufficient). Hostiles remaining: 2; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "heal"
+    },
+    {
+      "time": 28,
+      "state": "Health: 73/100 (healthy). Ammunition: 12 rounds (sufficient). Hostiles remaining: 2; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "attack"
+    },
+    {
+      "time": 30,
+      "state": "Health: 73/100 (healthy). Ammunition: 10 rounds (sufficient). Hostiles remaining: 2; visible: 1. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "extract"
+    },
+    {
+      "time": 32,
+      "state": "Health: 73/100 (healthy). Ammunition: 10 rounds (sufficient). Hostiles remaining: 2; visible: 1. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "extract"
+    },
+    {
+      "time": 34,
+      "state": "Health: 73/100 (healthy). Ammunition: 10 rounds (sufficient). Hostiles remaining: 2; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "attack"
+    },
+    {
+      "time": 36,
+      "state": "Health: 73/100 (healthy). Ammunition: 10 rounds (sufficient). Hostiles remaining: 2; visible: 1. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "resupply"
+    },
+    {
+      "time": 38,
+      "state": "Health: 64/100 (wounded). Ammunition: 10 rounds (sufficient). Hostiles remaining: 2; visible: 1. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "collect"
+    },
+    {
+      "time": 40,
+      "state": "Health: 55/100 (wounded). Ammunition: 10 rounds (sufficient). Hostiles remaining: 2; visible: 1. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "collect"
+    },
+    {
+      "time": 42,
+      "state": "Health: 55/100 (wounded). Ammunition: 10 rounds (sufficient). Hostiles remaining: 2; visible: 2. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "collect"
+    },
+    {
+      "time": 44,
+      "state": "Health: 46/100 (wounded). Ammunition: 10 rounds (sufficient). Hostiles remaining: 2; visible: 1. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "extract"
+    },
+    {
+      "time": 46,
+      "state": "Health: 46/100 (wounded). Ammunition: 10 rounds (sufficient). Hostiles remaining: 2; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is sealed until all hostiles are defeated. The exit requires the core.",
+      "action": "attack"
+    },
+    {
+      "time": 48,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "resupply"
+    },
+    {
+      "time": 50,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "attack"
+    },
+    {
+      "time": 52,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "attack"
+    },
+    {
+      "time": 54,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "extract"
+    },
+    {
+      "time": 56,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "extract"
+    },
+    {
+      "time": 58,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "collect"
+    },
+    {
+      "time": 60,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "collect"
+    },
+    {
+      "time": 62,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "resupply"
+    },
+    {
+      "time": 64,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "extract"
+    },
+    {
+      "time": 66,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "resupply"
+    },
+    {
+      "time": 68,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "extract"
+    },
+    {
+      "time": 70,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "heal"
+    },
+    {
+      "time": 72,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "extract"
+    },
+    {
+      "time": 74,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "heal"
+    },
+    {
+      "time": 76,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "extract"
+    },
+    {
+      "time": 78,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "attack"
+    },
+    {
+      "time": 80,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "resupply"
+    },
+    {
+      "time": 82,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "extract"
+    },
+    {
+      "time": 84,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "attack"
+    },
+    {
+      "time": 86,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "heal"
+    },
+    {
+      "time": 88,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "attack"
+    },
+    {
+      "time": 90,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "extract"
+    },
+    {
+      "time": 92,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "resupply"
+    },
+    {
+      "time": 94,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "collect"
+    },
+    {
+      "time": 96,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "attack"
+    },
+    {
+      "time": 98,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "resupply"
+    },
+    {
+      "time": 100,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "attack"
+    },
+    {
+      "time": 102,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "collect"
+    },
+    {
+      "time": 104,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. All hostiles are defeated. The reactor core is ready for collection. The exit requires the core.",
+      "action": "collect"
+    },
+    {
+      "time": 106,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open.",
+      "action": "heal"
+    },
+    {
+      "time": 108,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open.",
+      "action": "resupply"
+    },
+    {
+      "time": 110,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open.",
+      "action": "attack"
+    },
+    {
+      "time": 112,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open.",
+      "action": "collect"
+    },
+    {
+      "time": 114,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open.",
+      "action": "collect"
+    },
+    {
+      "time": 116,
+      "state": "Health: 37/100 (wounded). Ammunition: 5 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 2. The reactor core is in your inventory. The exit is open.",
+      "action": "resupply"
+    },
+    {
+      "time": 118,
+      "state": "Health: 37/100 (wounded). Ammunition: 20 rounds (sufficient). Hostiles remaining: 0; visible: 0. Medkits remaining: 2. Ammo crates remaining: 1. The reactor core is in your inventory. The exit is open.",
+      "action": "heal"
+    }
+  ],
+  "final": {
+    "seed": 20260925,
+    "ticks": 2400,
+    "time": 120,
+    "status": "timeout",
+    "player": {
+      "x": 5.782028697409167,
+      "z": 3.810077532529523,
+      "yaw": 1.163112618384219,
+      "hp": 92,
+      "ammo": 20,
+      "kills": 6,
+      "shots": 19,
+      "hits": 18,
+      "damageTaken": 99,
+      "core": true,
+      "cooldown": 0,
+      "lastShot": 48,
+      "lastHurt": 47.550000000000004
+    },
+    "enemies": [
+      {
+        "id": 0,
+        "x": 11.626241238938633,
+        "z": 18.109413951278206,
+        "hp": -12,
+        "cooldown": 0.06427835288923148,
+        "hitAt": 6.75,
+        "alive": false
+      },
+      {
+        "id": 1,
+        "x": 6.500264063622881,
+        "z": 17.94221172595223,
+        "hp": -12,
+        "cooldown": 0.9663708373904221,
+        "hitAt": 7.800000000000001,
+        "alive": false
+      },
+      {
+        "id": 2,
+        "x": 16.63549902523054,
+        "z": 17.336541296660467,
+        "hp": -12,
+        "cooldown": 0.9861023804871358,
+        "hitAt": 15,
+        "alive": false
+      },
+      {
+        "id": 3,
+        "x": 11.333962607439748,
+        "z": 12.444619579782652,
+        "hp": -12,
+        "cooldown": 0.6662656144471828,
+        "hitAt": 10.75,
+        "alive": false
+      },
+      {
+        "id": 4,
+        "x": 6.346832378596681,
+        "z": 5.529646958448273,
+        "hp": -12,
+        "cooldown": 0.7785196511773382,
+        "hitAt": 47.650000000000006,
+        "alive": false
+      },
+      {
+        "id": 5,
+        "x": 16.548896900107607,
+        "z": 5.9709218481496045,
+        "hp": -12,
+        "cooldown": 1.5740203244378788,
+        "hitAt": 48,
+        "alive": false
+      }
+    ],
+    "pickups": [
+      {
+        "id": "med-1",
+        "kind": "med",
+        "x": 10.5,
+        "z": 19.5,
+        "taken": true
+      },
+      {
+        "id": "med-2",
+        "kind": "med",
+        "x": 17.5,
+        "z": 10.5,
+        "taken": false
+      },
+      {
+        "id": "med-3",
+        "kind": "med",
+        "x": 5.5,
+        "z": 3.5,
+        "taken": true
+      },
+      {
+        "id": "ammo-1",
+        "kind": "ammo",
+        "x": 12.5,
+        "z": 18.5,
+        "taken": true
+      },
+      {
+        "id": "ammo-2",
+        "kind": "ammo",
+        "x": 4.5,
+        "z": 10.5,
+        "taken": true
+      },
+      {
+        "id": "ammo-3",
+        "kind": "ammo",
+        "x": 18.5,
+        "z": 3.5,
+        "taken": false
+      },
+      {
+        "id": "core",
+        "kind": "core",
+        "x": 11.5,
+        "z": 2.5,
+        "taken": true
+      }
+    ],
+    "projectiles": []
+  },
+  "events": [
+    {
+      "type": "hurt",
+      "time": 1.75,
+      "x": 11.5,
+      "z": 15.86249999999999,
+      "value": 9
+    },
+    {
+      "type": "hurt",
+      "time": 3.2,
+      "x": 11.5,
+      "z": 18.379999999999995,
+      "value": 9
+    },
+    {
+      "type": "hurt",
+      "time": 4.3500000000000005,
+      "x": 11.5,
+      "z": 21.1625,
+      "value": 9
+    },
+    {
+      "type": "hurt",
+      "time": 5.65,
+      "x": 11.5,
+      "z": 21.1625,
+      "value": 9
+    },
+    {
+      "type": "shot",
+      "time": 6.050000000000001,
+      "x": 11.504255629608043,
+      "z": 21.102988630442955,
+      "target": 0
+    },
+    {
+      "type": "hurt",
+      "time": 6.050000000000001,
+      "x": 11.504255629608043,
+      "z": 21.102988630442955,
+      "value": 9
+    },
+    {
+      "type": "shot",
+      "time": 6.4,
+      "x": 11.700660272635815,
+      "z": 20.92586346829314,
+      "target": 0
+    },
+    {
+      "type": "shot",
+      "time": 6.75,
+      "x": 12.10279374198223,
+      "z": 20.890096433522583,
+      "target": 0
+    },
+    {
+      "type": "kill",
+      "time": 6.75,
+      "x": 11.626241238938633,
+      "z": 18.109413951278206,
+      "target": 0
+    },
+    {
+      "type": "shot",
+      "time": 7.1000000000000005,
+      "x": 11.973040754884627,
+      "z": 20.089230095772372,
+      "target": 1
+    },
+    {
+      "type": "shot",
+      "time": 7.45,
+      "x": 11.652600263857742,
+      "z": 19.755088000616585,
+      "target": 1
+    },
+    {
+      "type": "shot",
+      "time": 7.800000000000001,
+      "x": 11.222604987350298,
+      "z": 19.717081574466505,
+      "target": 1
+    },
+    {
+      "type": "kill",
+      "time": 7.800000000000001,
+      "x": 6.500264063622881,
+      "z": 17.94221172595223,
+      "target": 1
+    },
+    {
+      "type": "med",
+      "time": 8.15,
+      "x": 10.5,
+      "z": 19.5
+    },
+    {
+      "type": "hurt",
+      "time": 9.200000000000001,
+      "x": 11.483748558824598,
+      "z": 16.75530080359319,
+      "value": 9
+    },
+    {
+      "type": "shot",
+      "time": 10.05,
+      "x": 11.551701340906412,
+      "z": 14.63094124916443,
+      "target": 3
+    },
+    {
+      "type": "hurt",
+      "time": 10.100000000000001,
+      "x": 11.600693748250114,
+      "z": 14.625744789120494,
+      "value": 9
+    },
+    {
+      "type": "shot",
+      "time": 10.4,
+      "x": 11.78442952897446,
+      "z": 14.596311068578268,
+      "target": 3
+    },
+    {
+      "type": "shot",
+      "time": 10.75,
+      "x": 11.714766627597639,
+      "z": 14.610164668846545,
+      "target": 3
+    },
+    {
+      "type": "kill",
+      "time": 10.75,
+      "x": 11.333962607439748,
+      "z": 12.444619579782652,
+      "target": 3
+    },
+    {
+      "type": "ammo",
+      "time": 12.65,
+      "x": 12.5,
+      "z": 18.5
+    },
+    {
+      "type": "shot",
+      "time": 14.3,
+      "x": 11.514411792250796,
+      "z": 20.46674914818664,
+      "target": 2
+    },
+    {
+      "type": "shot",
+      "time": 14.65,
+      "x": 11.687475048238234,
+      "z": 19.92870171853566,
+      "target": 2
+    },
+    {
+      "type": "shot",
+      "time": 15,
+      "x": 11.994973988894884,
+      "z": 19.61309319420465,
+      "target": 2
+    },
+    {
+      "type": "kill",
+      "time": 15,
+      "x": 16.63549902523054,
+      "z": 17.336541296660467,
+      "target": 2
+    },
+    {
+      "type": "shot",
+      "time": 29.650000000000002,
+      "x": 17.994221488875905,
+      "z": 9.454811869708049,
+      "target": 5
+    },
+    {
+      "type": "shot",
+      "time": 30,
+      "x": 18.064219986677994,
+      "z": 9.23793277643643,
+      "target": 5
+    },
+    {
+      "type": "hurt",
+      "time": 37.65,
+      "x": 18.497775926895414,
+      "z": 11.056264740550569,
+      "value": 9
+    },
+    {
+      "type": "hurt",
+      "time": 38.6,
+      "x": 18.499875463783127,
+      "z": 8.538766541760351,
+      "value": 9
+    },
+    {
+      "type": "hurt",
+      "time": 43.650000000000006,
+      "x": 11.473483288954329,
+      "z": 2.479581616654552,
+      "value": 9
+    },
+    {
+      "type": "shot",
+      "time": 46.6,
+      "x": 11.433615840526224,
+      "z": 6.335545181337147,
+      "target": 4
+    },
+    {
+      "type": "shot",
+      "time": 46.95,
+      "x": 11.07437924225145,
+      "z": 6.409810201071639
+    },
+    {
+      "type": "shot",
+      "time": 47.300000000000004,
+      "x": 10.738655730515157,
+      "z": 6.260128597200812,
+      "target": 4
+    },
+    {
+      "type": "hurt",
+      "time": 47.550000000000004,
+      "x": 10.442641421070721,
+      "z": 6.295603065235603,
+      "value": 9
+    },
+    {
+      "type": "shot",
+      "time": 47.650000000000006,
+      "x": 10.387997918640865,
+      "z": 6.188318496417188,
+      "target": 4
+    },
+    {
+      "type": "kill",
+      "time": 47.650000000000006,
+      "x": 6.346832378596681,
+      "z": 5.529646958448273,
+      "target": 4
+    },
+    {
+      "type": "shot",
+      "time": 48,
+      "x": 10.728749638134271,
+      "z": 5.915402537618727,
+      "target": 5
+    },
+    {
+      "type": "kill",
+      "time": 48,
+      "x": 16.548896900107607,
+      "z": 5.9709218481496045,
+      "target": 5
+    },
+    {
+      "type": "core",
+      "time": 104.80000000000001,
+      "x": 11.5,
+      "z": 2.5
+    },
+    {
+      "type": "ammo",
+      "time": 117.5,
+      "x": 4.5,
+      "z": 10.5
+    },
+    {
+      "type": "med",
+      "time": 119.85000000000001,
+      "x": 5.5,
+      "z": 3.5
+    },
+    {
+      "type": "timeout",
+      "time": 120,
+      "x": 5.782028697409167,
+      "z": 3.810077532529523
+    }
+  ]
+}

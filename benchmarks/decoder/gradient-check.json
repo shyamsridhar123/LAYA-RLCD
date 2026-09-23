@@ -1,0 +1,7 @@
+{
+  "backbone_parameter": "model.layers.0.attn.q_proj.weight",
+  "rl_only_backbone_gradient_norm": 12.177091598510742,
+  "rl_only_classifier_gradient_norm": 33.09831619262695,
+  "rl_loss": -0.3782920837402344,
+  "cross_entropy": 1.5735821723937988
+}

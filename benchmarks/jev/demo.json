@@ -1,0 +1,48 @@
+{
+  "date_utc": "2026-09-22T03:34:02.171Z",
+  "seed": 20260926,
+  "model": [
+    "jev-1.13.0"
+  ],
+  "outcome": "won",
+  "kills": 6,
+  "core": true,
+  "health": 74,
+  "simulation_seconds": 20.650000000000002,
+  "wall_seconds": 23.0125,
+  "decisions": 11,
+  "fallbacks": 0,
+  "browser_request_latency": {
+    "count": 11,
+    "mean_ms": 179.05454544587568,
+    "median_ms": 165.39999997615814,
+    "p95_ms": 265.7999999523163,
+    "min_ms": 129.60000002384186,
+    "max_ms": 265.7999999523163,
+    "total_ms": 1969.5999999046326,
+    "percentile_method": "nearest rank; with 11 observations, p95 is the maximum"
+  },
+  "server_to_typesafe_roundtrip": {
+    "count": 11,
+    "mean_ms": 164.1099454559894,
+    "median_ms": 150.69400006905198,
+    "p95_ms": 254.73499996587634,
+    "min_ms": 116.12060002516955,
+    "max_ms": 254.73499996587634,
+    "total_ms": 1805.2094000158831,
+    "percentile_method": "nearest rank; with 11 observations, p95 is the maximum"
+  },
+  "usage": {
+    "input_tokens": 5608,
+    "output_tokens": 596
+  },
+  "method": {
+    "sample": "One recorded mission after one separate smoke request; smoke excluded from metrics.",
+    "model_input": "Text game state, not camera pixels.",
+    "model_output": "One of attack, heal, resupply, collect, extract every two simulation seconds.",
+    "game_motor": "Shared deterministic navigation, target selection, aiming, firing and strafing.",
+    "capture": "Live canvas recording at normal speed, including inference waits; no audio; no retries.",
+    "timing": "Simulation pauses for inference. Browser latency includes local bridge and remote request; provider call timing includes network and service time, not pure model compute.",
+    "scope": "One seed and different inference deployments; not a general model benchmark."
+  }
+}
