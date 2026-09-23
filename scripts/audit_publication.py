@@ -19,7 +19,7 @@ import zipfile
 import zlib
 
 ROOT = Path(__file__).resolve().parents[1]
-OMIT_DIRS = {".git", ".venv", "node_modules", "__pycache__", ".pytest_cache",
+OMIT_DIRS = {".git", ".venv", ".venv-train", "node_modules", "__pycache__", ".pytest_cache",
              ".ipynb_checkpoints", "models", "runs", "recordings"}
 OMIT_SUFFIXES = {".log", ".safetensors", ".pt", ".pth", ".ckpt", ".zip",
                  ".webm", ".mp4", ".pem", ".key", ".pyc"}

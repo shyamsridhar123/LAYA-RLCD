@@ -1,10 +1,19 @@
-# LAYA-RLCD · Cinder Station
-
-**Train a tiny tactical pilot. Watch it make a terrible decision. Find out why.**
-
-A hands-on lab for **Laya**, **RLCD**, **ModernBERT Decoder**, and **TypeSafe Jev**, with Colab lessons, inspectable experiment evidence, and an original Doom-inspired browser game.
-
-![Cinder Station: an original first-person learning playground](docs/assets/cinder-station.png)
+<div align="center">
+  <p><strong>LAYA—RLCD &nbsp; / &nbsp; CINDER STATION</strong></p>
+  <h1>Play. Learn. Respawn.</h1>
+  <p><strong>Train a tiny tactical pilot. Watch it make a terrible decision. Find out why.</strong></p>
+  <p>A playable learning lab for LAYA, ModernBERT Decoder, RLCD, and TypeSafe Jev.</p>
+  <p>
+    <a href="https://laya-cinder-station-report.shyam-sridhar16.chatgpt.site#play"><strong>▶ Play Cinder Station</strong></a> &nbsp; · &nbsp;
+    <a href="docs/LOCAL.md"><strong>⌘ Run locally</strong></a> &nbsp; · &nbsp;
+    <a href="#in-colab"><strong>↗ Train in Colab</strong></a> &nbsp; · &nbsp;
+    <a href="docs/BENCHMARKS.md"><strong>▤ Inspect the evidence</strong></a>
+  </p>
+  <a href="https://laya-cinder-station-report.shyam-sridhar16.chatgpt.site">
+    <img src="docs/assets/cinder-station.png" width="1000" alt="Cinder Station's dark green reactor corridor and game menu. Open the public learning lab to play." />
+  </a>
+  <p><sub>PLAY → TRAIN → INSPECT → TRY AGAIN &nbsp; • &nbsp; Original Doom-inspired game. Open experiment evidence.</sub></p>
+</div>
 
 The mission is simple: defeat six hostiles, recover the reactor core, and escape. Your model reads a text state and chooses `attack`, `heal`, `resupply`, `collect`, or `extract`. The shared game motor handles movement, targeting, and aiming. You can also take the controls yourself.
 
@@ -44,7 +53,21 @@ npm run build:standalone
 
 Open or share `game/dist/cinder-station.html`. It includes manual, rule, and random pilots and does not call a model service. This is also the game embedded in the learning lab. For LAYA, ModernBERT Decoder, or Jev, run the local bridge below. The standalone file uses WebGL; fullscreen and recording depend on browser support.
 
-## Pick your next mission
+## Train locally or in Colab
+
+### On your machine
+
+Use **Windows or Linux with an NVIDIA CUDA GPU**. Python 3.11–3.13 is supported; Python 3.12 is a good starting point. From the cloned repository:
+
+```bash
+python scripts/setup.py --training
+python scripts/train_local.py --model decoder
+python scripts/train_local.py --model laya
+```
+
+Run the models sequentially. Setup creates a separate `.venv-train`, installs pinned CUDA dependencies, and checks the GPU. Each launcher copies the synthetic data into a fresh run folder, trains, evaluates, and saves `selected/` plus `results/`. **No Colab, notebook, or API key is required.** See [the complete local guide](docs/LOCAL.md) for hardware, saved-checkpoint play, direct phase commands, and troubleshooting. CPU and Apple MPS training are not implemented; local game play and CPU inference are available.
+
+### In Colab
 
 | Lesson | Open in Colab | You will learn |
 |---|---|---|
@@ -63,25 +86,9 @@ Both training implementations are included as readable, standalone Python script
 | **LAYA** | [`scripts/finetune_colab.py`](scripts/finetune_colab.py) | `train`, then `finalize` (calibration and test evaluation) | [LAYA notebook](notebooks/02_laya_colab.ipynb) |
 | **ModernBERT Decoder** | [`scripts/modernbert_decoder_colab.py`](scripts/modernbert_decoder_colab.py) | `train`, then `evaluate` | [ModernBERT notebook](notebooks/01_modernbert_decoder_colab.ipynb) |
 
-Use the dependency-install cell in either training notebook to prepare a CUDA GPU environment with the pinned experiment packages. The local game setup installs CPU PyTorch; use the notebook's GPU setup for training. From a cloned repository in that GPU environment, give each model its own fresh run directory:
+The local launcher above invokes these exact scripts with the correct training interpreter and separate run folders. Their filenames preserve the Colab reference experiment; the scripts also run on a local CUDA machine. The [local guide](docs/LOCAL.md#inspect-results-and-resume-a-phase) includes commands for running individual phases on Windows and Linux.
 
-**LAYA — train the station commander:**
-
-```bash
-python -c "import shutil; shutil.copytree('data', 'runs/laya/data')"
-python scripts/finetune_colab.py train --root runs/laya
-python scripts/finetune_colab.py finalize --root runs/laya
-```
-
-**ModernBERT Decoder — train the 17M pilot:**
-
-```bash
-python -c "import shutil; shutil.copytree('data', 'runs/modernbert/data')"
-python scripts/modernbert_decoder_colab.py train --root runs/modernbert
-python scripts/modernbert_decoder_colab.py evaluate --root runs/modernbert
-```
-
-Each run saves its trained checkpoint under `selected/` and measured results under `results/` inside its run directory. Choose a new directory for another experiment. In Colab, download those files before ending the runtime; the matching lesson includes checkpoint and results export cells.
+Choose a new `--run-dir` for another local experiment. In Colab, download the selected checkpoint and results before ending the runtime; the matching lesson includes export cells. The original GPU experiments were completed on a T4. The new local launcher has passed command and failure-path checks, but has not yet completed a fresh GPU training run.
 
 ## Put a model in the cockpit
 
@@ -92,7 +99,15 @@ python scripts/setup.py --download-laya
 python scripts/play.py --model laya
 ```
 
-**Your Colab-trained Laya or decoder:** download the checkpoint ZIP from the lesson, extract its `selected/` directory under `models/`, then:
+**Your locally trained LAYA or decoder:**
+
+```bash
+python scripts/setup.py --models
+python scripts/play.py --model decoder --model-dir runs/decoder/selected
+# For LAYA: --model laya --model-dir runs/laya/selected
+```
+
+**Your Colab-trained LAYA or decoder:** download the checkpoint ZIP from the lesson, extract its `selected/` directory under `models/`, then:
 
 ```bash
 python scripts/setup.py --models

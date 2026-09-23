@@ -26,10 +26,10 @@ def main():
     env.update(RLCD_LOCAL_MODEL=args.model, RLCD_DEVICE=args.device, RLCD_API_PORT=str(args.port))
     if args.model != "none":
         if args.model == "decoder" and not args.model_dir:
-            raise SystemExit("Decoder mode requires --model-dir pointing to the notebook's selected folder.")
+            raise SystemExit("Decoder mode requires --model-dir pointing to your trained selected folder.")
         directory = (args.model_dir or ROOT / "models/laya").resolve()
         if not directory.is_dir():
-            raise SystemExit("Model directory not found. Download Laya or unpack your Colab export first.")
+            raise SystemExit("Model directory not found. Train locally, download Laya, or unpack your Colab export first.")
         env["RLCD_MODEL_DIR"] = str(directory)
     if args.jev and not (env.get("TYPESAFE_API_KEY") or env.get("JEV_API_KEY")):
         env["TYPESAFE_API_KEY"] = getpass.getpass("TypeSafe API key (hidden; only kept in server memory): ").strip()
