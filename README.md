@@ -8,6 +8,8 @@ A hands-on lab for **Laya**, **RLCD**, **ModernBERT Decoder**, and **TypeSafe Je
 
 The mission is simple: defeat six hostiles, recover the reactor core, and escape. Your model reads a text state and chooses `attack`, `heal`, `resupply`, `collect`, or `extract`. The shared game motor handles movement, targeting, and aiming. You can also take the controls yourself.
 
+**[Enter the learning lab](https://laya-cinder-station-report.shyam-sridhar16.chatgpt.site)** — play in your browser, open both Colab lessons, inspect the benchmark evidence, meet Jev, and try the interactive tactical-rule lesson. The site also preserves the original Laya field report and recorded gameplay. Browser play offers manual, rule, and random pilots; use the local setup below to connect model inference.
+
 ## Play first
 
 Install **Python 3.11–3.13**, **Node.js 22 LTS**, and Git. Then:
@@ -19,7 +21,7 @@ python scripts/setup.py
 python scripts/play.py
 ```
 
-Open **http://127.0.0.1:8765**. Choose **Enter the station** for manual play or **Watch AI play** with the rule/random baseline. This first step needs no model download, GPU, or API key. If the port is occupied, add `--port 8766`.
+Open **http://127.0.0.1:8765**. Choose **Enter the station** for manual play or **Watch pilot play** with the rule/random baseline. This first step needs no model download, GPU, or API key. If the port is occupied, add `--port 8766`.
 
 | Control | What it does |
 |---|---|
@@ -31,6 +33,16 @@ Open **http://127.0.0.1:8765**. Choose **Enter the station** for manual play or 
 | On-screen arrows and Fire | Touch controls on a phone/tablet |
 
 Enable **Record gameplay & telemetry** before starting to download a WebM and JSON debrief afterward. Recording stays in your browser; it does not upload to a service. The original art, geometry, and sounds are generated in code. No Doom game files are required or included.
+
+### Share a standalone game
+
+After setup, build a single HTML file with the same simulation, rendering, and controls:
+
+```bash
+npm run build:standalone
+```
+
+Open or share `game/dist/cinder-station.html`. It includes manual, rule, and random pilots and does not call a model service. This is also the game embedded in the learning lab. For LAYA, ModernBERT Decoder, or Jev, run the local bridge below. The standalone file uses WebGL; fullscreen and recording depend on browser support.
 
 ## Pick your next mission
 

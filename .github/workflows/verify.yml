@@ -21,6 +21,7 @@ jobs:
       - run: python -m pytest -q
       - run: npm test
       - run: npm run build
+      - run: npm run build:standalone
       - run: python scripts/verify_benchmarks.py
       - run: npm run verify:replays
       - run: python scripts/check_notebooks.py --execute-results

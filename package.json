@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite game --host 127.0.0.1 --port 4173 --strictPort",
     "build": "tsc --noEmit && vite build game",
+    "build:standalone": "tsc --noEmit && node scripts/build_standalone_game.mjs",
     "test": "tsx --test tests/simulation.test.ts tests/decision.test.ts",
     "bench": "tsx scripts/benchmark.ts",
     "verify:replays": "tsx scripts/verify_replays.ts"

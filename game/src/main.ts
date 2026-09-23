@@ -65,7 +65,8 @@ function start(mode: Controller = 'manual', seed = 42) {
   element('decision-count').textContent = '0';
   element('action-probabilities').replaceChildren();
   element('observed-state').textContent = 'Waiting for the first decision.';
-  element('hint').innerHTML = mode === 'manual' ? 'W A S D <span>move</span> · MOUSE / ARROWS <span>aim</span> · CLICK / SPACE <span>fire</span> · ESC <span>pause</span>' : 'LIVE AI PILOT <span>2-second tactical actions</span> · TAB <span>telemetry</span> · ESC <span>pause</span>';
+  const pilotLabel = mode === 'rule' ? 'RULE PILOT' : mode === 'random' ? 'RANDOM PILOT' : 'LIVE MODEL PILOT';
+  element('hint').innerHTML = mode === 'manual' ? 'W A S D <span>move</span> · MOUSE / ARROWS <span>aim</span> · CLICK / SPACE <span>fire</span> · ESC <span>pause</span>' : `${pilotLabel} <span>2-second tactical actions</span> · TAB <span>telemetry</span> · ESC <span>pause</span>`;
   setScreen('playing'); audio.start(); announce('CONTAINMENT BREACHED · CLEAR ALL HOSTILES'); updateHUD();
 }
 
@@ -309,7 +310,9 @@ Object.assign(window, { __RLCD: { start, pause, resume, menu: showMenu,
   state: () => ({ screen, controller, thinking, ...world.snapshot() }),
   metrics, decisions: () => structuredClone(decisions), events: () => structuredClone(world.events), frames: () => structuredClone(frames) } });
 setScreen('menu'); updateHUD(); requestAnimationFrame(frame);
-fetch('/api/status').then(r => { if (!r.ok) throw new Error(String(r.status)); return r.json(); }).then(data => {
+if (document.documentElement.dataset.staticDemo === 'true') {
+  element('service-status').textContent = 'Browser edition · manual, rule and random pilots · model pilots run locally';
+} else fetch('/api/status').then(r => { if (!r.ok) throw new Error(String(r.status)); return r.json(); }).then(data => {
   const select = element<HTMLSelectElement>('controller');
   for (const option of select.options) {
     option.disabled = !['rule', 'random'].includes(option.value) && !data.available_modes.includes(option.value);
