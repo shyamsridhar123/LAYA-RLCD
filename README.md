@@ -42,6 +42,35 @@ Enable **Record gameplay & telemetry** before starting to download a WebM and JS
 
 Training lessons need a fresh Colab **T4 GPU** runtime. They contain the public scripts/data, verify their hashes, and export both results and weights. They do not mount Google Drive or require API keys. The new lesson wrappers have validated code and embedded payloads; the archived reference training was run separately on Colab. The evidence walkthrough has been executed and includes its charts.
 
+## Run the LAYA and ModernBERT Python scripts
+
+Both training implementations are included as readable, standalone Python scripts. The Colab lessons package these same files:
+
+| Model | Training script | Run order | Colab lesson |
+|---|---|---|---|
+| **LAYA** | [`scripts/finetune_colab.py`](scripts/finetune_colab.py) | `train`, then `finalize` (calibration and test evaluation) | [LAYA notebook](notebooks/02_laya_colab.ipynb) |
+| **ModernBERT Decoder** | [`scripts/modernbert_decoder_colab.py`](scripts/modernbert_decoder_colab.py) | `train`, then `evaluate` | [ModernBERT notebook](notebooks/01_modernbert_decoder_colab.ipynb) |
+
+Use the dependency-install cell in either training notebook to prepare a CUDA GPU environment with the pinned experiment packages. The local game setup installs CPU PyTorch; use the notebook's GPU setup for training. From a cloned repository in that GPU environment, give each model its own fresh run directory:
+
+**LAYA — train the station commander:**
+
+```bash
+python -c "import shutil; shutil.copytree('data', 'runs/laya/data')"
+python scripts/finetune_colab.py train --root runs/laya
+python scripts/finetune_colab.py finalize --root runs/laya
+```
+
+**ModernBERT Decoder — train the 17M pilot:**
+
+```bash
+python -c "import shutil; shutil.copytree('data', 'runs/modernbert/data')"
+python scripts/modernbert_decoder_colab.py train --root runs/modernbert
+python scripts/modernbert_decoder_colab.py evaluate --root runs/modernbert
+```
+
+Each run saves its trained checkpoint under `selected/` and measured results under `results/` inside its run directory. Choose a new directory for another experiment. In Colab, download those files before ending the runtime; the matching lesson includes checkpoint and results export cells.
+
 ## Put a model in the cockpit
 
 **Public Laya base checkpoint** (~843 MB download, plus dependencies):
